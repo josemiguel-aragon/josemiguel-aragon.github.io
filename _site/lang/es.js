@@ -1,41 +1,42 @@
 // ---------- Navbar titles
-const enNavbarData = {
+const esNavbarData = {
   title: " José Miguel Aragón-Jurado",
-  Home: "Home",
-  publications: "Publications",
-  Research: "Research",
-  Jobs: "Jobs",
-  Contact: "Contact",
+  Home: "Inicio",
+  publications: "Publicaciones",
+  Research: "Investigación",
+  Jobs: "Experiencia laboral",
+  Contact: "Contacto",
 };
 
 // ---------- Home page data
-const enHomePageData = {
+const esHomePageData = {
   name: "José Miguel Aragón-Jurado",
-  jobTitle: "Predoctoral Researcher (FPU Fellow)",
-  home_title: "About me",
+  jobTitle: "Investigador Predoctoral Plan Estatal FPU",
+  home_title: "Sobre mi",
   home_content: `
   <div>
-    <p>I am a PhD student under the Spanish National FPU Fellowship. I hold a Bachelor of Science in Computer Engineering and a Master of Research in Systems and Computing Engineering, both from the University of Cádiz, where I received the Extraordinary Master's Degree Award for Best Academic Record. I am a member of the GOAL research group [TIC-259] at the University of Cádiz, as well as a member of the IEEE society. </p>
+    <p> Investigador Predoctoral del Plan Estatal FPU.
+    Graduado en Ingeniería Informática con un Máster de Investigación en Ingeniería Informática y de Sistemas, ambos por la Universidad de Cádiz, donde recibió el Premio Extraordinario de Máster al Mejor Expediente Académico.
+    Miembro del grupo de investigación GOAL [TIC-259] de la Universidad de Cádiz, así como miembro de la sociedad IEEE. </p>
 
-    <h2 class='title'> Main research</h2>
+    <h2 class='title'> Líneas de investigación principales</h2>
 
-    <p> My PhD research focuses on Green Software. It is built on three main pillars:</p>
+    <p> Mi investigación doctoral se centra en el Software Verde. Está construida sobre tres pilares principales: </p>
 
     <ol>
-      <li>Automatic optimization of software to generate higher performance and/or greener versions</li>
-      <li> Green Software for the Internet of Things </li>
-      <li> Green video games </li>
+      <li>Optimización automática de software para generar versiones de mayor rendimiento y/o más ecológicas</li>
+      <li> Software Verde para el Internet de las Cosas </li>
+      <li> Videojuegos Verdes </li>
     </ol>
-
-    <p> Currently, I am developing the third pillar, concentrating my research on improving the energy consumption and performance of video games by applying AI-based algorithms. </p>
-    <p> I hold a total of five publications in high-impact research journals indexed in the JCR: three in Q1 and two in Q2. In 2023, I received the Cepsa Foundation Chair Award for the article titled "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor." These publications cover topics such as software optimization, code obfuscation, optimization of public transport emissions, deep learning models, and the application of artificial intelligence in video games.</p>
-    <p>Additionally, I have contributed to six international conferences, receiving the Best Paper Award at the 32nd INGEGRAF International Conference held in Cádiz, Spain, for the paper titled "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses." On the national level, I have presented six articles, winning the Best Paper Award at the III Spanish Video Game Congress held in A Coruña, Spain, for the work titled "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck." </p>
+    <p> Actualmente, estoy desarrollando el tercer pilar, centrando mi investigación en la mejora del consumo energético y el rendimiento de los videojuegos mediante la aplicación de algoritmos basados en IA. </p>
+    <p> Poseo un total de cinco publicaciones en revistas de investigación de alto impacto indexadas en el JCR: tres en Q1 y dos en Q2. En 2023, recibí el Premio Cátedra Fundación Cepsa por el artículo titulado «Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor.» Estas publicaciones abarcan temas como la optimización de software, la ofuscación de código, la optimización de las emisiones del transporte público, los modelos de aprendizaje profundo y la aplicación de la inteligencia artificial en los videojuegos. </p>
+    <p>Además, he contribuido a seis conferencias internacionales, recibiendo el Premio a la Mejor Ponencia en la 32ª Conferencia Internacional INGEGRAF celebrada en Cádiz, España, por la ponencia titulada «Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses.» A nivel nacional, he presentado seis artículos, obteniendo el Premio a la Mejor Ponencia en el III Congreso Español de Videojuegos celebrado en A Coruña, España, por el trabajo titulado «Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck.» </p>
   </div>
   `,
 };
 
 // ---------- Publications page data
-const enPublicationsPageData = {
+const esPublicationsPageData = {
   type_one_title: "Journal Papers",
 
   type_one_items: [
@@ -58,7 +59,7 @@ const enPublicationsPageData = {
     },
   ],
 
-  type_two_title: "Book Chapters",
+  type_two_title: "Under Review",
   type_two_items: [
     {
       title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
@@ -78,7 +79,7 @@ const enPublicationsPageData = {
     },
   ],
 
-  type_three_title: "Conference Papers",
+  type_three_title: "Book Chapters",
   type_three_items: [
     {
       title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
@@ -98,7 +99,7 @@ const enPublicationsPageData = {
     },
   ],
 
-  type_four_title: "National Conference Papers",
+  type_four_title: "",
   type_four_items: [
     {
       title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
@@ -120,7 +121,7 @@ const enPublicationsPageData = {
 };
 
 // ---------- Research page data
-const enResearchPageData = {
+const esResearchPageData = {
   title: "Research",
   content: `
     <div class='research_content'>
@@ -135,7 +136,7 @@ const enResearchPageData = {
 };
 
 // ---------- Jobs page data
-const enJobsPageData = {
+const esJobsPageData = {
   title: "Jobs",
   items: [
     {
