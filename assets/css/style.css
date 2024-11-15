@@ -190,15 +190,11 @@
 }
 
 .publication_container .publications_item::before {
-  content: "";
   position: absolute;
   top: 9px;
   left: -2rem;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: #000;
 }
+
 
 .publication_container p {
   text-align: justify;

@@ -7,8 +7,8 @@ $(document).ready(function () {
     localStorage.setItem("lang", "en");
   }
 
-  if (lang === "fa") {
-    document.getElementById("content_wrapper").classList.add("rtl_wrapper");
+  if (lang === "es") {
+    document.getElementById("content_wrapper").classList.add("ltr_wrapper");
     if (
       document.getElementById("languageIcon") &&
       document.getElementById("languageText")
@@ -24,8 +24,8 @@ $(document).ready(function () {
       document.getElementById("languageText")
     ) {
       document.getElementById("languageIcon").src =
-        "../assets/images/icons/ir.png";
-      document.getElementById("languageText").innerText = "FA";
+        "../assets/images/icons/es.png";
+      document.getElementById("languageText").innerText = "ES";
     }
   }
 
@@ -44,9 +44,9 @@ $(document).ready(function () {
         img: "../assets/images/icons/whatsapp.png",
       },
       {
-        name: globalData.twitter,
-        active: globalData.twitter ? true : false,
-        img: "../assets/images/icons/twitter.png",
+        name: globalData.googleScholar,
+        active: globalData.googleScholar ? true : false,
+        img: "../assets/images/icons/google-scholar.png",
       },
       {
         name: globalData.linkedin,
@@ -54,10 +54,10 @@ $(document).ready(function () {
         img: "../assets/images/icons/linkedin.png",
       },
       {
-        name: globalData.github,
-        active: globalData.github ? true : false,
+        name: globalData.orcid,
+        active: globalData.orcid ? true : false,
         url: "/",
-        img: "../assets/images/icons/github.png",
+        img: "../assets/images/icons/orcid.png",
       },
       {
         name: globalData.resume,
@@ -70,15 +70,15 @@ $(document).ready(function () {
 
   function homeData() {
     document.getElementById("page_title").innerText =
-      lang === "en" ? enHomePageData.name : faHomePageData.name;
+      lang === "en" ? enHomePageData.name : esHomePageData.name;
 
     document.getElementById("home_image").src = home_data.image
       ? home_data.image
       : "";
     document.getElementById("home_name").innerText =
-      lang === "en" ? enHomePageData.name : faHomePageData.name;
+      lang === "en" ? enHomePageData.name : esHomePageData.name;
     document.getElementById("home_job_title").innerText =
-      lang === "en" ? enHomePageData.jobTitle : faHomePageData.jobTitle;
+      lang === "en" ? enHomePageData.jobTitle : esHomePageData.jobTitle;
     document.getElementById("home_links").innerHTML = home_data.links
       .filter((item) => item.active)
       .map(
@@ -90,9 +90,9 @@ $(document).ready(function () {
       .join("");
 
     document.getElementById("home_title").innerText =
-      lang === "en" ? enHomePageData.home_title : faHomePageData.home_title;
+      lang === "en" ? enHomePageData.home_title : esHomePageData.home_title;
     document.getElementById("home_content").innerHTML =
-      lang === "en" ? enHomePageData.home_content : faHomePageData.home_content;
+      lang === "en" ? enHomePageData.home_content : esHomePageData.home_content;
   }
 
   if (pathname === "/" || pathname === "/index") {
@@ -123,7 +123,7 @@ $(document).ready(function () {
             publication.link &&
             `<li>
                 <a href=${publication.link} target="_blank"> ${
-              lang === "en" ? "View" : " مشاهده"
+              lang === "en" ? "View" : " Vista"
             } </a>
               </li>`
           }
@@ -131,7 +131,7 @@ $(document).ready(function () {
               publication.github &&
               `<li>
                   <a href=${publication.github} target="_blank">  ${
-                lang === "en" ? "Github" : "گیت‌هاب"
+                lang === "en" ? "Github" : "Github"
               }</a>
                 </li>`
             }
@@ -145,54 +145,54 @@ $(document).ready(function () {
 
   function publicationsData() {
     document.getElementById("page_title").innerText =
-      lang === "en" ? "Publications" : "مقالات";
+      lang === "en" ? "Publications" : "Publicaciones";
 
     document.getElementById("publications_type_one_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_one_title
-        : faPublicationsPageData.type_one_title;
+        : esPublicationsPageData.type_one_title;
 
     setPublicationData(
       "publications_type_one_data",
       lang === "en"
         ? enPublicationsPageData.type_one_items
-        : faPublicationsPageData.type_one_items
+        : esPublicationsPageData.type_one_items
     );
 
     document.getElementById("publications_type_two_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_two_title
-        : faPublicationsPageData.type_two_title;
+        : esPublicationsPageData.type_two_title;
 
     setPublicationData(
       "publications_type_two_data",
       lang === "en"
         ? enPublicationsPageData.type_two_items
-        : faPublicationsPageData.type_two_items
+        : esPublicationsPageData.type_two_items
     );
 
     document.getElementById("publications_type_three_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_three_title
-        : faPublicationsPageData.type_three_title;
+        : esPublicationsPageData.type_three_title;
 
     setPublicationData(
       "publications_type_three_data",
       lang === "en"
         ? enPublicationsPageData.type_three_items
-        : faPublicationsPageData.type_three_items
+        : esPublicationsPageData.type_three_items
     );
 
     document.getElementById("publications_type_four_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_four_title
-        : faPublicationsPageData.type_four_title;
+        : esPublicationsPageData.type_four_title;
 
     setPublicationData(
       "publications_type_four_data",
       lang === "en"
         ? enPublicationsPageData.type_four_items
-        : faPublicationsPageData.type_four_items
+        : esPublicationsPageData.type_four_items
     );
   }
 
@@ -203,12 +203,12 @@ $(document).ready(function () {
   // Research page data
   function researchData() {
     document.getElementById("page_title").innerText =
-      lang === "en" ? "Research" : "تحقیقات";
+      lang === "en" ? "Research" : "Investigación";
 
     document.getElementById("research_title").innerHTML =
-      lang === "en" ? enResearchPageData.title : faResearchPageData.title;
+      lang === "en" ? enResearchPageData.title : esResearchPageData.title;
     document.getElementById("research_data").innerHTML =
-      lang === "en" ? enResearchPageData.content : faResearchPageData.content;
+      lang === "en" ? enResearchPageData.content : esResearchPageData.content;
   }
 
   if (pathname === "/research") {
@@ -218,13 +218,13 @@ $(document).ready(function () {
   // Jobs page data
   function jobsData() {
     document.getElementById("page_title").innerText =
-      lang === "en" ? "Jobs" : " سوابق شغلی ";
+      lang === "en" ? "Jobs" : "Experiencia laboral";
 
     document.getElementById("jobs_title").innerHTML =
-      lang === "en" ? enJobsPageData.title : faJobsPageData.title;
+      lang === "en" ? enJobsPageData.title : esJobsPageData.title;
 
     document.getElementById("jobs_data").innerHTML = (
-      lang === "en" ? enJobsPageData.items : faJobsPageData.items
+      lang === "en" ? enJobsPageData.items : esJobsPageData.items
     )
       .map(
         (job) =>
@@ -236,7 +236,7 @@ $(document).ready(function () {
               </div>
               <div>
                 <span>${job.startData} - ${
-            job.endDate ? job.endDate : lang === "en" ? "Now" : " تاکنون "
+            job.endDate ? job.endDate : lang === "en" ? "Now" : " Ahora "
           }</span>
                 <span class='job_location'>${job.location}</span>
               </div>
@@ -264,12 +264,12 @@ $(document).ready(function () {
 
   // Contact page data
   const contact_data = {
-    contact_title: lang === "en" ? "Contact" : "ارتباط با من",
+    contact_title: lang === "en" ? "Contact" : "Contacto",
     contact_items: [
       {
         img: "../assets/images/icons/location.png",
-        title: lang === "en" ? globalData.enAddress : globalData.faAddress,
-        active: globalData.enAddress || globalData.faAddress ? true : false,
+        title: lang === "en" ? globalData.enAddress : globalData.esAddress,
+        active: globalData.enAddress || globalData.esAddress ? true : false,
       },
       {
         img: "../assets/images/icons/phone.png",
