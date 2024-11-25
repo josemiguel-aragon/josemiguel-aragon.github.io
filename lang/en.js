@@ -23,7 +23,7 @@ const enHomePageData = {
 
     <ol>
       <li>Automatic optimization of software to generate higher performance and/or greener versions</li>
-      <li> Green Software for the Internet of Things </li>
+      <li> Green software for the Internet of Things </li>
       <li> Green video games </li>
     </ol>
 
