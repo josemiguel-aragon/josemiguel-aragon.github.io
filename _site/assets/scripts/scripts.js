@@ -36,7 +36,7 @@ $(document).ready(function () {
       {
         name: `mailto:${globalData.email}`,
         active: globalData.email ? true : false,
-        img: "../assets/images/icons/mail.png",
+        img: "../assets/images/icons/goal.png",
       },
       {
         name: globalData.whatsapp,
