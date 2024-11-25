@@ -34,9 +34,9 @@ $(document).ready(function () {
     image: globalData.image,
     links: [
       {
-        name: `mailto:${globalData.email}`,
-        active: globalData.email ? true : false,
-        img: "../assets/images/icons/mail.png",
+        name: "https://goal.uca.es",
+        active: true,
+        img: "../assets/images/icons/goal.png",
       },
       {
         name: globalData.whatsapp,
@@ -105,7 +105,7 @@ $(document).ready(function () {
       .map(
         (publication) =>
           `
-        <div class='publications_item'>
+          <li>
         <div class='publications_header'>
           ${
             publication.writers.length > 0
@@ -115,29 +115,10 @@ $(document).ready(function () {
               : ""
           }
           ${publication.date ? `<span>(${publication.date}).</span>` : ""}
-          <h2>${publication.title}</h2>
-        </div>
+          ${publication.title}
         <p>${publication.abstract}</p>
-        <ul class='publications_footer'>
-          ${
-            publication.link &&
-            `<li>
-                <a href=${publication.link} target="_blank"> ${
-              lang === "en" ? "View" : " Vista"
-            } </a>
-              </li>`
-          }
-            ${
-              publication.github &&
-              `<li>
-                  <a href=${publication.github} target="_blank">  ${
-                lang === "en" ? "Github" : "Github"
-              }</a>
-                </li>`
-            }
-          
-        </ul>
       </div>
+      </li>
      `
       )
       .join("");
