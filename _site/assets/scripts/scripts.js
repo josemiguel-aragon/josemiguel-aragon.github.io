@@ -34,10 +34,9 @@ $(document).ready(function () {
     image: globalData.image,
     links: [
       {
-        name: globalData.resume,
-        active: globalData.resume ? true : false,
-        url: "/",
-        img: "../assets/images/icons/goal.png",
+        name: `mailto:${globalData.email}`,
+        active: globalData.email ? true : false,
+        img: "../assets/images/icons/mail.png",
       },
       {
         name: globalData.whatsapp,
@@ -66,7 +65,6 @@ $(document).ready(function () {
         url: "/",
         img: "../assets/images/icons/resume.png",
       },
-
     ],
   };
 
@@ -107,7 +105,6 @@ $(document).ready(function () {
       .map(
         (publication) =>
           `
-        <li>
         <div class='publications_item'>
         <div class='publications_header'>
           ${
@@ -138,10 +135,9 @@ $(document).ready(function () {
               }</a>
                 </li>`
             }
-
+          
         </ul>
       </div>
-      </li>
      `
       )
       .join("");
@@ -335,11 +331,11 @@ $(document).ready(function () {
         .map(
           (link) =>
             `<li>
-              <img src=${link.img} alt=${link.title} />
+              <img src=${link.img} alt=${link.title} /> 
               ${
                 link.url
                   ? `<a href=${link.url} target='_blank'>
-                      ${link.name ? link.name : link.url}
+                      ${link.name ? link.name : link.url} 
                     </a>`
                   : `<p>${link.title}</p>`
               }
