@@ -271,6 +271,98 @@
 }
 
 /* Jobs page styles */
+#overseas_data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 3rem;
+}
+
+#overseas_data .job_item {
+  margin: 0;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+#overseas_data .job_item::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+#overseas_data .job_item::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 15px;
+  width: 2px;
+  height: calc(100% + 2rem);
+  background-color: #e6e6e6;
+}
+
+#overseas_data .job_item:last-of-type:before {
+  display: none;
+}
+
+#overseas_data .job_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#overseas_data .job_header div {
+  display: flex;
+  align-items: flex-end;
+}
+
+#overseas_data .job_header h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+#overseas_data .job_header h2 {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0;
+  margin-left: 0.4rem;
+}
+
+#overseas_data .job_header .job_location {
+  margin-left: 1rem;
+  position: relative;
+}
+
+#overseas_data .job_header .job_location::before {
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  top: 15%;
+  height: 70%;
+  width: 1px;
+  background-color: #e6e6e6;
+}
+
+#overseas_data p {
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+#overseas_data ul {
+  padding: 0;
+  padding-left: 1rem;
+}
+
+/* AAAAAAAAAA*/
+
+/* Jobs page styles */
 #jobs_data {
   display: flex;
   flex-direction: column;

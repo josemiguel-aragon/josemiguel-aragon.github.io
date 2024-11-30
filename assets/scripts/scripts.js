@@ -128,6 +128,9 @@ $(document).ready(function () {
     document.getElementById("page_title").innerText =
       lang === "en" ? "Publications" : "Publicaciones";
 
+      document.getElementById("intro-cv").innerText =
+      lang === "en" ? "For a more comprehensive overview of my publications and achievements, please refer to the current version of my " : "Para una visión más completa de mis publicaciones y logros, consulte la versión actual de mi ";
+
     document.getElementById("publications_type_one_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_one_title
@@ -211,7 +214,11 @@ $(document).ready(function () {
   // Jobs page data
   function jobsData() {
     document.getElementById("page_title").innerText =
-      lang === "en" ? "Jobs" : "Experiencia laboral";
+      lang === "en" ? "Working experience" : "Experiencia laboral";
+
+    document.getElementById("intro-cv").innerText =
+    lang === "en" ? "For a more comprehensive overview of my working experience and achievements, please refer to the current version of my " : "Para una visión más completa de mi experiencia laboral y logros, consulte la versión actual de mi ";
+
 
     document.getElementById("jobs_title").innerHTML =
       lang === "en" ? enJobsPageData.title : esJobsPageData.title;
@@ -251,8 +258,49 @@ $(document).ready(function () {
       .join("");
   }
 
+// Jobs page data
+function overseasData() {
+    document.getElementById("overseas_title").innerHTML =
+      lang === "en" ? enOverseasPageData.title : esOverseasPageData.title;
+
+    document.getElementById("overseas_data").innerHTML = (
+      lang === "en" ? enOverseasPageData.items : esOverseasPageData.items
+    )
+      .map(
+        (job) =>
+          `<div class='job_item'>
+            <div class='job_header'>
+              <div>
+                <h1>${job.title}${lang === "en" ? "," : "،"}</h1>
+                <h2> ${job.company}</h2>
+              </div>
+              <div>
+                <span>${job.startData} - ${
+            job.endDate ? job.endDate : lang === "en" ? "Now" : " Ahora "
+          }</span>
+                <span class='job_location'>${job.location}</span>
+              </div>
+            </div>
+            <p>${job.abstract}</p>
+            ${
+              job.achievements.length > 0
+                ? `<div class="job_achievements">
+                  <ul>
+                    ${job.achievements
+                      .map((achievement) => `<li>${achievement}</li>`)
+                      .join("")}
+                  </ul>
+                </div>`
+                : ""
+            }
+        </div>`
+      )
+      .join("");
+  }
+
   if (pathname === "/jobs") {
     jobsData();
+    overseasData();
   }
 
   // Contact page data
