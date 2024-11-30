@@ -24,5 +24,5 @@ const globalData = {
   githubTitle: "",
   github: "",
   orcidTitle: "0000-0002-9835-8793",
-  orcid: "https://orcid.com/0000-0002-9835-8793",
+  orcid: "https://orcid.org/0000-0002-9835-8793",
 };

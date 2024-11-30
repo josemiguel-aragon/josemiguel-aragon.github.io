@@ -17,6 +17,22 @@
     url("../fonts/vazir-700.ttf") format("truetype");
   font-weight: 700;
 }
+/* Estilos generales (modo claro) */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+  background-color: #121212; /* Fondo oscuro */
+  color: white; /* Texto claro */
+}
+
+/* Estilos para otros elementos */
+h1, h2, h3, h4 {
+  color: inherit; /* Mantener el color del texto */
+}
 
 /* Navbar styles */
 #language {
