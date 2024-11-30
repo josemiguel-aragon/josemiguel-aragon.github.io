@@ -175,6 +175,18 @@ $(document).ready(function () {
         ? enPublicationsPageData.type_four_items
         : esPublicationsPageData.type_four_items
     );
+
+    document.getElementById("publications_type_five_title").innerHTML =
+      lang === "en"
+        ? enPublicationsPageData.type_five_title
+        : esPublicationsPageData.type_five_title;
+
+    setPublicationData(
+      "publications_type_five_data",
+      lang === "en"
+        ? enPublicationsPageData.type_five_items
+        : esPublicationsPageData.type_five_items
+    );
   }
 
   if (pathname === "/publications") {
