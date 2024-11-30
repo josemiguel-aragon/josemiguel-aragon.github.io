@@ -37,7 +37,7 @@ const esHomePageData = {
 
 // ---------- Publications page data
 const esPublicationsPageData = {
-  type_one_title: "Journal Papers",
+  type_one_title: "Publicaciones en Revistas",
 
   type_one_items: [
     {
@@ -87,7 +87,7 @@ const esPublicationsPageData = {
     },
   ],
 
-  type_two_title: "Book Chapters",
+  type_two_title: "Capítulos de Libro",
   type_two_items: [
     {
       title: `A Survey on Automatic Source Code Transformation for Green Software Generation. Encyclopedia of Sustainable Technologies (Second Edition). Elsevier. 3, pp.765-779. DOI: <a href=https://doi.org/10.1016/B978-0-323-90386-8.00122-4>10.1016/B978-0-323-90386-8.00122-4</a>`,
@@ -100,12 +100,12 @@ const esPublicationsPageData = {
     },
   ],
 
-  type_three_title: "Conference Papers",
+  type_three_title: "Publicaciones en Congresos Internacionales",
   type_three_items: [
     {
       title: `Two-level Software Obfuscation with
 Cooperative Co-evolutionary Algorithms. In 2024 IEEE Congress on Evolutionary Computation (CEC) (pp. 1-8).
-IEEE. Yokohama, Japan. DOI: <a href=https://doi.org/10.1109/CEC60901.2024.10612116>10.1109/CEC60901.2024.10612116</a>`,
+IEEE. Yokohama, Japón. DOI: <a href=https://doi.org/10.1109/CEC60901.2024.10612116>10.1109/CEC60901.2024.10612116</a>`,
       abstract: "",
       date: "2024",
       link: "",
@@ -117,7 +117,7 @@ IEEE. Yokohama, Japan. DOI: <a href=https://doi.org/10.1109/CEC60901.2024.106121
     {
       title: `Bus Route Segmentation for Performance Optimization Using
 Geographical Mapping Tools. International - Research and Innovation in Graphic Engineering: Tools for Achieving
-Sustainable Development Goals and Addressing Emerging Global Challenges. INGEGRAF. Valencia, Spain.`,
+Sustainable Development Goals and Addressing Emerging Global Challenges. INGEGRAF. Valencia, España.`,
       abstract: "",
       date: "2024",
       link: "",
@@ -129,7 +129,7 @@ Sustainable Development Goals and Addressing Emerging Global Challenges. INGEGRA
     {
       title: `Electric Drive Assignment Strategies Optimization for Plugin Hybrid Urban Buses on Tailored Emissions Mapping. In 2024
 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW) (pp. 909-918). IEEE.
-San Francisco, USA. DOI: <a href=https://doi.org/10.1109/IPDPSW63119.2024.00160>10.1109/IPDPSW63119.2024.00160</a>`,
+San Francisco, Estados Unidos. DOI: <a href=https://doi.org/10.1109/IPDPSW63119.2024.00160>10.1109/IPDPSW63119.2024.00160</a>`,
       abstract: "",
       date: "2024",
       link: "",
@@ -137,18 +137,178 @@ San Francisco, USA. DOI: <a href=https://doi.org/10.1109/IPDPSW63119.2024.00160>
       download: "",
       writers: ["<strong>Aragón-Jurado J. M.</strong>","Díaz-Jiménez M.","Dorronsoro B.","Pavón-Domínguez P.","Seredynski M.", "Ruiz P."],
     },
-  ],
 
-  type_four_title: "National Conference Papers",
-  type_four_items: [
     {
-      title: `Optimal battery management strategies for plug-in electric hybrid buses on routes including green corridors. Sustainable Cities and Society. Elsevier. DOI: <a href=https://doi.org/94.10.1016/J.SCS.2023.104556>94.10.1016/J.SCS.2023.104556</a>`,
+      title: `Multivariable Visualization Tool of the Performance of Plug-In
+Hybrid Electric Buses. Advances in Design Engineering IV. INGEGRAF 2023. Lecture Notes in Mechanical
+Engineering. Springer, Cham. Cádiz, España. DOI:  <a href=https://doi.org/10.1007/978-3-031-51623-8_30>10.1007/978-3-031-51623-8_30</a>`,
+      abstract: "",
+      date: "2024",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Ruiz P."],
+    },
+
+    {
+      title: `Obfuscating LLVM Intermediate
+Representation Source Code with NSGA-II. International Joint Conference 15th International Conference on
+Computational Intelligence in Security for Information Systems (CISIS 2022) 13th International Conference on
+EUropean Transnational Education (ICEUTE 2022). Lecture Notes in Networks and Systems, vol 532. Springer,
+Cham. Salamanca, España. DOI: <a href=https://doi.org/10.1007/978-3-031-18409-3_18>10.1007/978-3-031-18409-3_18</a>`,
       abstract: "",
       date: "2023",
       link: "",
       github: "",
       download: "",
-      writers: ["Ruiz P.","<strong>Aragón-Jurado J. M.</strong>","Seredynski M.","Cabrera J. F.","Peña D.","de la Torre J. C.","Zomaya A. Y.", "Dorronsoro B."],
+      writers: ["de la Torre J. C.","<strong>Aragón-Jurado J. M.</strong>","Jareño J.","Varrette S.","Dorronsoro B."],
+    },
+
+    {
+      title: `A Study on the Influence of Runtime
+Uncertainty in the Optimization of Software Programs. 8th International Conference on Metaheuristics and Nature
+Inspired Computing META. Marrakech, Marruecos.`,
+      abstract: "",
+      date: "2021",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C."," Talbi E. G.","Dorronsoro B."],
+    },
+
+  ],
+
+  type_four_title: "Publicaciones en Congresos Nacionales",
+  type_four_items: [
+    {
+      title: `Ofuscación de Software en dos
+Niveles usando Algoritmos Cooperativos Coevolutivos. XV Congreso Español de Metaheurísticas, Algoritmos
+Evolutivos y Bioinspirados. AEPIA. A Coruña, España`,
+      abstract: "",
+      date: "2024",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>"," Jareño J."," de la Torre J. C."," Ruiz P."," Dorronsoro B."],
+    },
+    {
+      title: `Optimización automática del videojuego
+Doom para un rendimiento óptimo en Steam Deck. III Congreso Español de Videojuegos. Sociedad Científica
+Informática de España. A Coruña, España.`,
+      abstract: "",
+      date: "2024",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C."," Ruiz P."," Dorronsoro B."],
+    },
+    {
+      title: `Detección Inteligente de
+Sucesos en Smart Cities con Feedback de los Ciudadanos. XVII Jornadas de Ingeniería de Ciencia e Ingeniería de
+Servicios (JCIS 2022). SISTEDES. Santiago de Compostela, España.`,
+      abstract: "",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>","Acuña-Vega L. E.","Ortiz G.","Boubeta-Puig J.","Muñoz A."],
+    },
+    {
+      title: `Optimización de programas software
+considerando la incertidumbre del tiempo de ejecución. XXVI Jornadas de Ingeniería del Software y Bases de Datos
+(JISBD 2022). SISTEDES. Santiago de Compostela, España.`,
+      abstract: "",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C.","Benito-Jareño C.","Dorronsoro B."],
+    },
+    {
+      title: `Hacia la Detección Inteligente
+de Sucesos en Ciudades Inteligentes con la Participación Ciudadana. II Jornadas de Investigación Predoctoral en
+Ingeniería Informática (JIPII 2022). Universidad de Cádiz. Cádiz, España.`,
+      abstract: "",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>","Acuña-Vega L. E.","Ortiz G.","Boubeta-Puig J.","Muñoz A."],
+    },
+    {
+      title: `Optimización robusta del tiempo de
+ejecución de programas software con Algoritmos Genéticos. II Jornadas de Investigación Predoctoral en Ingeniería
+Informática (JIPII 2022). Universidad de Cádiz. Cádiz, Spain.`,
+      abstract: "",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C.","Benito-Jareño C.","Dorronsoro B."],
+    },
+  ],
+
+  type_five_title: "Premios y becas",
+  type_five_items: [
+    {
+      title: `Premio al Mejor Artículo - III Congreso Español de Videojuegos. Sociedad Científica Informática de España.`,
+      abstract: "",
+      date: "2024",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+    {
+      title: `Premio al Mejor Artículo de Revista - Cátedra de la Fundación Cepsa. Cepsa.`,
+      abstract: "",
+      date: "2023",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+
+    {
+      title: `Premio al Mejor Artículo - International Conference on The Digital Transformation in Graphic Engineering 2023
+(INGEGRAF 2023). INGEGRAF.`,
+      abstract: "",
+      date: "2023",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+
+    {
+      title: `Premio extraordinario final de Máster (Mejor Expediente Académico) en el Máster de Investigación en
+  Ingeniería de Sistemas y de la Computación.`,
+      abstract: "",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+
+    {
+      title: ` Beca Nacional FPU. Ministerio de Universidades, España.`,
+      abstract: "",
+      date: "2021",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+
+    {
+      title: `Primer premio en la Categoría Ideas - atrÉBT! (Edición XIII). Universidad de Cádiz.`,
+      abstract: "",
+      date: "2019",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
     },
   ],
 };
@@ -160,10 +320,17 @@ const esResearchPageData = {
     <div class='research_content'>
         <p> My research goal is to combine the three major sub-fields of the Computational Social Science, including Social Media Data Analysis, Network Analysis, and Agent-based Modeling, to study various social science problems. Below you can find a summary of my past and current projects.</p>
         <br />
-        <h4 style="font-size: 1.1rem "> Identifying and Characterizing US Domestic Ideological Extremists </h4>
+        <h4 style="font-size: 1.1rem ">Green Software and Software Optimization  </h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-        <img src='../files/images/research.png' />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra  accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat <br /> imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet <br /> lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
+        <h4 style="font-size: 1.1rem ">Video games and Artificial Intelligence</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
+
+        <h4 style="font-size: 1.1rem ">Source code obfuscation</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
+
+        <h4 style="font-size: 1.1rem ">Sustainable Transport </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
+
     </div>
   `,
 };
