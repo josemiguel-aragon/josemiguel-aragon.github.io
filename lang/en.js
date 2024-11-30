@@ -4,7 +4,7 @@ const enNavbarData = {
   Home: "Home",
   publications: "Publications",
   Research: "Research",
-  Jobs: "Jobs",
+  Jobs: "Working experience",
   Contact: "Contact",
 };
 
@@ -19,6 +19,8 @@ const enHomePageData = {
 
     <h2 class='title'> Main research</h2>
 
+        <p>My research is primarily divided into four areas: Green Software, focused on optimizing the energy performance of software through empirical studies and the development of hardware measurement systems; Video Games and Artificial Intelligence, aimed at automatic performance optimization and energy efficiency; Source Code Obfuscation, which involves using artificial intelligence algorithms to protect software from malicious attacks; and Optimization of Public Transport Routes
+
     <p> My PhD research focuses on Green Software. It is built on three main pillars:</p>
 
     <ol>
@@ -30,7 +32,8 @@ const enHomePageData = {
     <p> Currently, I am developing the third pillar, concentrating my research on improving the energy consumption and performance of video games by applying AI-based algorithms. </p>
     <p> I hold a total of five publications in high-impact research journals indexed in the JCR: three in Q1 and two in Q2. In 2023, I received the Cepsa Foundation Chair Award for the article titled "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor." These publications cover topics such as software optimization, code obfuscation, optimization of public transport emissions, deep learning models, and the application of artificial intelligence in video games.</p>
     <p>Additionally, I have contributed to six international conferences, receiving the Best Paper Award at the 32nd INGEGRAF International Conference held in Cádiz, Spain, for the paper titled "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses." On the national level, I have presented six articles, winning the Best Paper Award at the III Spanish Video Game Congress held in A Coruña, Spain, for the work titled "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck." </p>
-  </div>
+    <br/>
+    </div>
   `,
 };
 
@@ -313,30 +316,16 @@ Computer Engineering.`,
 };
 
 // ---------- Research page data
-const esResearchPageData = {
+const enResearchPageData = {
   title: "Research",
   content: `
-    <div class='research_content'>
-        <p> My research goal is to combine the three major sub-fields of the Computational Social Science, including Social Media Data Analysis, Network Analysis, and Agent-based Modeling, to study various social science problems. Below you can find a summary of my past and current projects.</p>
-        <br />
-        <h4 style="font-size: 1.1rem ">Green Software and Software Optimization  </h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-        <h4 style="font-size: 1.1rem ">Video games and Artificial Intelligence</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
 
-        <h4 style="font-size: 1.1rem ">Source code obfuscation</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-
-        <h4 style="font-size: 1.1rem ">Sustainable Transport </h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-
-    </div>
   `,
 };
 
 // ---------- Jobs page data
 const enJobsPageData = {
-  title: "Jobs",
+  title: "Working experience",
   items: [
     {
       title: `Predoctoral Researcher (FPU Fellow)`,
@@ -346,20 +335,51 @@ const enJobsPageData = {
       location: "",
       abstract:
         "Expected PhD completion: November 2025",
-      achievements: ["PhD Thesis on Automatic Software Optimization for a Sustainable Internet of Things.",
+      achievements: 
+      [
+         "PhD Thesis on Automatic Software Optimization for a Sustainable Internet of Things.",
          "Development of multiple complex Metaheuristic techniques, especially Genetic Algorithms, for solving optimization problems in Python.",
          "Extensive knowledge of LLVM infrastructure for C, C++, Objective C and Swift applications.",
-         "Published research papers in high-impact journals and international conferences on different topics, including software optimization, code obfuscation, and artificial intelligence."],
+         "Published research papers in high-impact journals and international conferences on different topics, including software optimization, code obfuscation, and artificial intelligence."
+      ],
     },
     {
-      title: `Job title`,
-      company: "Company name",
-      startData: "20 April 2019",
-      endDate: "",
-      location: "Berlin",
+      title: `Graduate Research`,
+      company: "University of Cádiz",
+      startData: "November 2021",
+      endDate: "September 2022",
+      location: "",
       abstract:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus.",
-      achievements: ["achievement 1", "achievement 2"],
+        "",
+      achievements: 
+      [
+        "Visualization and processing of data related to energy consumption in plug-in hybrid buses.",
+        "Data processing, enrichment and imputation.",
+        "Data uncertainty treatment.",
+        "Development of predictive regression models.",
+        "Optimization of plug-in hybrid bus operation strategies.",
+        "Evaluation and validation of simulators, predictive tools, and optimized strategies developed throughout the project, assessing their accuracy and effectiveness to ensure they met project objectives."
+      ],
+    },
+  ],
+};
+
+// ---------- Jobs page data
+const enOverseasPageData = {
+  title: "Overseas research experience",
+  items: [
+    {
+      title: `Research Visitor`,
+      company: "University of Alberta",
+      startData: "May 2024",
+      endDate: "August 2024",
+      location: "",
+      abstract:
+        "",
+      achievements: 
+      [
+         "Conducted an empirical study examining the impact of compiler optimizations on the energy consumption of applications running on iOS devices, with findings currently under review for publication in a Q1 JCR journal.",
+      ],
     },
   ],
 };

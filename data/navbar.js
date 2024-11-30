@@ -20,7 +20,7 @@ $(document).ready(function () {
         url: "/publications.html",
       },
       {
-        active: navbarLinks.research ? true : false,
+        active: navbarLinks.research = false,
         title: lang === "es" ? esNavbarData.Research : enNavbarData.Research,
         url: "/research.html",
       },

@@ -20,6 +20,9 @@ const esHomePageData = {
     Miembro del grupo de investigación GOAL [TIC-259] de la Universidad de Cádiz, así como miembro de la sociedad IEEE. </p>
 
     <h2 class='title'> Líneas de investigación principales</h2>
+    
+    <p>Mi investigación se divide principalmente en cuatro áreas: Green Software, enfocada en optimizar el rendimiento energético del software a través de estudios empíricos y el desarrollo de sistemas de medición de hardware; Videojuegos e Inteligencia Artificial, destinada a la optimización automática del rendimiento y la eficiencia energética; Ofuscación de Código Fuente, que implica el uso de algoritmos de inteligencia artificial para proteger el software de ataques maliciosos; y Optimización de Rutas de Transporte Público, donde utilizamos algoritmos de IA para la gestión de la batería en vehículos híbridos y herramientas para analizar las emisiones de las infraestructuras de transporte público en áreas urbanas.</p>
+
 
     <p> Mi investigación doctoral se centra en el Software Verde. Está construida sobre tres pilares principales: </p>
 
@@ -315,49 +318,66 @@ Informática (JIPII 2022). Universidad de Cádiz. Cádiz, Spain.`,
 
 // ---------- Research page data
 const esResearchPageData = {
-  title: "Research",
+  title: "Líneas de investigación",
   content: `
-    <div class='research_content'>
-        <p> My research goal is to combine the three major sub-fields of the Computational Social Science, including Social Media Data Analysis, Network Analysis, and Agent-based Modeling, to study various social science problems. Below you can find a summary of my past and current projects.</p>
-        <br />
-        <h4 style="font-size: 1.1rem ">Green Software and Software Optimization  </h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-        <h4 style="font-size: 1.1rem ">Video games and Artificial Intelligence</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-
-        <h4 style="font-size: 1.1rem ">Source code obfuscation</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-
-        <h4 style="font-size: 1.1rem ">Sustainable Transport </h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-
-    </div>
   `,
 };
 
 // ---------- Jobs page data
 const esJobsPageData = {
-  title: "Jobs",
+  title: "Experiencia laboral",
   items: [
     {
-      title: `Job title`,
-      company: "Company name",
-      startData: "20 April 2019",
-      endDate: "20 April 2022",
-      location: "Berlin",
+      title: `Investigador Predoctoral Plan Estatal FPU`,
+      company: "Universidad de Cádiz",
+      startData: "Enero 2023",
+      endDate: "Actualidad",
+      location: "",
       abstract:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus.",
-      achievements: ["achievement 1", "achievement 2", "achievement 3"],
+        "Finalización prevista del doctorado: Noviembre de 2025",
+      achievements: 
+      [
+         "Doctorado sobre Optimización Automática del Software para un Internet de las Cosas Sostenible. Se basa en tres pilares principales: (1) Optimización automática de software para generar versiones de mayor rendimiento y/o más sostenibles, (2) Software Verde para el Internet de las Cosas, y (3) Videojuegos sostenibles.",
+         "Desarollo de múltiples técnicas Metaheurísticas complejas, especialmente Algoritmos Genéticos, para la resolución de problemas de optimización en Python.",
+         "Amplio conocimiento de la infraestructura LLVM para aplicaciones de C, C++, Objective C y Swift.",
+         "Múltiples publicaciones de artículos de investigación en revistas JCR y congresos internacionales sobre distintas temáticas: Optimización del Software, Ofuscación de código, Optimización de las Emisiones del Transporte Público de una Ciudad, Modelos de Deep Learning, Inteligencia Artificial en Videojuegos."
+      ],
     },
     {
-      title: `Job title`,
-      company: "Company name",
-      startData: "20 April 2019",
-      endDate: "",
-      location: "Berlin",
+      title: `Investigador Licenciado`,
+      company: "Universidad de Cádiz",
+      startData: "Noviembre 2021",
+      endDate: "Septiembre 2022",
+      location: "",
       abstract:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus.",
-      achievements: ["achievement 1", "achievement 2"],
+        "",
+      achievements: 
+      [
+        "Visualización y tratamiento de datos relacionados con el consumo energético en autobuses híbridos enchufables.",
+        "Procesado, enriquecimiento, e imputación de datos.",
+        "Tratamiento de la incertidumbre en los datos.",
+        "Desarrollo de modelos predictivos de regresión.",
+        "Optimización de las estrategias de operación de autobuses híbridos enchufables.",
+        "Evaluación y validación de simuladores, herramientas predictivas y estrategias optimizadas desarrolladas a lo largo del proyecto, valorando su precisión y eficacia para garantizar que cumplen los objetivos del proyecto."      ],
+    },
+  ],
+};
+
+// ---------- Jobs page data
+const esOverseasPageData = {
+  title: "Experiencia investigadora en el extranjero",
+  items: [
+    {
+      title: `Investigador visitante`,
+      company: "University of Alberta",
+      startData: "Mayo 2024",
+      endDate: "Agosto 2024",
+      location: "",
+      abstract:
+        "",
+      achievements: 
+      [
+        "Se realizó un estudio empírico para examinar el impacto de las optimizaciones del compilador en el consumo de energía de las aplicaciones que se ejecutan en dispositivos iOS, cuyos resultados están actualmente en revisión para su publicación en una revista JCR del primer cuartil."      ],
     },
   ],
 };
