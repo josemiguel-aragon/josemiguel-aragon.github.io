@@ -14,27 +14,29 @@ const esHomePageData = {
   jobTitle: "Investigador Predoctoral Plan Estatal FPU",
   home_title: "Sobre mi",
   home_content: `
-  <div>
-    <p> Investigador Predoctoral del Plan Estatal FPU.
-    Graduado en Ingeniería Informática con un Máster de Investigación en Ingeniería Informática y de Sistemas, ambos por la Universidad de Cádiz, donde recibió el Premio Extraordinario de Máster al Mejor Expediente Académico.
-    Miembro del grupo de investigación GOAL [TIC-259] de la Universidad de Cádiz, así como miembro de la sociedad IEEE. </p>
+<div>
+  <p>Investigador Predoctoral Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de la sociedad IEEE.</p>
 
-    <h2 class='title'> Líneas de investigación principales</h2>
-    
-    <p>Mi investigación se divide principalmente en cuatro áreas: Green Software, enfocada en optimizar el rendimiento energético del software a través de estudios empíricos y el desarrollo de sistemas de medición de hardware; Videojuegos e Inteligencia Artificial, destinada a la optimización automática del rendimiento y la eficiencia energética; Ofuscación de Código Fuente, que implica el uso de algoritmos de inteligencia artificial para proteger el software de ataques maliciosos; y Optimización de Rutas de Transporte Público, donde utilizamos algoritmos de IA para la gestión de la batería en vehículos híbridos y herramientas para analizar las emisiones de las infraestructuras de transporte público en áreas urbanas.</p>
+  <h2 class='title'>Línea principal de investigación</h2>
 
+  <p>Mi investigación se divide principalmente en cuatro áreas: Software Verde, centrado en la optimización energética del software mediante transformaciones de compilación y algoritmos metaheurísticos; Videojuegos e Inteligencia Artificial, donde aplico IA para mejorar la eficiencia energética y el rendimiento de motores comerciales; Ofuscación de Código Fuente, utilizando algoritmos evolutivos y transformaciones sobre LLVM para proteger el software; y Optimización de Rutas de Transporte Público, orientada a la planificación energética y gestión de baterías en vehículos híbridos y eléctricos.</p>
 
-    <p> Mi investigación doctoral se centra en el Software Verde. Está construida sobre tres pilares principales: </p>
+  <p>Mi tesis doctoral se enfoca en el Software Verde y se estructura en tres pilares principales:</p>
 
-    <ol>
-      <li>Optimización automática de software para generar versiones de mayor rendimiento y/o más ecológicas</li>
-      <li> Software Verde para el Internet de las Cosas </li>
-      <li> Videojuegos Verdes </li>
-    </ol>
-    <p> Actualmente, estoy desarrollando el tercer pilar, centrando mi investigación en la mejora del consumo energético y el rendimiento de los videojuegos mediante la aplicación de algoritmos basados en IA. </p>
-    <p> Poseo un total de seis publicaciones en revistas de investigación de alto impacto indexadas en el JCR: tres en Q1 y tres en Q2. En 2023, recibí el Premio Cátedra Fundación Cepsa por el artículo titulado «Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor.» Estas publicaciones abarcan temas como la optimización de software, la ofuscación de código, la optimización de las emisiones del transporte público, los modelos de aprendizaje profundo y la aplicación de la inteligencia artificial en los videojuegos. </p>
-    <p>Además, he contribuido a seis conferencias internacionales, recibiendo el Premio a la Mejor Ponencia en la 32ª Conferencia Internacional INGEGRAF celebrada en Cádiz, España, por la ponencia titulada «Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses.» A nivel nacional, he presentado seis artículos, obteniendo el Premio a la Mejor Ponencia en el III Congreso Español de Videojuegos celebrado en A Coruña, España, por el trabajo titulado «Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck.» </p>
-  </div>
+  <ol>
+    <li>Optimización automática del software para generar versiones más eficientes y/o ecológicas</li>
+    <li>Software verde para el Internet de las Cosas</li>
+    <li>Videojuegos verdes</li>
+  </ol>
+
+  <p>Actualmente desarrollo el tercer pilar, concentrando mi investigación en mejorar el consumo energético y el rendimiento de videojuegos mediante algoritmos de optimización basados en inteligencia artificial, aplicados a motores como el de Doom y validados empíricamente en dispositivos como Steam Deck.</p>
+  
+  <p>He publicado seis artículos en revistas de alto impacto indexadas en el JCR (tres en Q1 y tres en Q2), y tengo cinco artículos adicionales en revisión en revistas de IEEE y Elsevier. En 2023, recibí el Premio de la Cátedra Fundación Cepsa por el artículo "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor".</p>
+  
+  <p>He contribuido en más de diez congresos internacionales, incluyendo conferencias CORE A/A*, y he recibido varios premios al Mejor Artículo, como en el III Congreso Español de Videojuegos de 2024 (por "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck") y en el Congreso Internacional INGEGRAF 2023 (por "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses").</p>
+  <br/>
+</div>
+
   `,
 };
 
@@ -115,9 +117,43 @@ const esPublicationsPageData = {
   type_three_title: "Publicaciones en Congresos Internacionales",
   type_three_items: [
     {
-      title: `Two-level Software Obfuscation with
-Cooperative Co-evolutionary Algorithms. In 2024 IEEE Congress on Evolutionary Computation (CEC) (pp. 1-8).
-IEEE. Yokohama, Japón. DOI: <a href=https://doi.org/10.1109/CEC60901.2024.10612116>10.1109/CEC60901.2024.10612116</a>`,
+      title: `Optimizing Doom for Steam Deck: Automated Engine Tailoring for Optimal Frame Rate. IEEE Conference on Games (CoG 2025). Lisboa, Portugal.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
+    },
+    {
+      title: `A Two-step Approach to Find Short Compilation Transformation Sequences for Optimal Software Runtime Performance. Genetic and Evolutionary Computation Conference Companion (GECCO 2025). ACM. Málaga, España.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["de la Torre J. C.", "<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "Dorronsoro B.", "Ruiz P."],
+    },
+    {
+      title: `Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case. 10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025). Orlando, USA.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Kalaica M.", "<strong>Aragón-Jurado J. M.</strong>", "Jakus I.", "Dorronsoro B.", "Ruiz P."],
+    },
+    {
+      title: `Automatic Generation of Greener Software Program Versions with Genetic Algorithms. International Conference in Optimization and Learning (OLA 2025). Dubái, Emiratos Árabes Unidos.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
+    },
+    {
+      title: `Two-level Software Obfuscation with Cooperative Co-evolutionary Algorithms. IEEE Congress on Evolutionary Computation (CEC 2024). Yokohama, Japón. DOI: <a href="https://doi.org/10.1109/CEC60901.2024.10612116">10.1109/CEC60901.2024.10612116</a>`,
       abstract: "",
       date: "2024",
       link: "",
@@ -125,11 +161,8 @@ IEEE. Yokohama, Japón. DOI: <a href=https://doi.org/10.1109/CEC60901.2024.10612
       download: "",
       writers: ["<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
     },
-
     {
-      title: `Bus Route Segmentation for Performance Optimization Using
-Geographical Mapping Tools. International - Research and Innovation in Graphic Engineering: Tools for Achieving
-Sustainable Development Goals and Addressing Emerging Global Challenges. INGEGRAF. Valencia, España.`,
+      title: `Bus Route Segmentation for Performance Optimization Using Geographical Mapping Tools. INGEGRAF 2024. Valencia, España. DOI: <a href="https://doi.org/10.1007/978-3-031-72829-7_60">10.1007/978-3-031-72829-7_60</a>`,
       abstract: "",
       date: "2024",
       link: "",
@@ -137,191 +170,222 @@ Sustainable Development Goals and Addressing Emerging Global Challenges. INGEGRA
       download: "",
       writers: ["<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Ruiz P."],
     },
-
     {
-      title: `Electric Drive Assignment Strategies Optimization for Plugin Hybrid Urban Buses on Tailored Emissions Mapping. In 2024
-IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW) (pp. 909-918). IEEE.
-San Francisco, Estados Unidos. DOI: <a href=https://doi.org/10.1109/IPDPSW63119.2024.00160>10.1109/IPDPSW63119.2024.00160</a>`,
+      title: `Electric Drive Assignment Strategies Optimization for Plugin Hybrid Urban Buses on Tailored Emissions Mapping. IEEE IPDPS Workshops (IPDPSW 2024). San Francisco, USA. DOI: <a href="https://doi.org/10.1109/IPDPSW63119.2024.00160">10.1109/IPDPSW63119.2024.00160</a>`,
       abstract: "",
       date: "2024",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>","Díaz-Jiménez M.","Dorronsoro B.","Pavón-Domínguez P.","Seredynski M.", "Ruiz P."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Díaz-Jiménez M.", "Dorronsoro B.", "Pavón-Domínguez P.", "Seredynski M.", "Ruiz P."],
     },
-
     {
-      title: `Multivariable Visualization Tool of the Performance of Plug-In
-Hybrid Electric Buses. Advances in Design Engineering IV. INGEGRAF 2023. Lecture Notes in Mechanical
-Engineering. Springer, Cham. Cádiz, España. DOI:  <a href=https://doi.org/10.1007/978-3-031-51623-8_30>10.1007/978-3-031-51623-8_30</a>`,
+      title: `Software Performance Optimization with Genetic Algorithms. Tenth Spanish-German Symposium on Applied Computer Science (SGSOACS 2024). Cádiz, España.`,
       abstract: "",
       date: "2024",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Ruiz P."],
+      writers: ["de la Torre J. C.", "<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "Ruiz P.", "Dorronsoro B."],
     },
-
     {
-      title: `Obfuscating LLVM Intermediate
-Representation Source Code with NSGA-II. International Joint Conference 15th International Conference on
-Computational Intelligence in Security for Information Systems (CISIS 2022) 13th International Conference on
-EUropean Transnational Education (ICEUTE 2022). Lecture Notes in Networks and Systems, vol 532. Springer,
-Cham. Salamanca, España. DOI: <a href=https://doi.org/10.1007/978-3-031-18409-3_18>10.1007/978-3-031-18409-3_18</a>`,
+      title: `Management of Zero Emissions Zones in Urban Transport by Means of Neuroevolution. Tenth Spanish-German Symposium on Applied Computer Science (SGSOACS 2024). Cádiz, España.`,
+      abstract: "",
+      date: "2024",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Jareño J.", "<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Dorronsoro B.", "Ruiz P."],
+    },
+    {
+      title: `Battery Management Strategies Optimization for Urban Plug-in Hybrid Buses. International Conference in Optimization and Learning (OLA 2024). Dubrovnik, Croacia.`,
+      abstract: "",
+      date: "2024",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Ruiz P.", "<strong>Aragón-Jurado J. M.</strong>", "Cabrera J. F.", "de la Torre J. C.", "Dorronsoro B."],
+    },
+    {
+      title: `Automatic Software Performance Optimization using Genetic Algorithms. International Conference in Optimization and Learning (OLA 2024). Dubrovnik, Croacia.`,
+      abstract: "",
+      date: "2024",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
+    },
+    {
+      title: `Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses. INGEGRAF 2023. Cádiz, España. DOI: <a href="https://doi.org/10.1007/978-3-031-51623-8_30">10.1007/978-3-031-51623-8_30</a>`,
       abstract: "",
       date: "2023",
       link: "",
       github: "",
       download: "",
-      writers: ["de la Torre J. C.","<strong>Aragón-Jurado J. M.</strong>","Jareño J.","Varrette S.","Dorronsoro B."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Ruiz P."],
     },
-
     {
-      title: `A Study on the Influence of Runtime
-Uncertainty in the Optimization of Software Programs. 8th International Conference on Metaheuristics and Nature
-Inspired Computing META. Marrakech, Marruecos.`,
+      title: `Obfuscating LLVM Intermediate Representation Source Code with NSGA-II. CISIS-ICEUTE 2022. Salamanca, España. DOI: <a href="https://doi.org/10.1007/978-3-031-18409-3_18">10.1007/978-3-031-18409-3_18</a>`,
+      abstract: "",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["de la Torre J. C.", "<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "Varrette S.", "Dorronsoro B."],
+    },
+    {
+      title: `A Study on the Influence of Runtime Uncertainty in the Optimization of Software Programs. 8th International Conference on Metaheuristics and Nature Inspired Computing (META 2021). Marrakech, Marruecos.`,
       abstract: "",
       date: "2021",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C."," Talbi E. G.","Dorronsoro B."],
-    },
-
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Talbi E. G.", "Dorronsoro B."],
+    }
   ],
 
   type_four_title: "Publicaciones en Congresos Nacionales",
   type_four_items: [
     {
-      title: `Ofuscación de Software en dos
-Niveles usando Algoritmos Cooperativos Coevolutivos. XV Congreso Español de Metaheurísticas, Algoritmos
-Evolutivos y Bioinspirados. AEPIA. A Coruña, España`,
+      title: `Evolución de la infraestructura de compilación LLVM según las optimizaciones de código disponibles. XXIX Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2025). SISTEDES. Córdoba, España.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Vázquez-Rodríguez E.", "<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Dorronsoro B."],
+    },
+    {
+      title: `GreenLinux: Un sistema operativo para la medición precisa del consumo energético del software. XXIX Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2025). SISTEDES. Córdoba, España.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Pérez-Vargas A.", "<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Dorronsoro B."],
+    },
+    {
+      title: `Optimización en dos pasos del rendimiento del software usando transformaciones de compilación. XVI Congreso Español de Metaheurísticas, Algoritmos Evolutivos y Bioinspirados (MAEB 2025). AEPIA. San Sebastián, España.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["de la Torre J. C.", "<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "Dorronsoro B.", "Ruiz P."],
+    },
+    {
+      title: `Ofuscación de software en dos niveles usando algoritmos cooperativos coevolutivos. XV Congreso Español de Metaheurísticas, Algoritmos Evolutivos y Bioinspirados (MAEB 2024). AEPIA. A Coruña, España.`,
       abstract: "",
       date: "2024",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"," Jareño J."," de la Torre J. C."," Ruiz P."," Dorronsoro B."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
     },
     {
-      title: `Optimización automática del videojuego
-Doom para un rendimiento óptimo en Steam Deck. III Congreso Español de Videojuegos. Sociedad Científica
-Informática de España. A Coruña, España.`,
+      title: `Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck. III Congreso Español de Videojuegos. Sociedad Científica Informática de España. A Coruña, España.`,
       abstract: "",
       date: "2024",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C."," Ruiz P."," Dorronsoro B."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
     },
     {
-      title: `Detección Inteligente de
-Sucesos en Smart Cities con Feedback de los Ciudadanos. XVII Jornadas de Ingeniería de Ciencia e Ingeniería de
-Servicios (JCIS 2022). SISTEDES. Santiago de Compostela, España.`,
+      title: `Detección inteligente de sucesos en Smart Cities con feedback de los ciudadanos. XVII Jornadas de Ingeniería de Ciencia e Ingeniería de Servicios (JCIS 2022). SISTEDES. Santiago de Compostela, España.`,
       abstract: "",
       date: "2022",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>","Acuña-Vega L. E.","Ortiz G.","Boubeta-Puig J.","Muñoz A."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Acuña-Vega L. E.", "Ortiz G.", "Boubeta-Puig J.", "Muñoz A."],
     },
     {
-      title: `Optimización de programas software
-considerando la incertidumbre del tiempo de ejecución. XXVI Jornadas de Ingeniería del Software y Bases de Datos
-(JISBD 2022). SISTEDES. Santiago de Compostela, España.`,
+      title: `Optimización de programas software considerando la incertidumbre del tiempo de ejecución. XXVI Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2022). SISTEDES. Santiago de Compostela, España.`,
       abstract: "",
       date: "2022",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C.","Benito-Jareño C.","Dorronsoro B."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Benito-Jareño C.", "Dorronsoro B."],
     },
     {
-      title: `Hacia la Detección Inteligente
-de Sucesos en Ciudades Inteligentes con la Participación Ciudadana. II Jornadas de Investigación Predoctoral en
-Ingeniería Informática (JIPII 2022). Universidad de Cádiz. Cádiz, España.`,
+      title: `Hacia la detección inteligente de sucesos en ciudades inteligentes con la participación ciudadana. II Jornadas de Investigación Predoctoral en Ingeniería Informática (JIPII 2022). Universidad de Cádiz. Cádiz, España.`,
       abstract: "",
       date: "2022",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>","Acuña-Vega L. E.","Ortiz G.","Boubeta-Puig J.","Muñoz A."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Acuña-Vega L. E.", "Ortiz G.", "Boubeta-Puig J.", "Muñoz A."],
     },
     {
-      title: `Optimización robusta del tiempo de
-ejecución de programas software con Algoritmos Genéticos. II Jornadas de Investigación Predoctoral en Ingeniería
-Informática (JIPII 2022). Universidad de Cádiz. Cádiz, Spain.`,
+      title: `Optimización robusta del tiempo de ejecución de programas software con algoritmos genéticos. II Jornadas de Investigación Predoctoral en Ingeniería Informática (JIPII 2022). Universidad de Cádiz. Cádiz, España.`,
       abstract: "",
       date: "2022",
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>","de la Torre J. C.","Benito-Jareño C.","Dorronsoro B."],
-    },
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Benito-Jareño C.", "Dorronsoro B."],
+    }
   ],
 
   type_five_title: "Premios y becas",
+  type_five_title: "Premios y Becas",
   type_five_items: [
     {
       title: `Premio al Mejor Artículo - III Congreso Español de Videojuegos. Sociedad Científica Informática de España.`,
-      abstract: "",
+      abstract: "Reconocimiento al trabajo titulado 'Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck'.",
       date: "2024",
       link: "",
       github: "",
       download: "",
-      writers: [""],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
     },
     {
-      title: `Premio al Mejor Artículo de Revista - Cátedra de la Fundación Cepsa. Cepsa.`,
-      abstract: "",
+      title: `Premio al Mejor Artículo de Revista - Cátedra Fundación Cepsa.`,
+      abstract: "Otorgado por el artículo 'Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor', publicado en Sustainable Cities and Society.",
       date: "2023",
       link: "",
       github: "",
       download: "",
-      writers: [""],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
     },
-
     {
-      title: `Premio al Mejor Artículo - International Conference on The Digital Transformation in Graphic Engineering 2023
-(INGEGRAF 2023). INGEGRAF.`,
-      abstract: "",
+      title: `Premio al Mejor Artículo - Congreso Internacional INGEGRAF 2023.`,
+      abstract: "Premiado por el artículo 'Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses', presentado en INGEGRAF 2023.",
       date: "2023",
       link: "",
       github: "",
       download: "",
-      writers: [""],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
     },
-
     {
-      title: `Premio extraordinario final de Máster (Mejor Expediente Académico) en el Máster de Investigación en
-  Ingeniería de Sistemas y de la Computación.`,
-      abstract: "",
+      title: `Premio Extraordinario de Fin de Máster (Mejor Expediente Académico) - Máster en Investigación en Ingeniería de Sistemas y de la Computación.`,
+      abstract: "Otorgado al estudiante con el mejor rendimiento académico del programa de máster.",
       date: "2022",
       link: "",
       github: "",
       download: "",
-      writers: [""],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
     },
-
     {
-      title: ` Beca Nacional FPU. Ministerio de Universidades, España.`,
-      abstract: "",
+      title: `Beca Nacional FPU - Ministerio de Universidades, España.`,
+      abstract: "Ayuda competitiva nacional para la realización del doctorado, otorgada por méritos académicos y de investigación.",
       date: "2021",
       link: "",
       github: "",
       download: "",
-      writers: [""],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
     },
-
     {
-      title: `Primer premio en la Categoría Ideas - atrÉBT! (Edición XIII). Universidad de Cádiz.`,
-      abstract: "",
+      title: `Primer Premio - Categoría Ideas - atrÉBT! (XIII Edición). Universidad de Cádiz.`,
+      abstract: "Premio por un proyecto tecnológico innovador liderado por estudiantes, en el marco del concurso universitario de emprendimiento e innovación.",
       date: "2019",
       link: "",
       github: "",
       download: "",
-      writers: [""],
-    },
+      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+    }
   ],
 };
 
@@ -337,19 +401,20 @@ const esJobsPageData = {
   title: "Experiencia laboral",
   items: [
     {
-      title: `Investigador Predoctoral Plan Estatal FPU`,
+      title: `Investigador Predoctoral (Plan Estatal FPU)`,
       company: "Universidad de Cádiz",
-      startData: "Enero 2023",
+      startDate: "Enero 2023",
       endDate: "Actualidad",
-      location: "",
+      location: "Cádiz, España",
       abstract:
-        "Finalización prevista del doctorado: Noviembre de 2025",
-      achievements: 
-      [
-         "Doctorado sobre Optimización Automática del Software para un Internet de las Cosas Sostenible. Se basa en tres pilares principales: (1) Optimización automática de software para generar versiones de mayor rendimiento y/o más sostenibles, (2) Software Verde para el Internet de las Cosas, y (3) Videojuegos sostenibles.",
-         "Desarollo de múltiples técnicas Metaheurísticas complejas, especialmente Algoritmos Genéticos, para la resolución de problemas de optimización en Python.",
-         "Amplio conocimiento de la infraestructura LLVM para aplicaciones de C, C++, Objective C y Swift.",
-         "Múltiples publicaciones de artículos de investigación en revistas JCR y congresos internacionales sobre distintas temáticas: Optimización del Software, Ofuscación de código, Optimización de las Emisiones del Transporte Público de una Ciudad, Modelos de Deep Learning, Inteligencia Artificial en Videojuegos."
+        "Finalización prevista del doctorado: Julio de 2025",
+      achievements: [
+        "Tesis doctoral titulada 'Software Optimization for Green Internet of Things', estructurada en tres pilares: (1) Optimización automática del software para generar versiones más eficientes y sostenibles, (2) Software Verde para el Internet de las Cosas, y (3) Videojuegos verdes.",
+        "Diseño y aplicación de metaheurísticas multiobjetivo (Algoritmos Genéticos, Coevolución Cooperativa, NSGA-II) para reducir el consumo energético y el tiempo de ejecución.",
+        "Experiencia avanzada en la infraestructura del compilador LLVM para transformación y optimización de código fuente en C, C++, Objective-C y Swift.",
+        "Desarrollo de pipelines de optimización energética para aplicaciones móviles y motores de videojuegos, validados empíricamente en plataformas reales como iOS y Steam Deck.",
+        "Autor y coautor de 6 artículos en revistas indexadas en el JCR (Q1/Q2) y más de 10 contribuciones en congresos internacionales, incluyendo eventos CORE A/A*.",
+        "Estancias de investigación en el extranjero: Universidad de Alberta (Canadá) y Universidad Ritsumeikan (Japón), que han dado lugar a colaboraciones publicadas o actualmente en revisión en revistas de alto impacto."
       ],
     },
     {
@@ -378,15 +443,27 @@ const esOverseasPageData = {
   items: [
     {
       title: `Investigador visitante`,
+      company: "Ritsumeikan University",
+      startData: "Abril 2025",
+      endDate: "Junio 2025",
+      location: "Ibaraki, Japón",
+      abstract: "Estancia de investigación bajo la supervisión del Prof. Ruck Thawonmas.",
+      achievements: [
+        "Estudio experimental sobre la eficiencia energética en motores de videojuegos, con enfoque en la optimización del consumo del motor de Doom.",
+        "Trabajo derivado enviado a la revista IEEE Consumer Electronics Magazine (IEEE, JCR Q2), actualmente en proceso de revisión."
+      ]
+    },
+    {
+      title: `Investigador visitante`,
       company: "University of Alberta",
       startData: "Mayo 2024",
       endDate: "Agosto 2024",
-      location: "",
-      abstract:
-        "",
-      achievements: 
-      [
-        "Se realizó un estudio empírico para examinar el impacto de las optimizaciones del compilador en el consumo de energía de las aplicaciones que se ejecutan en dispositivos iOS, cuyos resultados están actualmente en revisión para su publicación en una revista JCR del primer cuartil."      ],
-    },
+      location: "Edmonton, Canadá",
+      abstract: "Estancia de investigación bajo la supervisión del Prof. Abram Hindle.",
+      achievements: [
+        "Desarrollo de un estudio empírico sobre el impacto de las optimizaciones de compilador en el consumo energético de aplicaciones móviles en dispositivos iOS.",
+        "Resultados enviados a la revista Sustainable Computing: Informatics and Systems (Elsevier, JCR Q1), actualmente en proceso de revisión."
+      ]
+    }
   ],
 };

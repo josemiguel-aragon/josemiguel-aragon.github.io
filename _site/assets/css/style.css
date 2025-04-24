@@ -1,3 +1,16 @@
+/* Modo claro (default) */
+body {
+  background-color: white;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Modo oscuro */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 @font-face {
   font-family: "vazir";
   src: url("../fonts/vazir-400.eot");
