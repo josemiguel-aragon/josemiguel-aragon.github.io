@@ -44,6 +44,15 @@ const enPublicationsPageData = {
 
   type_one_items: [
     {
+      title: `Green Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE Consumer Electronics Magazine. IEEE. Accepted. (<strong>Outcome of research stay in Ritsumeikan University</strong>)`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Ruiz P.", "Thawonmas R.", "Dorronsoro B."],
+    },
+    {
       title: `Automatic software tailoring for Green Internet of Things. Internet of Things. Elsevier. 30. 101521. DOI: <a href=https://doi.org/10.1016/j.iot.2025.101521>10.1016/j.iot.2025.101521</a>`,
       abstract: "",
       date: "2025",
@@ -448,7 +457,7 @@ const enOverseasPageData = {
       abstract: "Research stay under the supervision of Prof. Ruck Thawonmas.",
       achievements: [
         "Conducted an experimental study on the energy efficiency of video game engines, focusing on compiler-level optimizations for the classic Doom engine.",
-        "The resulting work is currently under review for publication in IEEE Consumer Electronics Magazine (IEEE, JCR Q2)."
+        "The resulting work is accepted for publication in IEEE Consumer Electronics Magazine (IEEE, JCR Q2)."
       ]
     },
     {
