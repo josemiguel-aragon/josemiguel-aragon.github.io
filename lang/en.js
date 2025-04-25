@@ -410,8 +410,8 @@ const enJobsPageData = {
     {
       title: `Predoctoral Researcher (FPU Fellow)`,
       company: "University of Cádiz",
-      startDate: "January 2023",
-      endDate: "Present",
+      startData: "January 2023",
+      endData: "Present",
       location: "Cádiz, Spain",
       abstract:
         "Expected PhD completion: July 2025",
