@@ -412,8 +412,8 @@ const esJobsPageData = {
     {
       title: `Investigador Predoctoral (Plan Estatal FPU)`,
       company: "Universidad de Cádiz",
-      startDate: "Enero 2023",
-      endDate: "Actualidad",
+      startData: "Enero 2023",
+      endData: "Actualidad",
       location: "Cádiz, España",
       abstract:
         "Finalización prevista del doctorado: Julio de 2025",
