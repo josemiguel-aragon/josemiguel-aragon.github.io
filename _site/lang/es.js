@@ -46,7 +46,7 @@ const esPublicationsPageData = {
 
   type_one_items: [
     {
-      title: `Green Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE Consumer Electronics Magazine. IEEE. Accepted. (<strong>Outcome of research stay in Ritsumeikan University</strong>)`,
+      title: `Green Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE Consumer Electronics Magazine. IEEE. DOI: <a href=https://doi.org/10.1109/MCE.2025.3565227>10.1109/MCE.2025.3565227</a> (<strong>Outcome of research stay in Ritsumeikan University</strong>)`,
       abstract: "",
       date: "2025",
       link: "",
