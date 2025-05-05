@@ -50,7 +50,7 @@ const enPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Ruiz P.", "Thawonmas R.", "Dorronsoro B."],
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Ruiz P.", "Dorronsoro B.", "Thawonmas R."],
     },
     {
       title: `Automatic software tailoring for Green Internet of Things. Internet of Things. Elsevier. 30. 101521. DOI: <a href=https://doi.org/10.1016/j.iot.2025.101521>10.1016/j.iot.2025.101521</a>`,
