@@ -30,7 +30,7 @@ const enHomePageData = {
   </ol>
 
   <p>Currently, I am developing the third pillar, concentrating my research on improving the energy consumption and performance of video games by applying AI-based optimization algorithms to engines like Doom, with empirical validation on devices such as Steam Deck.</p>
-  <p>I have published six articles in high-impact JCR-indexed journals (three Q1, three Q2), with five additional submissions currently under review at IEEE and Elsevier journals. In 2023, I was awarded the Cepsa Foundation Chair Award for the paper titled "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor."</p>
+  <p>I have published seven articles in high-impact JCR-indexed journals (three Q1, four Q2), with five additional submissions currently under review at IEEE and Elsevier journals. In 2023, I was awarded the Cepsa Foundation Chair Award for the paper titled "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor."</p>
   <p>I have contributed to over ten international conferences—including CORE A/A*—and received several Best Paper Awards, such as at the 2024 Spanish Video Game Congress (for "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck") and the 2023 INGEGRAF International Conference (for "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses").</p>
   <br/>
 </div>
