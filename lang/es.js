@@ -31,7 +31,7 @@ const esHomePageData = {
 
   <p>Actualmente desarrollo el tercer pilar, concentrando mi investigación en mejorar el consumo energético y el rendimiento de videojuegos mediante algoritmos de optimización basados en inteligencia artificial, aplicados a motores como el de Doom y validados empíricamente en dispositivos como Steam Deck.</p>
   
-  <p>He publicado siete artículos en revistas de alto impacto indexadas en el JCR (tres en Q1 y cuatro en Q2), y tengo cinco artículos adicionales en revisión en revistas de IEEE y Elsevier. En 2023, recibí el Premio de la Cátedra Fundación Cepsa por el artículo "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor".</p>
+  <p>He publicado ocho artículos en revistas de alto impacto indexadas en el JCR (cuatro en Q1 y cuatro en Q2), y tengo cuatro artículos adicionales en revisión en revistas de IEEE y Elsevier. En 2023, recibí el Premio de la Cátedra Fundación Cepsa por el artículo "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor".</p>
   
   <p>He contribuido en más de diez congresos internacionales, incluyendo conferencias CORE A/A*, y he recibido varios premios al Mejor Artículo, como en el III Congreso Español de Videojuegos de 2024 (por "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck") y en el Congreso Internacional INGEGRAF 2023 (por "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses").</p>
   <br/>
@@ -45,6 +45,15 @@ const esPublicationsPageData = {
   type_one_title: "Publicaciones en Revistas",
 
   type_one_items: [
+    {
+      title: `Optimization of Urban Public Transport System Sustainability using Plugin Hybrid Buses for Tailored Emissions Mapping`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Díaz-Jiménez M.", "<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Pavón-Domínguez P.", "Seredynski M.", "Ruiz P."],
+    },
     {
       title: `Green Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE Consumer Electronics Magazine. IEEE. DOI: <a href=https://doi.org/10.1109/MCE.2025.3565227>10.1109/MCE.2025.3565227</a> (<strong>Outcome of research stay in Ritsumeikan University</strong>)`,
       abstract: "",
