@@ -429,7 +429,7 @@ const enJobsPageData = {
         "Design and implementation of multi-objective metaheuristics (Genetic Algorithms, Cooperative Co-evolution, NSGA-II) for reducing energy consumption and execution time.",
         "Advanced experience with the LLVM compiler infrastructure applied to source code transformation and optimization in C, C++, Objective-C, and Swift.",
         "Development of green-aware optimization pipelines for mobile apps and video games, validated through empirical studies on platforms such as iOS and Steam Deck.",
-        "Authored and co-authored 6 peer-reviewed journal articles (Q1/Q2) and over 10 international conference papers, including presentations at CORE A/A* conferences.",
+        "Authored and co-authored 8 peer-reviewed journal articles (Q1/Q2) and over 10 international conference papers, including presentations at CORE A/A* conferences.",
         "Participated in international research stays at the University of Alberta (Canada) and Ritsumeikan University (Japan), resulting in collaborative publications under review at IEEE and Elsevier journals."
       ],
     },
