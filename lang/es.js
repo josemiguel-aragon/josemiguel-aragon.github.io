@@ -431,7 +431,7 @@ const esJobsPageData = {
         "Diseño y aplicación de metaheurísticas multiobjetivo (Algoritmos Genéticos, Coevolución Cooperativa, NSGA-II) para reducir el consumo energético y el tiempo de ejecución.",
         "Experiencia avanzada en la infraestructura del compilador LLVM para transformación y optimización de código fuente en C, C++, Objective-C y Swift.",
         "Desarrollo de pipelines de optimización energética para aplicaciones móviles y motores de videojuegos, validados empíricamente en plataformas reales como iOS y Steam Deck.",
-        "Autor y coautor de 6 artículos en revistas indexadas en el JCR (Q1/Q2) y más de 10 contribuciones en congresos internacionales, incluyendo eventos CORE A/A*.",
+        "Autor y coautor de 8 artículos en revistas indexadas en el JCR (Q1/Q2) y más de 10 contribuciones en congresos internacionales, incluyendo eventos CORE A/A*.",
         "Estancias de investigación en el extranjero: Universidad de Alberta (Canadá) y Universidad Ritsumeikan (Japón), que han dado lugar a colaboraciones publicadas o actualmente en revisión en revistas de alto impacto."
       ],
     },
