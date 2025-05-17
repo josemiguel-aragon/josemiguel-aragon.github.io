@@ -135,15 +135,6 @@ const esPublicationsPageData = {
   type_three_title: "Publicaciones en Congresos Internacionales",
   type_three_items: [
     {
-      title: `Optimizing Doom for Steam Deck: Automated Engine Tailoring for Optimal Frame Rate. IEEE Conference on Games (CoG 2025). Lisboa, Portugal.`,
-      abstract: "",
-      date: "2025",
-      link: "",
-      github: "",
-      download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
-    },
-    {
       title: `A Two-step Approach to Find Short Compilation Transformation Sequences for Optimal Software Runtime Performance. Genetic and Evolutionary Computation Conference Companion (GECCO 2025). ACM. Málaga, España.`,
       abstract: "",
       date: "2025",
