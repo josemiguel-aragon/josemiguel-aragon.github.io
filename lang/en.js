@@ -376,6 +376,15 @@ type_three_items: [
       writers: [""],
     },
     {
+      title: "INICIA-INV Research Initiation Grant.",
+      abstract: "Competitive research grant awarded under the UCA Research and Transfer Plan to support early-stage researchers based on academic excellence and the quality of the master’s thesis.",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+    {
       title: "National FPU Fellowship - Ministry of Universities, Spain.",
       abstract: "Highly competitive national research grant for doctoral studies.",
       date: "2021",
@@ -457,7 +466,7 @@ const enOverseasPageData = {
       abstract: "Research stay under the supervision of Prof. Ruck Thawonmas.",
       achievements: [
         "Conducted an experimental study on the energy efficiency of video game engines, focusing on compiler-level optimizations for the classic Doom engine.",
-        "The resulting work is accepted for publication in IEEE Consumer Electronics Magazine (IEEE, JCR Q2)."
+        "The resulting work is published in IEEE Consumer Electronics Magazine (IEEE, JCR Q2)."
       ]
     },
     {
