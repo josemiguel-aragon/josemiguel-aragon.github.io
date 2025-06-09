@@ -338,7 +338,6 @@ const esPublicationsPageData = {
     }
   ],
 
-  type_five_title: "Premios y becas",
   type_five_title: "Premios y Becas",
   type_five_items: [
     {
@@ -348,7 +347,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Premio al Mejor Artículo de Revista - Cátedra Fundación Cepsa.`,
@@ -357,7 +356,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Premio al Mejor Artículo - Congreso Internacional INGEGRAF 2023.`,
@@ -366,7 +365,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Premio Extraordinario de Fin de Máster (Mejor Expediente Académico) - Máster en Investigación en Ingeniería de Sistemas y de la Computación.`,
@@ -375,7 +374,16 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
+    },
+    {
+      title: `INICIA-INV Iniciación a la investigación - Modalidad trabajo final de Máster.`,
+      abstract: "Beca de investigación competitiva concedida en el marco del Plan de Investigación y Transferencia de la UCA para apoyar a investigadores en fase inicial, basada en la excelencia académica y la calidad de la tesis de máster.",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: [],
     },
     {
       title: `Beca Nacional FPU - Ministerio de Universidades, España.`,
@@ -384,7 +392,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Primer Premio - Categoría Ideas - atrÉBT! (XIII Edición). Universidad de Cádiz.`,
@@ -393,7 +401,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     }
   ],
 };
@@ -459,7 +467,7 @@ const esOverseasPageData = {
       abstract: "Estancia de investigación bajo la supervisión del Prof. Ruck Thawonmas.",
       achievements: [
         "Estudio experimental sobre la eficiencia energética en motores de videojuegos, con enfoque en la optimización del consumo del motor de Doom.",
-        "Trabajo derivado aceptado en la revista IEEE Consumer Electronics Magazine (IEEE, JCR Q2)"
+        "Trabajo derivado publicado en la revista IEEE Consumer Electronics Magazine (IEEE, JCR Q2)"
       ]
     },
     {
