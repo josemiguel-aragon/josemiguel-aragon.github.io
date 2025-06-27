@@ -1,19 +1,7 @@
-<nav
-  class="navbar navbar-expand-lg navbar-light bg-light"
-  id="content_wrapper"
-  data-aos="fade-in"
->
-  <div class="container">
+<nav class="navbar navbar-expand-lg" id="content_wrapper" data-aos="fade-in">
+  <!-- Eliminado .container para que la navbar ocupe todo el ancho -->
     <a class="navbar-brand" href="#" id="navbar_title"></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -22,6 +10,7 @@
         <img id="languageIcon" alt="Language" />
         <span id="languageText"></span>
       </div>
+      <button id="dark-mode-toggle">🌙</button>
     </div>
   </div>
 </nav>
@@ -45,4 +34,43 @@
 
 <script>
   AOS.init();
+</script>
+
+<script>
+  function updateDarkModeIcon() {
+    const toggle = document.getElementById('dark-mode-toggle');
+    if (!toggle) return;
+    if (document.body.classList.contains('dark-mode')) {
+      toggle.textContent = '☀️'; // Sol para modo oscuro
+    } else {
+      toggle.textContent = '🌙'; // Luna para modo claro
+    }
+  }
+
+  function initDarkMode() {
+    const toggle = document.getElementById('dark-mode-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        if (document.body.classList.contains('dark-mode')) {
+          localStorage.setItem('darkMode', 'enabled');
+        } else {
+          localStorage.removeItem('darkMode');
+        }
+        updateDarkModeIcon();
+      });
+      // Inicializa el modo según localStorage
+      if (localStorage.getItem('darkMode') === 'enabled') {
+        document.body.classList.add('dark-mode');
+      }
+      updateDarkModeIcon();
+    }
+  }
+
+  // Espera a que el navbar esté cargado dinámicamente
+  if (document.readyState !== 'loading') {
+    setTimeout(initDarkMode, 200); // Breve espera para asegurar que el navbar esté en el DOM
+  } else {
+    document.addEventListener('DOMContentLoaded', () => setTimeout(initDarkMode, 200));
+  }
 </script>

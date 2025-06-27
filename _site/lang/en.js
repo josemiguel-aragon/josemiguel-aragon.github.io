@@ -30,7 +30,7 @@ const enHomePageData = {
   </ol>
 
   <p>Currently, I am developing the third pillar, concentrating my research on improving the energy consumption and performance of video games by applying AI-based optimization algorithms to engines like Doom, with empirical validation on devices such as Steam Deck.</p>
-  <p>I have published six articles in high-impact JCR-indexed journals (three Q1, three Q2), with five additional submissions currently under review at IEEE and Elsevier journals. In 2023, I was awarded the Cepsa Foundation Chair Award for the paper titled "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor."</p>
+  <p>I have published eigth articles in high-impact JCR-indexed journals (six Q1, two Q2), with three additional submissions currently under review at IEEE and Elsevier journals. In 2023, I was awarded the Cepsa Foundation Chair Award for the paper titled "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor."</p>
   <p>I have contributed to over ten international conferences—including CORE A/A*—and received several Best Paper Awards, such as at the 2024 Spanish Video Game Congress (for "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck") and the 2023 INGEGRAF International Conference (for "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses").</p>
   <br/>
 </div>
@@ -43,6 +43,15 @@ const enPublicationsPageData = {
   type_one_title: "Journal Papers",
 
   type_one_items: [
+        {
+      title: `Optimization of Urban Public Transport System Sustainability using Plugin Hybrid Buses for Tailored Emissions Mapping. Engineering Applications of Artificial Intelligence. Elsevier. 157. 111179. <a href=https://doi.org/10.1016/j.engappai.2025.111179>10.1016/j.engappai.2025.111179 </a>`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Díaz-Jiménez M.", "<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Pavón-Domínguez P.", "Seredynski M.", "Ruiz P."],
+    },
     {
       title: `Green Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE Consumer Electronics Magazine. IEEE. DOI: <a href=https://doi.org/10.1109/MCE.2025.3565227>10.1109/MCE.2025.3565227</a> (<strong>Outcome of research stay in Ritsumeikan University</strong>)`,
       abstract: "",
@@ -123,15 +132,6 @@ const enPublicationsPageData = {
 
   type_three_title: "Conference Papers",
 type_three_items: [
-  {
-    title: `Optimizing Doom for Steam Deck: Automated Engine Tailoring for Optimal Frame Rate. IEEE Conference on Games (CoG 2025). Lisboa, Portugal.`,
-    abstract: "",
-    date: "2025",
-    link: "",
-    github: "",
-    download: "",
-    writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
-  },
   {
     title: `A Two-step Approach to Find Short Compilation Transformation Sequences for Optimal Software Runtime Performance. Genetic and Evolutionary Computation Conference Companion (GECCO 2025). ACM. Málaga, España.`,
     abstract: "",
@@ -376,6 +376,15 @@ type_three_items: [
       writers: [""],
     },
     {
+      title: "INICIA-INV Research Initiation Grant.",
+      abstract: "Competitive research grant awarded under the UCA Research and Transfer Plan to support early-stage researchers based on academic excellence and the quality of the master’s thesis.",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+    {
       title: "National FPU Fellowship - Ministry of Universities, Spain.",
       abstract: "Highly competitive national research grant for doctoral studies.",
       date: "2021",
@@ -420,7 +429,7 @@ const enJobsPageData = {
         "Design and implementation of multi-objective metaheuristics (Genetic Algorithms, Cooperative Co-evolution, NSGA-II) for reducing energy consumption and execution time.",
         "Advanced experience with the LLVM compiler infrastructure applied to source code transformation and optimization in C, C++, Objective-C, and Swift.",
         "Development of green-aware optimization pipelines for mobile apps and video games, validated through empirical studies on platforms such as iOS and Steam Deck.",
-        "Authored and co-authored 6 peer-reviewed journal articles (Q1/Q2) and over 10 international conference papers, including presentations at CORE A/A* conferences.",
+        "Authored and co-authored 8 peer-reviewed journal articles (Q1/Q2) and over 10 international conference papers, including presentations at CORE A/A* conferences.",
         "Participated in international research stays at the University of Alberta (Canada) and Ritsumeikan University (Japan), resulting in collaborative publications under review at IEEE and Elsevier journals."
       ],
     },
@@ -457,7 +466,7 @@ const enOverseasPageData = {
       abstract: "Research stay under the supervision of Prof. Ruck Thawonmas.",
       achievements: [
         "Conducted an experimental study on the energy efficiency of video game engines, focusing on compiler-level optimizations for the classic Doom engine.",
-        "The resulting work is accepted for publication in IEEE Consumer Electronics Magazine (IEEE, JCR Q2)."
+        "The resulting work is published in IEEE Consumer Electronics Magazine (IEEE, JCR Q2)."
       ]
     },
     {

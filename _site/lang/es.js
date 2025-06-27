@@ -31,7 +31,7 @@ const esHomePageData = {
 
   <p>Actualmente desarrollo el tercer pilar, concentrando mi investigación en mejorar el consumo energético y el rendimiento de videojuegos mediante algoritmos de optimización basados en inteligencia artificial, aplicados a motores como el de Doom y validados empíricamente en dispositivos como Steam Deck.</p>
   
-  <p>He publicado seis artículos en revistas de alto impacto indexadas en el JCR (tres en Q1 y tres en Q2), y tengo cinco artículos adicionales en revisión en revistas de IEEE y Elsevier. En 2023, recibí el Premio de la Cátedra Fundación Cepsa por el artículo "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor".</p>
+  <p>He publicado ocho artículos en revistas de alto impacto indexadas en el JCR (seis en Q1 y cuatro en Q2), y tengo tres artículos adicionales en revisión en revistas de IEEE y Elsevier. En 2023, recibí el Premio de la Cátedra Fundación Cepsa por el artículo "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor".</p>
   
   <p>He contribuido en más de diez congresos internacionales, incluyendo conferencias CORE A/A*, y he recibido varios premios al Mejor Artículo, como en el III Congreso Español de Videojuegos de 2024 (por "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck") y en el Congreso Internacional INGEGRAF 2023 (por "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses").</p>
   <br/>
@@ -45,6 +45,15 @@ const esPublicationsPageData = {
   type_one_title: "Publicaciones en Revistas",
 
   type_one_items: [
+        {
+      title: `Optimization of Urban Public Transport System Sustainability using Plugin Hybrid Buses for Tailored Emissions Mapping. Engineering Applications of Artificial Intelligence. Elsevier. 157. 111179. <a href=https://doi.org/10.1016/j.engappai.2025.111179>10.1016/j.engappai.2025.111179 </a>`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Díaz-Jiménez M.", "<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Pavón-Domínguez P.", "Seredynski M.", "Ruiz P."],
+    },
     {
       title: `Green Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE Consumer Electronics Magazine. IEEE. DOI: <a href=https://doi.org/10.1109/MCE.2025.3565227>10.1109/MCE.2025.3565227</a> (<strong>Outcome of research stay in Ritsumeikan University</strong>)`,
       abstract: "",
@@ -125,15 +134,6 @@ const esPublicationsPageData = {
 
   type_three_title: "Publicaciones en Congresos Internacionales",
   type_three_items: [
-    {
-      title: `Optimizing Doom for Steam Deck: Automated Engine Tailoring for Optimal Frame Rate. IEEE Conference on Games (CoG 2025). Lisboa, Portugal.`,
-      abstract: "",
-      date: "2025",
-      link: "",
-      github: "",
-      download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>", "de la Torre J. C.", "Ruiz P.", "Dorronsoro B."],
-    },
     {
       title: `A Two-step Approach to Find Short Compilation Transformation Sequences for Optimal Software Runtime Performance. Genetic and Evolutionary Computation Conference Companion (GECCO 2025). ACM. Málaga, España.`,
       abstract: "",
@@ -338,7 +338,6 @@ const esPublicationsPageData = {
     }
   ],
 
-  type_five_title: "Premios y becas",
   type_five_title: "Premios y Becas",
   type_five_items: [
     {
@@ -348,7 +347,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Premio al Mejor Artículo de Revista - Cátedra Fundación Cepsa.`,
@@ -357,7 +356,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Premio al Mejor Artículo - Congreso Internacional INGEGRAF 2023.`,
@@ -366,7 +365,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Premio Extraordinario de Fin de Máster (Mejor Expediente Académico) - Máster en Investigación en Ingeniería de Sistemas y de la Computación.`,
@@ -375,7 +374,16 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
+    },
+    {
+      title: `INICIA-INV Iniciación a la investigación - Modalidad trabajo final de Máster.`,
+      abstract: "Beca de investigación competitiva concedida en el marco del Plan de Investigación y Transferencia de la UCA para apoyar a investigadores en fase inicial, basada en la excelencia académica y la calidad de la tesis de máster.",
+      date: "2022",
+      link: "",
+      github: "",
+      download: "",
+      writers: [],
     },
     {
       title: `Beca Nacional FPU - Ministerio de Universidades, España.`,
@@ -384,7 +392,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     },
     {
       title: `Primer Premio - Categoría Ideas - atrÉBT! (XIII Edición). Universidad de Cádiz.`,
@@ -393,7 +401,7 @@ const esPublicationsPageData = {
       link: "",
       github: "",
       download: "",
-      writers: ["<strong>Aragón-Jurado J. M.</strong>"],
+      writers: [],
     }
   ],
 };
@@ -422,7 +430,7 @@ const esJobsPageData = {
         "Diseño y aplicación de metaheurísticas multiobjetivo (Algoritmos Genéticos, Coevolución Cooperativa, NSGA-II) para reducir el consumo energético y el tiempo de ejecución.",
         "Experiencia avanzada en la infraestructura del compilador LLVM para transformación y optimización de código fuente en C, C++, Objective-C y Swift.",
         "Desarrollo de pipelines de optimización energética para aplicaciones móviles y motores de videojuegos, validados empíricamente en plataformas reales como iOS y Steam Deck.",
-        "Autor y coautor de 6 artículos en revistas indexadas en el JCR (Q1/Q2) y más de 10 contribuciones en congresos internacionales, incluyendo eventos CORE A/A*.",
+        "Autor y coautor de 8 artículos en revistas indexadas en el JCR (Q1/Q2) y más de 10 contribuciones en congresos internacionales, incluyendo eventos CORE A/A*.",
         "Estancias de investigación en el extranjero: Universidad de Alberta (Canadá) y Universidad Ritsumeikan (Japón), que han dado lugar a colaboraciones publicadas o actualmente en revisión en revistas de alto impacto."
       ],
     },
@@ -459,7 +467,7 @@ const esOverseasPageData = {
       abstract: "Estancia de investigación bajo la supervisión del Prof. Ruck Thawonmas.",
       achievements: [
         "Estudio experimental sobre la eficiencia energética en motores de videojuegos, con enfoque en la optimización del consumo del motor de Doom.",
-        "Trabajo derivado aceptado en la revista IEEE Consumer Electronics Magazine (IEEE, JCR Q2)"
+        "Trabajo derivado publicado en la revista IEEE Consumer Electronics Magazine (IEEE, JCR Q2)"
       ]
     },
     {
