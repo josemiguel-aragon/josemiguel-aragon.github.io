@@ -3,9 +3,25 @@
   --bg-card: #fff;
   --text-main: #23243a;
   --text-navbar: #23243a;
-  --text-link: #1976d2;
+  --text-link: #1565c0;
+  --text-title: #1976d2; /* Azul vibrante */
+  --text-subtitle: #607d8b; /* Gris azulado bonito */
+  --text-link-hover: #0d47a1;
   --navbar-bg: rgba(255,255,255,0.92);
   --navbar-shadow: 0 2px 8px 0 rgba(30,32,38,0.06);
+}
+
+.dark-mode {
+  --bg-main: #121212;
+  --bg-card: #23243a;
+  --text-main: #e3e6ee;
+  --text-navbar: #e3e6ee;
+  --text-link: #7ab4ff;
+  --text-title: #7ab4ff; /* Azul luminoso */
+  --text-subtitle: #b0bec5; /* Gris azulado claro */
+  --text-link-hover: #b3e5fc;
+  --navbar-bg: linear-gradient(90deg, rgba(30,32,38,0.95) 60%, rgba(50,52,60,0.85) 100%);
+  --navbar-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
 }
 
 .dark-mode {
@@ -21,8 +37,140 @@
 body {
   background: var(--bg-main);
   color: var(--text-main);
-  transition: background 0.3s, color 0.3s;
+  font-family: 'Inter', 'Montserrat', 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  transition: background 0.3s, color 0.3s, font-family 0.3s;
 }
+
+/* Modern aesthetic for headings */
+h1, h2, h3, h4, .title {
+  color: var(--text-title);
+  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.15;
+  transition: color 0.3s;
+}
+
+.main_header_info h2 {
+  color: var(--text-subtitle);
+  font-family: 'Poppins', 'Inter', Arial, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.01em;
+  transition: color 0.3s;
+}
+
+/* Modern cards/containers */
+.content-card, .profile-box, .card, .container {
+  background: var(--bg-card);
+  color: var(--text-main);
+  border-radius: 20px;
+  box-shadow: 0 4px 32px 0 rgba(30,32,38,0.10), 0 1.5px 6px 0 rgba(30,32,38,0.06);
+  padding: 2.8rem 2.2rem;
+  margin-bottom: 2.7rem;
+  border: 1px solid rgba(30,32,38,0.05);
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+/* Modern lists */
+ul, ol {
+  margin: 1.3em 0 1.3em 1.6em;
+  padding: 0;
+  font-size: 1.05em;
+}
+ul li, ol li {
+  margin-bottom: 0.7em;
+  padding-left: 0.2em;
+}
+ul li::marker {
+  color: var(--text-title);
+  font-size: 1.2em;
+}
+ol {
+  counter-reset: modern-counter;
+}
+ol li {
+  counter-increment: modern-counter;
+  position: relative;
+  list-style: none;
+}
+ol li::before {
+  content: counter(modern-counter) ". ";
+  color: var(--text-title);
+  font-weight: 600;
+  margin-right: 0.3em;
+  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+}
+
+/* Section dividers */
+hr {
+  border: none;
+  border-top: 1.5px solid rgba(30,32,38,0.08);
+  margin: 2.5rem 0;
+}
+
+/* Badges and highlights */
+.badge {
+  display: inline-block;
+  padding: 0.32em 0.7em;
+  font-size: 0.92em;
+  font-weight: 500;
+  color: #fff;
+  background: var(--text-title);
+  border-radius: 0.8em;
+  box-shadow: 0 1px 4px 0 rgba(30,32,38,0.10);
+  margin-right: 0.4em;
+  margin-bottom: 0.2em;
+  letter-spacing: 0.03em;
+}
+
+/* Sutil hover for cards and links */
+.content-card:hover, .profile-box:hover, .card:hover {
+  box-shadow: 0 8px 40px 0 rgba(30,32,38,0.18), 0 2px 10px 0 rgba(30,32,38,0.10);
+  transform: translateY(-2px) scale(1.01);
+}
+a {
+  color: var(--text-link);
+  transition: color 0.2s, text-decoration 0.2s;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+a:hover {
+  color: var(--text-link-hover);
+  text-decoration: underline;
+  background: rgba(25, 118, 210, 0.07);
+}
+
+/* Modern blockquotes */
+blockquote {
+  border-left: 4px solid var(--text-title);
+  padding: 0.7em 1.2em;
+  margin: 1.5em 0;
+  background: rgba(33, 150, 243, 0.05);
+  color: var(--text-main);
+  font-style: italic;
+  border-radius: 8px;
+}
+
+/* Responsive improvements */
+@media (max-width: 900px) {
+  .content-card, .profile-box, .card, .container {
+    padding: 1.2rem 0.6rem;
+  }
+  h1, h2, h3, h4, .title {
+    font-size: 1.1em;
+    margin-top: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
 
 a {
   color: var(--text-link);
@@ -30,7 +178,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ffb6b9;
+  color: var(--text-link-hover);
   text-decoration: underline;
 }
 
@@ -168,12 +316,13 @@ body.dark-mode {
 }
 
 /* Estilos para otros elementos */
-h1, h2, h3, h4 {
-  color: #b3e5fc;
+h1, h2, h3, h4, .title {
+  color: var(--text-title);
   font-weight: 700;
   letter-spacing: 0.02em;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+  transition: color 0.3s;
 }
 
 /* Navbar styles */
@@ -344,10 +493,11 @@ h1, h2, h3, h4 {
 }
 
 .main_header_info h2 {
-  color: #888;
+  color: var(--text-subtitle);
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 1.5rem;
+  transition: color 0.3s;
 }
 
 .main_header_content h6:last-of-type {
