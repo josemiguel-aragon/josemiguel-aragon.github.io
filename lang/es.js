@@ -467,7 +467,7 @@ const esOverseasPageData = {
       abstract: "Estancia de investigación bajo la supervisión del Prof. Ruck Thawonmas.",
       achievements: [
         "Estudio experimental sobre la eficiencia energética en motores de videojuegos, con enfoque en la optimización del consumo del motor de Doom.",
-        "Trabajo derivado publicado en la revista IEEE Consumer Electronics Magazine (IEEE, JCR Q2)"
+        "Trabajo derivado publicado en la revista IEEE Consumer Electronics Magazine (IEEE)"
       ]
     },
     {
@@ -479,7 +479,7 @@ const esOverseasPageData = {
       abstract: "Estancia de investigación bajo la supervisión del Prof. Abram Hindle.",
       achievements: [
         "Desarrollo de un estudio empírico sobre el impacto de las optimizaciones de compilador en el consumo energético de aplicaciones móviles en dispositivos iOS.",
-        "Resultados enviados a la revista Sustainable Computing: Informatics and Systems (Elsevier, JCR Q1), actualmente en proceso de revisión."
+        "Resultados enviados a la revista Sustainable Computing: Informatics and Systems (Elsevier), actualmente en proceso de revisión."
       ]
     }
   ],
