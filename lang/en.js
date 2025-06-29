@@ -466,7 +466,7 @@ const enOverseasPageData = {
       abstract: "Research stay under the supervision of Prof. Ruck Thawonmas.",
       achievements: [
         "Conducted an experimental study on the energy efficiency of video game engines, focusing on compiler-level optimizations for the classic Doom engine.",
-        "The resulting work is published in IEEE Consumer Electronics Magazine (IEEE, JCR Q2)."
+        "The resulting work is published in IEEE Consumer Electronics Magazine (IEEE)."
       ]
     },
     {
@@ -478,7 +478,7 @@ const enOverseasPageData = {
       abstract: "Research stay under the supervision of Prof. Abram Hindle.",
       achievements: [
         "Carried out an empirical study on the effects of compiler optimizations on energy consumption in iOS applications.",
-        "The findings have been submitted to Sustainable Computing: Informatics and Systems (Elsevier, JCR Q1) and are currently under review."
+        "The findings have been submitted to Sustainable Computing: Informatics and Systems (Elsevier) and are currently under review."
       ]
     }
   ]
