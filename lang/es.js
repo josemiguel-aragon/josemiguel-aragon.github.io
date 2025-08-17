@@ -11,29 +11,22 @@ const esNavbarData = {
 // ---------- Home page data
 const esHomePageData = {
   name: "José Miguel Aragón-Jurado",
-  jobTitle: "Investigador Predoctoral Plan Estatal FPU",
+  jobTitle: "Investigador Postdoctoral Plan Estatal FPU",
   home_title: "Sobre mi",
   home_content: `
 <div>
-  <p>Investigador Predoctoral Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de la sociedad IEEE.</p>
+  <p>Investigador Postdoctoral Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de las sociedades de IEEE y ACM.</p>
 
-  <h2 class='title'>Línea principal de investigación</h2>
+  <h2 class='title'>Líneas de investigación</h2>
 
-  <p>Mi investigación se divide principalmente en cuatro áreas: Software Verde, centrado en la optimización energética del software mediante transformaciones de compilación y algoritmos metaheurísticos; Videojuegos e Inteligencia Artificial, donde aplico IA para mejorar la eficiencia energética y el rendimiento de motores comerciales; Ofuscación de Código Fuente, utilizando algoritmos evolutivos y transformaciones sobre LLVM para proteger el software; y Optimización de Rutas de Transporte Público, orientada a la planificación energética y gestión de baterías en vehículos híbridos y eléctricos.</p>
-
-  <p>Mi tesis doctoral se enfoca en el Software Verde y se estructura en tres pilares principales:</p>
-
+  <p>Mi investigación se centra principalmente en tres líneas:</p>
   <ol>
-    <li>Optimización automática del software para generar versiones más eficientes y/o ecológicas</li>
-    <li>Software verde para el Internet de las Cosas</li>
-    <li>Videojuegos verdes</li>
+    <li><strong>Green software:</strong> desarrollo de optimizaciones basadas en compiladores e inteligencia artificial para reducir el consumo energético y la huella de carbono del software, logrando hasta un 62% de mejora en tiempo de ejecución, un 58% de ahorro energético y aumentos significativos de rendimiento en videojuegos.</li>
+    <li><strong>Transporte público sostenible:</strong> diseño de modelos inteligentes para la planificación de rutas energéticamente eficientes y la gestión de baterías en autobuses híbridos y eléctricos, con validaciones en grandes redes de transporte como la de Barcelona, alcanzando reducciones de hasta 295,8 kg de CO₂ diarios.</li>
+    <li><strong>Ofuscación de código:</strong> aplicación de algoritmos evolutivos y transformaciones basadas en LLVM para reforzar la protección del software en entornos IoT y en la nube, obteniendo mejoras superiores a ×400 en seguridad del código con un impacto mínimo en el rendimiento.</li>
   </ol>
 
-  <p>Actualmente desarrollo el tercer pilar, concentrando mi investigación en mejorar el consumo energético y el rendimiento de videojuegos mediante algoritmos de optimización basados en inteligencia artificial, aplicados a motores como el de Doom y validados empíricamente en dispositivos como Steam Deck.</p>
-  
-  <p>He publicado ocho artículos en revistas de alto impacto indexadas en el JCR (seis en Q1 y cuatro en Q2), y tengo tres artículos adicionales en revisión en revistas de IEEE y Elsevier. En 2023, recibí el Premio de la Cátedra Fundación Cepsa por el artículo "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor".</p>
-  
-  <p>He contribuido en más de diez congresos internacionales, incluyendo conferencias CORE A/A*, y he recibido varios premios al Mejor Artículo, como en el III Congreso Español de Videojuegos de 2024 (por "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck") y en el Congreso Internacional INGEGRAF 2023 (por "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses").</p>
+  <p>He publicado 9 artículos en revistas indexadas (7 Q1, 2 Q2) y más de 16 ponencias en congresos internacionales, incluyendo presentaciones en conferencias CORE A. Mi carrera académica incluye estancias de investigación en Japón (Ritsumeikan University, Osaka Metropolitan University) y Canadá (University of Alberta), que han resultado en múltiples publicaciones conjuntas e invitaciones a conferencias. También he recibido varios reconocimientos, como el Premio Cátedra Fundación Cepsa 2023 y diversos Best Paper Awards en congresos internacionales.</p>
   <br/>
 </div>
 
@@ -45,8 +38,17 @@ const esPublicationsPageData = {
   type_one_title: "Publicaciones en Revistas",
 
   type_one_items: [
-        {
-      title: `Optimization of Urban Public Transport System Sustainability using Plugin Hybrid Buses for Tailored Emissions Mapping. Engineering Applications of Artificial Intelligence. Elsevier. 157. 111179. <a href=https://doi.org/10.1016/j.engappai.2025.111179>10.1016/j.engappai.2025.111179 </a>`,
+    {
+      title: `Does faster mean greener? Runtime and energy trade-offs in iOS applications with compiler optimizations. Elsevier. Sustainable Computing: Informatics and Systems. 47. 101166. <a href=https://doi.org/10.1016/j.suscom.2025.101166>10.1016/j.suscom.2025.101166</a>`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Bangash A. A.", "Dorronsoro B.", "Ali K.", "Hindle A.", "Ruiz P."],
+    },
+    {
+      title: `Sustainable driving operations of urban plugin hybrid buses considering restricted emission mapping zones. Elsevier. 157. 111179. <a href=https://doi.org/10.1016/j.engappai.2025.111179>10.1016/j.engappai.2025.111179 </a>`,
       abstract: "",
       date: "2025",
       link: "",
@@ -341,6 +343,15 @@ const esPublicationsPageData = {
   type_five_title: "Premios y Becas",
   type_five_items: [
     {
+      title: "Ayuda de Movilidad FPU - Ministerio de Ciencia, Innovación y Universidades.",
+      abstract: "Ayuda nacional competitiva de movilidad concedida en el marco del programa FPU para apoyar estancias internacionales de investigación. Clasificado en primera posición en Informática con la máxima puntuación posible.",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+    {
       title: `Premio al Mejor Artículo - III Congreso Español de Videojuegos. Sociedad Científica Informática de España.`,
       abstract: "Reconocimiento al trabajo titulado 'Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck'.",
       date: "2024",
@@ -417,22 +428,34 @@ const esResearchPageData = {
 const esJobsPageData = {
   title: "Experiencia laboral",
   items: [
+        {
+      title: `Investigador Postdoctoral (Plan Estatal FPU)`,
+      company: "Universidad de Cádiz",
+      startData: "Julio 2025",
+      endData: "Actualidad",
+      location: "Cádiz, España",
+      abstract: "",
+      achievements: []
+    },
     {
       title: `Investigador Predoctoral (Plan Estatal FPU)`,
       company: "Universidad de Cádiz",
       startData: "Enero 2023",
-      endData: "Actualidad",
+      endData: "Julio 2025",
       location: "Cádiz, España",
       abstract:
-        "Finalización prevista del doctorado: Julio de 2025",
-      achievements: [
-        "Tesis doctoral titulada 'Software Optimization for Green Internet of Things', estructurada en tres pilares: (1) Optimización automática del software para generar versiones más eficientes y sostenibles, (2) Software Verde para el Internet de las Cosas, y (3) Videojuegos verdes.",
-        "Diseño y aplicación de metaheurísticas multiobjetivo (Algoritmos Genéticos, Coevolución Cooperativa, NSGA-II) para reducir el consumo energético y el tiempo de ejecución.",
-        "Experiencia avanzada en la infraestructura del compilador LLVM para transformación y optimización de código fuente en C, C++, Objective-C y Swift.",
-        "Desarrollo de pipelines de optimización energética para aplicaciones móviles y motores de videojuegos, validados empíricamente en plataformas reales como iOS y Steam Deck.",
-        "Autor y coautor de 8 artículos en revistas indexadas en el JCR (Q1/Q2) y más de 10 contribuciones en congresos internacionales, incluyendo eventos CORE A/A*.",
-        "Estancias de investigación en el extranjero: Universidad de Alberta (Canadá) y Universidad Ritsumeikan (Japón), que han dado lugar a colaboraciones publicadas o actualmente en revisión en revistas de alto impacto."
-      ],
+        "",
+      achievements: 
+      [
+        "Realización de una tesis doctoral titulada «Software Optimization for the Green Internet of Things».",
+        "Propuso y resolvió tres problemas novedosos de optimización de compiladores (SCOP, gSCOP, FROP) usando algoritmos evolutivos y LLVM, logrando hasta un 62% de mejora en tiempo de ejecución y 58% en ahorro energético.",
+        "Aplicación de la infraestructura del compilador LLVM para la transformación y optimización del código fuente en C, C++, Objective-C y Swift.",
+        "Diseñó frameworks de optimización adaptativa para reducir el consumo energético en aplicaciones IoT, videojuegos y sistemas embebidos.",
+        "Desarrolló modelos basados en ML (MEPBO, SUTRA, ML-EPBO) para buses híbridos, reduciendo hasta un 7.67% de CO₂ y alcanzando un 99.2% de precisión en la predicción de tráfico.",
+        "Introdujo el modelo TSOP y creó el algoritmo C3GA, mejorando hasta 405× la protección del código en entornos de bajo consumo.",
+        "Autor y coautor de 9 artículos en revistas indexadas (Q1/Q2) y más de 16 ponencias en congresos (incluyendo CORE A/A*); 4 artículos adicionales en revisión.",
+        "Realizó estancias de investigación en Canadá y Japón, generando colaboraciones internacionales con publicaciones conjuntas."
+      ]
     },
     {
       title: `Investigador Licenciado`,
@@ -479,7 +502,7 @@ const esOverseasPageData = {
       abstract: "Estancia de investigación bajo la supervisión del Prof. Abram Hindle.",
       achievements: [
         "Desarrollo de un estudio empírico sobre el impacto de las optimizaciones de compilador en el consumo energético de aplicaciones móviles en dispositivos iOS.",
-        "Resultados enviados a la revista Sustainable Computing: Informatics and Systems (Elsevier), actualmente en proceso de revisión."
+        "Resultados publicados en la revista Sustainable Computing: Informatics and Systems (Elsevier)."
       ]
     }
   ],
