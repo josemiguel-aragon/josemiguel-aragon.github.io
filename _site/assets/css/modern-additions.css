@@ -1,0 +1,116 @@
+/* Estilos modernos adicionales */
+
+/* Imagen de perfil mejorada */
+#home_image {
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  filter: contrast(1.05);
+}
+
+#home_image:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--hover-shadow);
+}
+
+/* Títulos con gradiente */
+#home_name {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* Enlaces sociales mejorados */
+#home_links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+#home_links a {
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--text-link);
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#home_links a:hover {
+  background: rgba(37, 99, 235, 0.15);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+#home_links img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.9;
+}
+
+/* Información de contacto */
+#home_mail_title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(37, 99, 235, 0.1);
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: var(--text-link);
+}
+
+/* Contenido principal */
+.main_header_content {
+  padding-left: 3rem;
+}
+
+@media (max-width: 991px) {
+  .main_header_content {
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+}
+
+/* Animaciones de entrada */
+[data-aos="fade-in"] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-aos="fade-in"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mejoras en el modo oscuro */
+.dark-mode #home_links a {
+  background: rgba(96, 165, 250, 0.1);
+}
+
+.dark-mode #home_links a:hover {
+  background: rgba(96, 165, 250, 0.15);
+}
+
+.dark-mode #home_mail_title {
+  background: rgba(96, 165, 250, 0.1);
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
+}
