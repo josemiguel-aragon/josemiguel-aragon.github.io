@@ -11,27 +11,22 @@ const enNavbarData = {
 // ---------- Home page data
 const enHomePageData = {
   name: "José Miguel Aragón-Jurado",
-  jobTitle: "Predoctoral Researcher (FPU Fellow)",
+  jobTitle: "Postdoctoral Researcher (FPU Fellow)",
   home_title: "About me",
   home_content: `
 <div>
-  <p>I am a PhD candidate in Computer Science at the University of Cádiz, funded by the Spanish National FPU Fellowship. I hold a Bachelor of Science in Computer Engineering and a Master of Research in Systems and Computing Engineering (Big Data specialization), both from the University of Cádiz, where I received the Extraordinary Master's Degree Award for Best Academic Record. I am a member of the GOAL research group [TIC-259] at the University of Cádiz, and a member of the IEEE society.</p>
+  <p>PhD in Computer Science and Postdoctoral Researcher (FPU Fellow) at the University of Cádiz, Spain. I hold a Bachelor of Science in Computer Engineering and a Master of Research in Systems and Computing Engineering (Big Data specialization), both from the University of Cádiz, where I received the Extraordinary Master's Degree Award for Best Academic Record. I am a member of the GOAL research group [TIC-259] at the University of Cádiz and member of the IEEE and ACM societies.</p>
 
   <h2 class='title'>Main research</h2>
 
-  <p>My research is primarily divided into four areas: Green Software, focused on optimizing the energy performance of software through compiler-based transformations and metaheuristic algorithms; Video Games and Artificial Intelligence, where I apply AI to enhance energy efficiency and runtime in commercial engines; Source Code Obfuscation, using evolutionary algorithms and LLVM-based transformations to protect software; and Optimization of Public Transport Routes, focused on energy-aware route planning and battery management for hybrid and electric vehicles.</p>
-
-  <p>My PhD research focuses on Green Software. It is built on three main pillars:</p>
-
+  <p>My research is primarily divided into three main lines:</p>
   <ol>
-    <li>Automatic optimization of software to generate higher performance and/or greener versions</li>
-    <li>Green software for the Internet of Things</li>
-    <li>Green video games</li>
+    <li><strong>Green software:</strong> developing compiler- and AI-based optimizations to reduce the energy consumption and carbon footprint of applications, achieving up to 62% faster runtimes, 58% energy savings, and significant improvements in gaming performance.</li>
+    <li><strong>Sustainable public transport:</strong> designing intelligent models for energy-aware route planning and battery management in hybrid and electric buses, with frameworks validated in large-scale networks such as Barcelona, reducing up to 295.8 kg of CO₂ per day.</li>
+    <li><strong>Software code obfuscation:</strong> applying evolutionary algorithms and LLVM-based transformations to strengthen software protection in IoT and cloud environments, achieving over 400× improvements in code security with minimal overhead.</li>
   </ol>
 
-  <p>Currently, I am developing the third pillar, concentrating my research on improving the energy consumption and performance of video games by applying AI-based optimization algorithms to engines like Doom, with empirical validation on devices such as Steam Deck.</p>
-  <p>I have published eigth articles in high-impact JCR-indexed journals (six Q1, two Q2), with three additional submissions currently under review at IEEE and Elsevier journals. In 2023, I was awarded the Cepsa Foundation Chair Award for the paper titled "Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor."</p>
-  <p>I have contributed to over ten international conferences—including CORE A/A*—and received several Best Paper Awards, such as at the 2024 Spanish Video Game Congress (for "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck") and the 2023 INGEGRAF International Conference (for "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses").</p>
+  <p>I have authored 9 peer-reviewed journal articles (7 Q1, 2 Q2) and over 16 international conference papers, including presentations at CORE A venues. My academic career includes research stays in Japan (Ritsumeikan University, Osaka Metropolitan University) and Canada (University of Alberta), resulting in multiple joint publications and invited talks. I have also received several distinctions, including the 2023 Cepsa Foundation Chair Award and multiple Best Paper Awards at international conferences.</p>
   <br/>
 </div>
 
@@ -43,8 +38,26 @@ const enPublicationsPageData = {
   type_one_title: "Journal Papers",
 
   type_one_items: [
+    {
+      title: `Does faster mean greener? Runtime and energy trade-offs in iOS applications with compiler optimizations. Elsevier. Sustainable Computing: Informatics and Systems. 47. 101166. <a href=https://doi.org/10.1016/j.suscom.2025.101166>10.1016/j.suscom.2025.101166</a>`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["<strong>Aragón-Jurado J. M.</strong>", "Bangash A. A.", "Dorronsoro B.", "Ali K.", "Hindle A.", "Ruiz P."],
+    },
+    {
+      title: `Sustainable driving operations of urban plugin hybrid buses considering restricted emission mapping zones. Elsevier. 157. 111179. <a href=https://doi.org/10.1016/j.engappai.2025.111179>10.1016/j.engappai.2025.111179 </a>`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Díaz-Jiménez M.", "<strong>Aragón-Jurado J. M.</strong>", "Dorronsoro B.", "Pavón-Domínguez P.", "Seredynski M.", "Ruiz P."],
+    },
         {
-      title: `Optimization of Urban Public Transport System Sustainability using Plugin Hybrid Buses for Tailored Emissions Mapping. Engineering Applications of Artificial Intelligence. Elsevier. 157. 111179. <a href=https://doi.org/10.1016/j.engappai.2025.111179>10.1016/j.engappai.2025.111179 </a>`,
+      title: `Sustainable driving operations of urban plugin hybrid buses considering restricted emission mapping zones. Elsevier. 157. 111179. <a href=https://doi.org/10.1016/j.engappai.2025.111179>10.1016/j.engappai.2025.111179 </a>`,
       abstract: "",
       date: "2025",
       link: "",
@@ -340,6 +353,15 @@ type_three_items: [
   type_five_title: "Awards and Grants",
   type_five_items: [
     {
+      title: "FPU Mobility Grant - Spanish Ministry of Science, Innovation and Universities.",
+      abstract: "Competitive national mobility grant awarded under the FPU program to support international research stays. Ranked first in Computer Science with the highest possible evaluation score.",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
+    {
       title: "Best Paper Award - III Congreso Español de Videojuegos. Sociedad Científica Informática de España.",
       abstract: "Awarded for the work 'Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck'.",
       date: "2024",
@@ -416,22 +438,33 @@ const enResearchPageData = {
 const enJobsPageData = {
   title: "Working experience",
   items: [
+        {
+      title: `Postdoctoral Researcher (FPU Fellow)`,
+      company: "University of Cádiz",
+      startData: "July 2025",
+      endData: "Present",
+      location: "Cádiz, Spain",
+      abstract: "",
+      achievements: 
+      []
+    },
     {
       title: `Predoctoral Researcher (FPU Fellow)`,
       company: "University of Cádiz",
       startData: "January 2023",
-      endData: "Present",
+      endData: "July 2025",
       location: "Cádiz, Spain",
-      abstract:
-        "Expected PhD completion: July 2025",
-      achievements: [
-        "PhD Thesis titled 'Software Optimization for Green Internet of Things'.",
-        "Design and implementation of multi-objective metaheuristics (Genetic Algorithms, Cooperative Co-evolution, NSGA-II) for reducing energy consumption and execution time.",
-        "Advanced experience with the LLVM compiler infrastructure applied to source code transformation and optimization in C, C++, Objective-C, and Swift.",
-        "Development of green-aware optimization pipelines for mobile apps and video games, validated through empirical studies on platforms such as iOS and Steam Deck.",
-        "Authored and co-authored 8 peer-reviewed journal articles (Q1/Q2) and over 10 international conference papers, including presentations at CORE A/A* conferences.",
-        "Participated in international research stays at the University of Alberta (Canada) and Ritsumeikan University (Japan), resulting in collaborative publications under review at IEEE and Elsevier journals."
-      ],
+      abstract: "",
+      achievements: 
+      [
+        "PhD Thesis titled 'Software Optimization for the Green Internet of Things'.",
+        "Proposed and solved 3 novel compiler optimization problems (SCOP, gSCOP, FROP) using evolutionary algorithms and LLVM, achieving up to 62% faster runtimes and 58% energy savings.",
+        "Designed adaptive software optimization frameworks for energy-efficient IoT, gaming, and embedded systems.",
+        "Developed ML-based models (MEPBO, SUTRA, ML-EPBO) for hybrid bus systems, reducing CO₂ emissions by up to 7.67% and reaching 99.2% prediction accuracy.",
+        "Introduced the TSOP obfuscation model and created the C3GA algorithm, improving code protection by up to 405× in low-power environments.",
+        "Published 9 journal papers (Q1/Q2) and over 16 international conference papers (incl. CORE A/A*); 4 more journal articles under review.",
+        "Conducted international research stays in Canada and Japan, leading to ongoing collaborations and joint publications."
+      ]
     },
     {
       title: `Graduate Research`,
@@ -478,7 +511,7 @@ const enOverseasPageData = {
       abstract: "Research stay under the supervision of Prof. Abram Hindle.",
       achievements: [
         "Carried out an empirical study on the effects of compiler optimizations on energy consumption in iOS applications.",
-        "The findings have been submitted to Sustainable Computing: Informatics and Systems (Elsevier) and are currently under review."
+        "The findings are published in Sustainable Computing: Informatics and Systems (Elsevier)."
       ]
     }
   ]
