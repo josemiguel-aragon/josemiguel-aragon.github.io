@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +12,9 @@
     <link href="./assets/css/bootstrap.css" type="text/css" rel="stylesheet" />
     <link href="./assets/css/aos.css" type="text/css" rel="stylesheet" />
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="./assets/css/modern-additions.css" type="text/css" rel="stylesheet" />
+    <link href="./assets/css/animations.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
 
     <!-- Fork this repository for free:  https://github.com/simamojtahedi -->
 
@@ -30,24 +32,42 @@
 
 
 
-    <div class="content-card container pt-4" data-aos="fade-in" id="content_wrapper">
-      <a id="intro-cv"></a><a href="../files/resume.pdf">CV</a><a>.</a>
-    <h6 id="publications_type_one_title" class="title"></h6>
-    <hr>
-        <ol reversed>
-        <div id="publications_type_one_data" class="publication_container">
+    <main class="container py-5">
+      <div class="content-card animate-fade-in" data-aos="fade-in" data-aos-duration="800" id="content_wrapper">
+        <div class="cv-notice">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <line x1="10" y1="9" x2="8" y2="9"></line>
+        </svg>
+        <span>
+          <span id="intro-cv"></span>
+          <a href="../files/resume.pdf">CV</a>.
+        </span>
+      </div>
+
+        <div class="publications-section animate-slide-in" data-aos="fade-up" data-aos-delay="200">
+          <h2 id="publications_type_one_title" class="title gradient-text"></h2>
+          <hr class="gradient-hr">
+          <ol reversed class="publication-list">
+            <div id="publications_type_one_data" class="publication_container">
+            </div>
+          </ol>
         </div>
-        </ol>
 
-      <h6 id="publications_type_two_title" class="title"></h6>
-      <hr>
-      <ol reversed>
-      <div id="publications_type_two_data" class="publication_container"></div>
-      </ol>
+        <div class="publications-section animate-slide-in" data-aos="fade-up" data-aos-delay="400">
+          <h2 id="publications_type_two_title" class="title gradient-text"></h2>
+          <hr class="gradient-hr">
+          <ol reversed class="publication-list">
+            <div id="publications_type_two_data" class="publication_container"></div>
+          </ol>
+        </div>
 
-
-      <h6 id="publications_type_three_title" class="title"></h6>
-      <hr>
+        <div class="publications-section animate-slide-in" data-aos="fade-up" data-aos-delay="600">
+          <h2 id="publications_type_three_title" class="title gradient-text"></h2>
+          <hr class="gradient-hr">
       <ol reversed>
       <div
         id="publications_type_three_data"

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +12,9 @@
     <link href="./assets/css/bootstrap.css" type="text/css" rel="stylesheet" />
     <link href="./assets/css/aos.css" type="text/css" rel="stylesheet" />
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="./assets/css/modern-additions.css" type="text/css" rel="stylesheet" />
+    <link href="./assets/css/animations.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
 
     <!-- Fork this repository for free:  https://github.com/simamojtahedi -->
 
@@ -27,20 +29,25 @@
   </head>
   <body>
     <div id="include_navbar"></div>
-    <div class="content-card container pt-4" data-aos="fade-in" id="content_wrapper">
-      <h6 id="contact_title" class="title"></h6>
+    <main class="container py-5">
+      <div class="content-card animate-fade-in" data-aos="fade-in" data-aos-duration="800" id="content_wrapper">
+        <h2 id="contact_title" class="title gradient-text mb-4"></h2>
 
-      <table width="100%" border="1" style="border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);">
-        <tr>
-            <td width="50%" style="padding: 10px; border: 1px solid #ccc;">
-                <ul id="contact_data">
-                </ul>
-            </td>
-            <td width="50%" align="right" style="padding: 10px; border: 1px solid #ccc;">
-                <img src="./files/contactPhoto.jpeg" alt="Descripción" style="max-width: 100%; height: auto; border-radius: 10px; border: 3px solid #bbb; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);">
-            </td>
-        </tr>
-    </table>
+        <div class="row g-4">
+          <div class="col-lg-6 animate-slide-in" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info">
+              <ul id="contact_data" class="contact-list">
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 animate-slide-in" data-aos="fade-up" data-aos-delay="400">
+            <div class="contact-image-container hover-scale">
+              <img src="./files/contactPhoto.jpeg" alt="Contact Photo" class="img-fluid rounded-xl shadow-lg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     
     </div>
   </body>

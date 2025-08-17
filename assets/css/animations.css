@@ -1,0 +1,83 @@
+/* Smooth animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+/* Hover effects */
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+/* Link animations */
+.animated-link {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+.animated-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: var(--accent-gradient);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.animated-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Skill badges */
+.skill-badge {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow);
+}
+
+/* Loading animations */
+.loading-shimmer {
+  background: linear-gradient(90deg, 
+    var(--bg-card) 0%, 
+    var(--bg-main) 50%, 
+    var(--bg-card) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
