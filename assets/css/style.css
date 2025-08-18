@@ -288,6 +288,73 @@ h1, h2, h3, h4, .title {
   opacity: 0.9;
 }
 
+/* Jobs Experience Styles */
+#jobs_data .job_header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#jobs_data .job_date {
+  justify-self: end;
+  white-space: nowrap;
+}
+
+#jobs_data .job_info {
+  flex: 1;
+}
+
+#jobs_data .job_info h1 {
+  color: var(--text-title);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+#jobs_data .job_info h2 {
+  color: var(--text-subtitle);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+#jobs_data .job_date {
+  color: var(--text-subtitle);
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: right;
+  font-size: 1rem;
+}
+
+#jobs_data .job_location {
+  display: block;
+  color: var(--text-subtitle);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  #jobs_data .job_header {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  #jobs_data .job_date {
+    justify-self: start;
+  }
+
+  #jobs_data .job_header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #jobs_data .job_date {
+    text-align: left;
+  }
+}
+
 /* Modern lists */
 ul, ol {
   margin: 1.3em 0 1.3em 1.6em;
@@ -1027,28 +1094,57 @@ h1, h2, h3, h4, .title {
   display: none;
 }
 
+#jobs_data .job_item {
+  display: flex;
+  flex-direction: column;
+}
+
 #jobs_data .job_header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
 }
 
-#jobs_data .job_header div {
-  display: flex;
-  align-items: flex-end;
+#jobs_data .job_info {
+  min-width: 0;
 }
 
-#jobs_data .job_header h1 {
+#jobs_data .job_title {
+  margin-bottom: 0.5rem;
+}
+
+#jobs_data .job_title h1 {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
+  color: var(--text-link);
+  display: inline;
 }
 
-#jobs_data .job_header h2 {
+#jobs_data .job_title h2 {
   font-size: 1.2rem;
-  font-style: italic;
+  font-weight: 500;
   margin: 0;
-  margin-left: 0.4rem;
+  color: var(--text-title);
+  display: inline;
+}
+
+#jobs_data .job_date {
+  font-size: 1rem;
+  color: var(--text-subtitle);
+  white-space: nowrap;
+  text-align: right;
+  font-weight: 500;
+  justify-self: end;
+  align-self: flex-start;
+}
+
+#jobs_data .job_location {
+  font-size: 0.95rem;
+  color: var(--text-subtitle);
+  margin-top: 0.25rem;
 }
 
 #jobs_data .job_header .job_location {
@@ -1114,6 +1210,22 @@ h1, h2, h3, h4, .title {
   img.profile-photo {
     width: 120px;
     height: 120px;
+  }
+  
+  #jobs_data .job_header {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  #jobs_data .job_date {
+    text-align: left;
+    justify-self: start;
+  }
+
+  #jobs_data .job_title h1,
+  #jobs_data .job_title h2 {
+    display: block;
+    margin-bottom: 0.25rem;
   }
 }
 

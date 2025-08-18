@@ -230,15 +230,15 @@ $(document).ready(function () {
         (job) =>
           `<div class='job_item'>
             <div class='job_header'>
-              <div>
-                <h1>${job.title}${lang === "en" ? "," : "،"}</h1>
-                <h2> ${job.company}</h2>
+              <div class='job_info'>
+                <div class='job_title'>
+                  <h1>${job.title}</h1>
+                  <h2>${job.company}</h2>
+                </div>
+                ${job.location ? `<div class='job_location'>${job.location}</div>` : ''}
               </div>
-              <div>
-                <span>${job.startData} - ${
-            job.endDate ? job.endDate : lang === "en" ? "Now" : " Ahora "
-          }</span>
-                <span class='job_location'>${job.location}</span>
+              <div class='job_date'>
+                ${job.startData} - ${job.endData}
               </div>
             </div>
             <p>${job.abstract}</p>
