@@ -26,7 +26,7 @@ const esHomePageData = {
     <li><strong>Ofuscación de código:</strong> aplicación de algoritmos evolutivos y transformaciones basadas en LLVM para reforzar la protección del software en entornos IoT y en la nube, obteniendo mejoras superiores a ×400 en seguridad del código con un impacto mínimo en el rendimiento.</li>
   </ol>
 
-  <p>He publicado 9 artículos en revistas indexadas (7 Q1, 2 Q2) y más de 16 ponencias en congresos internacionales, incluyendo presentaciones en conferencias CORE A. Mi carrera académica incluye estancias de investigación en Japón (Ritsumeikan University, Osaka Metropolitan University) y Canadá (University of Alberta), que han resultado en múltiples publicaciones conjuntas e invitaciones a conferencias. También he recibido varios reconocimientos, como el Premio Cátedra Fundación Cepsa 2023 y diversos Best Paper Awards en congresos internacionales.</p>
+  <p>He publicado 9 artículos en revistas indexadas (7 Q1, 2 Q2) y más de 20 ponencias en congresos, incluyendo presentaciones en conferencias CORE A. Mi carrera académica incluye estancias de investigación en Japón (Ritsumeikan University, Osaka Metropolitan University) y Canadá (University of Alberta), que han resultado en múltiples publicaciones conjuntas e invitaciones a conferencias. También he recibido varios reconocimientos, como el Premio Cátedra Fundación Cepsa 2023 y diversos Best Paper Awards en congresos internacionales.</p>
   <br/>
 </div>
 
