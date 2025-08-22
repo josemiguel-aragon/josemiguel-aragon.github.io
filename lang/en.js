@@ -26,7 +26,7 @@ const enHomePageData = {
     <li><strong>Software code obfuscation:</strong> applying evolutionary algorithms and LLVM-based transformations to strengthen software protection in IoT and cloud environments, achieving over 400× improvements in code security with minimal overhead.</li>
   </ol>
 
-  <p>I have authored 9 peer-reviewed journal articles (7 Q1, 2 Q2) and over 16 international conference papers, including presentations at CORE A venues. My academic career includes research stays in Japan (Ritsumeikan University, Osaka Metropolitan University) and Canada (University of Alberta), resulting in multiple joint publications and invited talks. I have also received several distinctions, including the 2023 Cepsa Foundation Chair Award and multiple Best Paper Awards at international conferences.</p>
+  <p>I have authored 9 peer-reviewed journal articles (7 Q1, 2 Q2) and more than 20 conference papers, including presentations at CORE A venues. My academic career includes research stays in Japan (Ritsumeikan University, Osaka Metropolitan University) and Canada (University of Alberta), resulting in multiple joint publications and invited talks. I have also received several distinctions, including the 2023 Cepsa Foundation Chair Award and multiple Best Paper Awards at international conferences.</p>
   <br/>
 </div>
 
