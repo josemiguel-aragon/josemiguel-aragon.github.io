@@ -26,7 +26,7 @@ const enHomePageData = {
     <li><strong>Software code obfuscation:</strong> applying evolutionary algorithms and LLVM-based transformations to strengthen software protection in IoT and cloud environments, achieving over 400× improvements in code security with minimal overhead.</li>
   </ol>
 
-  <p>I have authored 9 peer-reviewed journal articles (7 Q1, 2 Q2) and over 16 international conference papers, including presentations at CORE A venues. My academic career includes research stays in Japan (Ritsumeikan University, Osaka Metropolitan University) and Canada (University of Alberta), resulting in multiple joint publications and invited talks. I have also received several distinctions, including the 2023 Cepsa Foundation Chair Award and multiple Best Paper Awards at international conferences.</p>
+  <p>I have authored 9 peer-reviewed journal articles (7 Q1, 2 Q2) and more than 20 conference papers, including presentations at CORE A venues. My academic career includes research stays in Japan (Ritsumeikan University, Osaka Metropolitan University) and Canada (University of Alberta), resulting in multiple joint publications and invited talks. I have also received several distinctions, including the 2023 Cepsa Foundation Chair Award and multiple Best Paper Awards at international conferences.</p>
   <br/>
 </div>
 
@@ -145,15 +145,15 @@ type_three_items: [
     download: "",
     writers: ["de la Torre J. C.", "<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "Dorronsoro B.", "Ruiz P."],
   },
-  {
-    title: `Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case. 10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025). Orlando, USA.`,
-    abstract: "",
-    date: "2025",
-    link: "",
-    github: "",
-    download: "",
-    writers: ["Kalaica M.", "<strong>Aragón-Jurado J. M.</strong>", "Jakus I.", "Dorronsoro B.", "Ruiz P."],
-  },
+    {
+      title: `Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case. 10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025). Orlando, USA. <a href=https://doi.org/10.1007/978-3-031-98235-4_12>10.1007/978-3-031-98235-4_12</a>`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Kalaica M.", "<strong>Aragón-Jurado J. M.</strong>", "Jakus I.", "Dorronsoro B.", "Ruiz P."],
+    },
   {
     title: `Automatic Generation of Greener Software Program Versions with Genetic Algorithms. International Conference in Optimization and Learning (OLA 2025). Dubái, Emiratos Árabes Unidos.`,
     abstract: "",
@@ -343,6 +343,15 @@ type_three_items: [
 
   type_five_title: "Awards and Grants",
   type_five_items: [
+    {
+      title: "Doctoral Defense Incentive – Modality B (€1000), University of Cadiz",
+      abstract: "Grant awarded to support the final stage and defense of the PhD thesis.",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
     {
       title: "FPU Mobility Grant - Spanish Ministry of Science, Innovation and Universities.",
       abstract: "Competitive national mobility grant awarded under the FPU program to support international research stays. Ranked first in Computer Science with the highest possible evaluation score.",

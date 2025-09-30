@@ -146,7 +146,7 @@ const esPublicationsPageData = {
       writers: ["de la Torre J. C.", "<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "Dorronsoro B.", "Ruiz P."],
     },
     {
-      title: `Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case. 10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025). Orlando, USA.`,
+      title: `Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case. 10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025). Orlando, USA. <a href=https://doi.org/10.1007/978-3-031-98235-4_12>10.1007/978-3-031-98235-4_12</a>`,
       abstract: "",
       date: "2025",
       link: "",
@@ -342,6 +342,15 @@ const esPublicationsPageData = {
 
   type_five_title: "Premios y Becas",
   type_five_items: [
+    {
+      "title": "Estímulo a la Defensa de la Tesis Doctoral – Modalidad B (€1000), Universidad de Cádiz",
+      "abstract": "Ayuda otorgada para apoyar la etapa final y la defensa de la tesis doctoral.",
+      "date": "2025",
+      "link": "",
+      "github": "",
+      "download": "",
+      "writers": [""]
+    },
     {
       title: "Ayuda de Movilidad FPU - Ministerio de Ciencia, Innovación y Universidades.",
       abstract: "Ayuda nacional competitiva de movilidad concedida en el marco del programa FPU para apoyar estancias internacionales de investigación. Clasificado en primera posición en Informática con la máxima puntuación posible.",

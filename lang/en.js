@@ -145,15 +145,15 @@ type_three_items: [
     download: "",
     writers: ["de la Torre J. C.", "<strong>Aragón-Jurado J. M.</strong>", "Jareño J.", "Dorronsoro B.", "Ruiz P."],
   },
-  {
-    title: `Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case. 10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025). Orlando, USA.`,
-    abstract: "",
-    date: "2025",
-    link: "",
-    github: "",
-    download: "",
-    writers: ["Kalaica M.", "<strong>Aragón-Jurado J. M.</strong>", "Jakus I.", "Dorronsoro B.", "Ruiz P."],
-  },
+    {
+      title: `Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case. 10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025). Orlando, USA. <a href=https://doi.org/10.1007/978-3-031-98235-4_12>10.1007/978-3-031-98235-4_12</a>`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Kalaica M.", "<strong>Aragón-Jurado J. M.</strong>", "Jakus I.", "Dorronsoro B.", "Ruiz P."],
+    },
   {
     title: `Automatic Generation of Greener Software Program Versions with Genetic Algorithms. International Conference in Optimization and Learning (OLA 2025). Dubái, Emiratos Árabes Unidos.`,
     abstract: "",
@@ -343,6 +343,15 @@ type_three_items: [
 
   type_five_title: "Awards and Grants",
   type_five_items: [
+    {
+      title: "Doctoral Defense Incentive – Modality B (€1000), University of Cadiz",
+      abstract: "Grant awarded to support the final stage and defense of the PhD thesis.",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: [""],
+    },
     {
       title: "FPU Mobility Grant - Spanish Ministry of Science, Innovation and Universities.",
       abstract: "Competitive national mobility grant awarded under the FPU program to support international research stays. Ranked first in Computer Science with the highest possible evaluation score.",
