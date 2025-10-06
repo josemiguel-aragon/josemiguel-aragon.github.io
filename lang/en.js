@@ -446,7 +446,11 @@ const enJobsPageData = {
       location: "Cádiz, Spain",
       abstract: "",
       achievements: 
-      []
+      [
+        "Conducting postdoctoral research on modern compiler optimizations and their impact on runtime and energy consumption.",
+        "Designed several experimental frameworks to evaluate compiler configurations on web browsers, CUDA applications on embedded GPUs, and Unity-based video games.",
+        "Analyzed optimization managers in LLVM/Clang and GCC and their effect on performance and energy efficiency."
+      ]
     },
     {
       title: `Predoctoral Researcher (FPU Fellow)`,
