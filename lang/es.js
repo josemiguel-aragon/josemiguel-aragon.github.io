@@ -444,7 +444,11 @@ const esJobsPageData = {
       endData: "Actualidad",
       location: "Cádiz, España",
       abstract: "",
-      achievements: []
+      achievements: [
+        "Realicé investigación postdoctoral sobre optimizaciones de compiladores modernos y su impacto en métricas clave de rendimiento del software, como el tiempo de ejecución y el consumo energético.",
+        "Diseñé varios entornos experimentales para evaluar configuraciones de compiladores en navegadores web, aplicaciones CUDA en GPU integradas y videojuegos desarrollados con Unity.",
+        "Analicé los gestores de optimización en LLVM Clang y GCC y su efecto en el rendimiento y la eficiencia energética."
+      ]
     },
     {
       title: `Investigador Predoctoral (Plan Estatal FPU)`,
