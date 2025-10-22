@@ -15,18 +15,20 @@ const esHomePageData = {
   home_title: "Sobre mi",
   home_content: `
 <div>
-  <p>Investigador Postdoctoral Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de las sociedades de IEEE y ACM.</p>
+  <p>Investigador Postdoctoral del Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de las sociedades IEEE y ACM.</p>
 
   <h2 class='title'>Líneas de investigación</h2>
 
-  <p>Mi investigación se centra principalmente en tres líneas:</p>
+  <p>Mi investigación se orienta hacia la sostenibilidad y la eficiencia del software, combinando optimización de compiladores, inteligencia artificial, aprendizaje automático y computación evolutiva para reducir el consumo energético y mejorar el rendimiento. Se estructura en las siguientes líneas principales:</p>
   <ol>
-    <li><strong>Green software:</strong> desarrollo de optimizaciones basadas en compiladores e inteligencia artificial para reducir el consumo energético y la huella de carbono del software, logrando hasta un 62% de mejora en tiempo de ejecución, un 58% de ahorro energético y aumentos significativos de rendimiento en videojuegos.</li>
-    <li><strong>Transporte público sostenible:</strong> diseño de modelos inteligentes para la planificación de rutas energéticamente eficientes y la gestión de baterías en autobuses híbridos y eléctricos, con validaciones en grandes redes de transporte como la de Barcelona, alcanzando reducciones de hasta 295,8 kg de CO₂ diarios.</li>
-    <li><strong>Ofuscación de código:</strong> aplicación de algoritmos evolutivos y transformaciones basadas en LLVM para reforzar la protección del software en entornos IoT y en la nube, obteniendo mejoras superiores a ×400 en seguridad del código con un impacto mínimo en el rendimiento.</li>
+    <li><strong>Computación verde y sostenible:</strong> optimización del software para minimizar el consumo energético y el impacto ambiental en diferentes plataformas y aplicaciones.</li>
+    <li><strong>Optimización de compiladores y computación evolutiva:</strong> uso de técnicas basadas en inteligencia artificial y metaheurísticas para la compilación multiobjetivo, la autoajuste del software y la mejora del rendimiento.</li>
+    <li><strong>Ofuscación y seguridad del software:</strong> protección robusta del código fuente mediante algoritmos evolutivos y técnicas de optimización que consideran el tiempo de ejecución.</li>
+    <li><strong>Sistemas de transporte público sostenible y movilidad inteligente:</strong> aplicación de modelos de aprendizaje automático y optimización para la gestión energética y la movilidad urbana sostenible.</li>
+    <li><strong>Videojuegos verdes y computación en el entretenimiento:</strong> optimización del consumo energético en motores de videojuegos y sistemas interactivos.</li>
   </ol>
 
-  <p>He publicado 9 artículos en revistas indexadas (7 Q1, 2 Q2) y más de 20 ponencias en congresos, incluyendo presentaciones en conferencias CORE A. Mi carrera académica incluye estancias de investigación en Japón (Ritsumeikan University, Osaka Metropolitan University) y Canadá (University of Alberta), que han resultado en múltiples publicaciones conjuntas e invitaciones a conferencias. También he recibido varios reconocimientos, como el Premio Cátedra Fundación Cepsa 2023 y diversos Best Paper Awards en congresos internacionales.</p>
+  <p>He publicado 9 artículos en revistas científicas revisadas por pares (7 Q1, 2 Q2) y más de 20 ponencias en congresos, incluyendo conferencias CORE A y A*. Mi carrera académica incluye estancias de investigación en Japón (Ritsumeikan University, Osaka Metropolitan University) y Canadá (University of Alberta), que han dado lugar a múltiples publicaciones conjuntas e invitaciones a conferencias. También he recibido varios reconocimientos, como el Premio Cátedra Fundación Cepsa 2023 y varios Best Paper Awards en congresos nacionales e internacionales.</p>
   <br/>
 </div>
 
