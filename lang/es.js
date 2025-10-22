@@ -137,6 +137,15 @@ const esPublicationsPageData = {
   type_three_title: "Publicaciones en Congresos Internacionales",
   type_three_items: [
     {
+      title: `Green by Design: Energy-Guided Reranking of LLM-Generated Programs. 1st Open Conference of AI Agents for Science (Agent4Science 2025). Virtual Conference.`,
+      abstract: "",
+      date: "2025",
+      link: "",
+      github: "",
+      download: "",
+      writers: ["Xia Y.", "<strong>Aragón-Jurado J. M.</strong>", "Thawonmas R."],
+    },
+    {
       title: `A Two-step Approach to Find Short Compilation Transformation Sequences for Optimal Software Runtime Performance. Genetic and Evolutionary Computation Conference Companion (GECCO 2025). ACM. Málaga, España.`,
       abstract: "",
       date: "2025",
