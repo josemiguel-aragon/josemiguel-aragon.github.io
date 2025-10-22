@@ -15,18 +15,20 @@ const enHomePageData = {
   home_title: "About me",
   home_content: `
 <div>
-  <p>PhD in Computer Science and Postdoctoral Researcher (FPU Fellow) at the University of Cádiz, Spain. I hold a Bachelor of Science in Computer Engineering and a Master of Research in Systems and Computing Engineering (Big Data specialization), both from the University of Cádiz, where I received the Extraordinary Master's Degree Award for Best Academic Record. I am a member of the GOAL research group [TIC-259] at the University of Cádiz and member of the IEEE and ACM societies.</p>
+  <p>Investigador Postdoctoral del Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de las sociedades IEEE y ACM.</p>
 
-  <h2 class='title'>Main research</h2>
+  <h2 class='title'>Líneas de investigación</h2>
 
-  <p>My research is primarily divided into three main lines:</p>
+  <p>Mi investigación se orienta hacia la sostenibilidad y la eficiencia del software, combinando optimización de compiladores, inteligencia artificial, aprendizaje automático y computación evolutiva para reducir el consumo energético y mejorar el rendimiento. Se estructura en las siguientes líneas principales:</p>
   <ol>
-    <li><strong>Green software:</strong> developing compiler- and AI-based optimizations to reduce the energy consumption and carbon footprint of applications, achieving up to 62% faster runtimes, 58% energy savings, and significant improvements in gaming performance.</li>
-    <li><strong>Sustainable public transport:</strong> designing intelligent models for energy-aware route planning and battery management in hybrid and electric buses, with frameworks validated in large-scale networks such as Barcelona, reducing up to 295.8 kg of CO₂ per day.</li>
-    <li><strong>Software code obfuscation:</strong> applying evolutionary algorithms and LLVM-based transformations to strengthen software protection in IoT and cloud environments, achieving over 400× improvements in code security with minimal overhead.</li>
+    <li><strong>Computación verde y sostenible:</strong> optimización del software para minimizar el consumo energético y el impacto ambiental en diferentes plataformas y aplicaciones.</li>
+    <li><strong>Optimización de compiladores y computación evolutiva:</strong> uso de técnicas basadas en inteligencia artificial y metaheurísticas para la compilación multiobjetivo, la autoajuste del software y la mejora del rendimiento.</li>
+    <li><strong>Ofuscación y seguridad del software:</strong> protección robusta del código fuente mediante algoritmos evolutivos y técnicas de optimización que consideran el tiempo de ejecución.</li>
+    <li><strong>Sistemas de transporte público sostenible y movilidad inteligente:</strong> aplicación de modelos de aprendizaje automático y optimización para la gestión energética y la movilidad urbana sostenible.</li>
+    <li><strong>Videojuegos verdes y computación en el entretenimiento:</strong> optimización del consumo energético en motores de videojuegos y sistemas interactivos.</li>
   </ol>
 
-  <p>I have authored 9 peer-reviewed journal articles (7 Q1, 2 Q2) and more than 20 conference papers, including presentations at CORE A venues. My academic career includes research stays in Japan (Ritsumeikan University, Osaka Metropolitan University) and Canada (University of Alberta), resulting in multiple joint publications and invited talks. I have also received several distinctions, including the 2023 Cepsa Foundation Chair Award and multiple Best Paper Awards at international conferences.</p>
+  <p>He publicado 9 artículos en revistas científicas revisadas por pares (7 Q1, 2 Q2) y más de 20 ponencias en congresos, incluyendo conferencias CORE A y A*. Mi carrera académica incluye estancias de investigación en Japón (Ritsumeikan University, Osaka Metropolitan University) y Canadá (University of Alberta), que han dado lugar a múltiples publicaciones conjuntas e invitaciones a conferencias. También he recibido varios reconocimientos, como el Premio Cátedra Fundación Cepsa 2023 y varios Best Paper Awards en congresos nacionales e internacionales.</p>
   <br/>
 </div>
 
@@ -136,6 +138,15 @@ const enPublicationsPageData = {
 
   type_three_title: "Conference Papers",
 type_three_items: [
+  {
+    title: `Green by Design: Energy-Guided Reranking of LLM-Generated Programs. 1st Open Conference of AI Agents for Science (Agent4Science 2025). Virtual Conference.`,
+    abstract: "",
+    date: "2025",
+    link: "",
+    github: "",
+    download: "",
+    writers: ["Xia Y.", "<strong>Aragón-Jurado J. M.</strong>", "Thawonmas R."],
+  },
   {
     title: `A Two-step Approach to Find Short Compilation Transformation Sequences for Optimal Software Runtime Performance. Genetic and Evolutionary Computation Conference Companion (GECCO 2025). ACM. Málaga, España.`,
     abstract: "",
