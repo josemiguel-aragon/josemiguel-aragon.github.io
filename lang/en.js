@@ -15,22 +15,23 @@ const enHomePageData = {
   home_title: "About me",
   home_content: `
 <div>
-  <p>Investigador Postdoctoral del Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de las sociedades IEEE y ACM.</p>
+  <p>Postdoctoral Researcher under FPU National Spanish Fellowship. I hold a Bachelor’s Degree in Computer Engineering and a Master’s Degree in Research on Systems and Computing (specialization in Big Data), both from the University of Cádiz, where I received the Extraordinary Master’s Award for the Best Academic Record. I am a member of the GOAL research group [TIC-259] and of the IEEE and ACM societies.</p>
 
-  <h2 class='title'>Líneas de investigación</h2>
+  <h2 class='title'>Research lines</h2>
 
-  <p>Mi investigación se orienta hacia la sostenibilidad y la eficiencia del software, combinando optimización de compiladores, inteligencia artificial, aprendizaje automático y computación evolutiva para reducir el consumo energético y mejorar el rendimiento. Se estructura en las siguientes líneas principales:</p>
-  <ol>
-    <li><strong>Computación verde y sostenible:</strong> optimización del software para minimizar el consumo energético y el impacto ambiental en diferentes plataformas y aplicaciones.</li>
-    <li><strong>Optimización de compiladores y computación evolutiva:</strong> uso de técnicas basadas en inteligencia artificial y metaheurísticas para la compilación multiobjetivo, la autoajuste del software y la mejora del rendimiento.</li>
-    <li><strong>Ofuscación y seguridad del software:</strong> protección robusta del código fuente mediante algoritmos evolutivos y técnicas de optimización que consideran el tiempo de ejecución.</li>
-    <li><strong>Sistemas de transporte público sostenible y movilidad inteligente:</strong> aplicación de modelos de aprendizaje automático y optimización para la gestión energética y la movilidad urbana sostenible.</li>
-    <li><strong>Videojuegos verdes y computación en el entretenimiento:</strong> optimización del consumo energético en motores de videojuegos y sistemas interactivos.</li>
-  </ol>
+  <p>My research focuses on software sustainability and efficiency, integrating compiler optimization, artificial intelligence, machine learning, and evolutionary computation to reduce energy consumption and improve performance. His main research interests include:</p>
+  <ul>
+    <li><strong>Green and Sustainable Computing:</strong> Optimization of software to minimize energy consumption and environmental impact across platforms and applications.</li>
+    <li><strong>Compiler Optimization and Evolutionary Computation:</strong> AI-driven and metaheuristic approaches for multi-objective compilation, automatic software tuning, and performance optimization.</li>
+    <li><strong>Software Obfuscation and Security:</strong> Robust source code protection through evolutionary and optimization-based techniques considering software performance.</li>
+    <li><strong>Sustainable Public Transport Systems and Intelligent Mobility:</strong> Machine learning and optimization for energy-efficient transportation and smart urban mobility.</li>
+    <li><strong>Green Gaming and Entertainment Computing:</strong> Energy-aware optimization of video games and interactive software systems.</li>
+  </ul>
 
-  <p>He publicado 9 artículos en revistas científicas revisadas por pares (7 Q1, 2 Q2) y más de 20 ponencias en congresos, incluyendo conferencias CORE A y A*. Mi carrera académica incluye estancias de investigación en Japón (Ritsumeikan University, Osaka Metropolitan University) y Canadá (University of Alberta), que han dado lugar a múltiples publicaciones conjuntas e invitaciones a conferencias. También he recibido varios reconocimientos, como el Premio Cátedra Fundación Cepsa 2023 y varios Best Paper Awards en congresos nacionales e internacionales.</p>
+  <p>I have published 9 papers in peer-reviewed scientific journals (7 Q1, 2 Q2) and over 20 conference papers, including CORE A and A* conferences. My academic career includes research stays in Japan (Ritsumeikan University, Osaka Metropolitan University) and Canada (University of Alberta), which have resulted in multiple joint publications and conference invitations. I have also received several recognitions, such as the Fundación Cepsa Chair Award 2023 and multiple Best Paper Awards at national and international conferences.</p>
   <br/>
 </div>
+
 
   `,
 };
