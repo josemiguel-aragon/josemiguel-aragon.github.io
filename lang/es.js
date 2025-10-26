@@ -15,8 +15,7 @@ const esHomePageData = {
   home_title: "Sobre mi",
   home_content: `
 <div>
-  <p>Investigador Postdoctoral del Plan Estatal FPU del Ministerio de Universidades. Poseo un Grado en Ingeniería Informática y un Máster en Investigación en Sistemas y Computación (especialidad en Big Data), ambos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de las sociedades IEEE y ACM.</p>
-
+<p>Investigador Postdoctoral del Plan Estatal FPU del Ministerio de Universidades. Poseo un Doctorado en Ingeniería Informática, un Máster en Investigación en Sistemas y Computación (especialidad en Big Data) y un Grado en Ingeniería Informática, todos ellos por la Universidad de Cádiz, donde recibí el Premio Extraordinario de Máster al Mejor Expediente Académico. Soy miembro del grupo de investigación GOAL [TIC-259] y de las sociedades IEEE y ACM.</p>
   <h2 class='title'>Líneas de investigación</h2>
 
   <p>Mi investigación se orienta hacia la sostenibilidad y la eficiencia del software, combinando optimización de compiladores, inteligencia artificial, aprendizaje automático y computación evolutiva para reducir el consumo energético y mejorar el rendimiento. Se estructura en las siguientes líneas principales:</p>
