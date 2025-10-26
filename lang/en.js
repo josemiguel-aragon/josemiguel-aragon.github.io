@@ -15,9 +15,7 @@ const enHomePageData = {
   home_title: "About me",
   home_content: `
 <div>
-  <p>Postdoctoral Researcher under FPU National Spanish Fellowship. I hold a Bachelor’s Degree in Computer Engineering and a Master’s Degree in Research on Systems and Computing (specialization in Big Data), both from the University of Cádiz, where I received the Extraordinary Master’s Award for the Best Academic Record. I am a member of the GOAL research group [TIC-259] and of the IEEE and ACM societies.</p>
-
-  <h2 class='title'>Research lines</h2>
+<p>Postdoctoral Researcher under the FPU National Spanish Fellowship. I hold a PhD in Computer Engineering, a Master’s Degree in Research on Systems and Computing (specialization in Big Data), and a Bachelor’s Degree in Computer Engineering, all from the University of Cádiz, where I received the Extraordinary Master’s Award for the Best Academic Record. I am a member of the GOAL research group [TIC-259] and of the IEEE and ACM societies.</p>  <h2 class='title'>Research lines</h2>
 
   <p>My research focuses on software sustainability and efficiency, integrating compiler optimization, artificial intelligence, machine learning, and evolutionary computation to reduce energy consumption and improve performance. His main research interests include:</p>
   <ul>
