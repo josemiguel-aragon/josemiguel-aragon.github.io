@@ -1,71 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/images/icons/favicon.png"
-    />
-    <link href="./assets/css/bootstrap.css" type="text/css" rel="stylesheet" />
-    <link href="./assets/css/aos.css" type="text/css" rel="stylesheet" />
-    <link href="./assets/css/style.css" type="text/css" rel="stylesheet" />
-    <link href="./assets/css/modern-additions.css" type="text/css" rel="stylesheet" />
-    <link href="./assets/css/animations.css" type="text/css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+---
+layout: default
+---
 
-    <!-- Fork this repository for free:  https://github.com/simamojtahedi -->
+{% include hero.html %}
 
-    <script src="./assets/scripts/default.js"></script>
-    <script>
-      $(function () {
-        $("#include_navbar").load("./utils/navbar.html");
-      });
-    </script>
+<div class="my-5"></div>
 
-    <title id="page_title"></title>
-  </head>
-  <body>
-    <div id="include_navbar"></div>
-    <main class="container py-5">
-      <div class="content-card animate-fade-in" data-aos="fade-in" data-aos-duration="800" id="content_wrapper">
-        <div class="row main_header g-4">
-          <div class="col-lg-4 main_header_info">
-            <div class="profile-image-container hover-scale" data-aos="fade-up" data-aos-delay="200">
-              <img alt="user_name" id="home_image" class="rounded-xl shadow-lg" />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="300">
-              <h1 id="home_name" class="gradient-text"></h1>
-            </div>
-            <div class="info-section animate-slide-in" data-aos="fade-up" data-aos-delay="400">
-              <h2 id="home_job_title" class="mb-2"></h2>
-              <h2 id="home_research_group" class="mb-3">
-                <span class="badge bg-primary">GOAL Research Group</span>
-              </h2>
-              <h2 id="home_mail_title" class="animated-link d-flex align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="me-2">
-                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
-                </svg>
-                <span class="hover-scale">josemiguel.aragon@uca.es</span>
-              </h2>
-              <h2 class="text-muted small mt-4">Last updated: 18/11/2025</h2>
-            </div>
-            <div id="home_links" class="social-links" data-aos="fade-up" data-aos-delay="500"></div>
-          </div>
-          <div class="col-lg-8 main_header_content animate-slide-in" data-aos="fade-up" data-aos-delay="600">
-            <h2 id="home_title" class="title gradient-text"></h2>
-            <div id="home_content" class="content-section"></div>
-          </div>
-        </div>
-      </div>
-    </main>
-  </body>
+{% include publications.html %}
 
-  <script src="./assets/scripts/scripts.js"></script>
-  <script src="./data/global.js"></script>
-  <script src="./lang/es.js"></script>
-  <script src="./lang/en.js"></script>
-</html>
+<div class="my-5"></div>
+
+{% include experience.html %}
+
+<div class="my-5"></div>
+
+{% include awards.html %}
+
+<div class="my-5"></div>
+
+
+
+{% include contact.html %}

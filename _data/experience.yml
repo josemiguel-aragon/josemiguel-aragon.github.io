@@ -1,0 +1,57 @@
+jobs:
+  - title: "Postdoctoral Researcher (FPU Fellow)"
+    company: "University of Cádiz"
+    start_date: "July 2025"
+    end_date: "Present"
+    location: "Cádiz, Spain"
+    achievements:
+      - "Conducting postdoctoral research on modern compiler optimizations and their impact on runtime and energy consumption."
+      - "Designed several experimental frameworks to evaluate compiler configurations on web browsers, CUDA applications on embedded GPUs, and Unity-based video games."
+      - "Analyzed optimization managers in LLVM/Clang and GCC and their effect on performance and energy efficiency."
+
+  - title: "Predoctoral Researcher (FPU Fellow)"
+    company: "University of Cádiz"
+    start_date: "January 2023"
+    end_date: "July 2025"
+    location: "Cádiz, Spain"
+    achievements:
+      - "PhD Thesis titled 'Software Optimization for the Green Internet of Things'."
+      - "Proposed and solved 3 novel compiler optimization problems (SCOP, gSCOP, FROP) using evolutionary algorithms and LLVM, achieving up to 62% faster runtimes and 58% energy savings."
+      - "Designed adaptive software optimization frameworks for energy-efficient IoT, gaming, and embedded systems."
+      - "Developed ML-based models (MEPBO, SUTRA, ML-EPBO) for hybrid bus systems, reducing CO₂ emissions by up to 7.67% and reaching 99.2% prediction accuracy."
+      - "Introduced the TSOP obfuscation model and created the C3GA algorithm, improving code protection by up to 405× in low-power environments."
+      - "Published 9 journal papers (Q1/Q2) and over 16 international conference papers (incl. CORE A/A*); 4 more journal articles under review."
+      - "Conducted international research stays in Canada and Japan, leading to ongoing collaborations and joint publications."
+
+  - title: "Graduate Research"
+    company: "University of Cádiz"
+    start_date: "November 2021"
+    end_date: "September 2022"
+    achievements:
+      - "Visualization and processing of data related to energy consumption in plug-in hybrid buses."
+      - "Data processing, enrichment and imputation."
+      - "Data uncertainty treatment."
+      - "Development of predictive regression models."
+      - "Optimization of plug-in hybrid bus operation strategies."
+      - "Evaluation and validation of simulators, predictive tools, and optimized strategies developed throughout the project, assessing their accuracy and effectiveness to ensure they met project objectives."
+
+research_stays:
+  - title: "Research Visitor"
+    institution: "Ritsumeikan University"
+    start_date: "April 2025"
+    end_date: "June 2025"
+    location: "Ibaraki, Japan"
+    supervisor: "Prof. Ruck Thawonmas"
+    achievements:
+      - "Conducted an experimental study on the energy efficiency of video game engines, focusing on compiler-level optimizations for the classic Doom engine."
+      - "The resulting work is published in IEEE Consumer Electronics Magazine (IEEE)."
+
+  - title: "Research Visitor"
+    institution: "University of Alberta"
+    start_date: "May 2024"
+    end_date: "August 2024"
+    location: "Edmonton, Canada"
+    supervisor: "Prof. Abram Hindle"
+    achievements:
+      - "Carried out an empirical study on the effects of compiler optimizations on energy consumption in iOS applications."
+      - "The findings are published in Sustainable Computing: Informatics and Systems (Elsevier)."

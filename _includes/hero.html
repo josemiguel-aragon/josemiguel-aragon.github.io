@@ -1,0 +1,48 @@
+<section id="about" class="py-5">
+    <div class="content-card animate-fade-in" data-aos="fade-in" data-aos-duration="800">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-4 text-center text-lg-start">
+                <div class="profile-image-container hover-scale mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <img src="{{ site.data.profile.image | relative_url }}" alt="{{ site.data.profile.name }}"
+                        class="img-fluid rounded-xl shadow-lg" />
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <h1 class="gradient-text display-4 fw-bold mb-2">{{ site.data.profile.name }}</h1>
+                    <h2 class="h4 text-muted mb-3">{{ site.data.profile.job_title }}</h2>
+                    <div class="mb-4">
+                        <span class="badge bg-primary">{{ site.data.profile.research_group }}</span>
+                        <span class="d-block d-md-inline-block mt-2 mt-md-0 ms-md-2 text-muted">
+                            <i class="fas fa-university me-1"></i> {{ site.data.profile.university }}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="info-section animate-slide-in" data-aos="fade-up" data-aos-delay="400">
+                    <div class="mb-4">
+                        {{ site.data.profile.about | markdownify }}
+                    </div>
+
+                    <h3 class="h5 mb-3">Research Interests</h3>
+                    <ul class="list-unstyled">
+                        {% for item in site.data.profile.research_interests.items %}
+                        <li class="mb-2">
+                            <strong>{{ item.title }}:</strong> {{ item.description }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+
+                    <div class="mt-4 social-links">
+                        <a href="mailto:{{ site.data.profile.email }}" class="btn btn-outline-primary me-2">
+                            <i class="fas fa-envelope me-2"></i> Email
+                        </a>
+                        <a href="{{ site.data.profile.resume | relative_url }}" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-file-pdf me-2"></i> Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

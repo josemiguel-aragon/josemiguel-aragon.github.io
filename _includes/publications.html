@@ -1,0 +1,62 @@
+<section id="publications" class="py-5">
+    <h2 class="title gradient-text mb-5" data-aos="fade-up">Publications</h2>
+
+    <div class="mb-5" data-aos="fade-up">
+        <h3 class="h4 mb-4"><i class="fas fa-book-open me-2 text-primary"></i> Journal Papers</h3>
+        <div class="publication-list">
+            {% for paper in site.data.publications.journal_papers %}
+            <div class="card mb-3 border-0 shadow-sm hover-shadow transition-all">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">{{ paper.title }}</h5>
+                    <p class="card-text text-muted mb-2">
+                        {% for author in paper.authors %}
+                        {% if author contains "**" %}
+                        <strong>{{ author | remove: "**" }}</strong>
+                        {% else %}
+                        {{ author }}
+                        {% endif %}
+                        {% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+                    </p>
+                    <p class="card-text small">
+                        <span class="badge bg-light text-dark border me-2">{{ paper.venue }}</span>
+                        <span class="text-muted">{{ paper.year }}</span>
+                        {% if paper.doi_url %}
+                        <a href="{{ paper.doi_url }}" target="_blank" class="ms-3 text-decoration-none">
+                            <i class="fas fa-external-link-alt small"></i> DOI
+                        </a>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="mb-5" data-aos="fade-up">
+        <h3 class="h4 mb-4"><i class="fas fa-users me-2 text-primary"></i> Conference Papers</h3>
+        <div class="publication-list">
+            {% for paper in site.data.publications.conference_papers %}
+            <div class="card mb-3 border-0 shadow-sm hover-shadow transition-all">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">{{ paper.title }}</h5>
+                    <p class="card-text text-muted mb-2">
+                        {% for author in paper.authors %}
+                        {% if author contains "**" %}
+                        <strong>{{ author | remove: "**" }}</strong>
+                        {% else %}
+                        {{ author }}
+                        {% endif %}
+                        {% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+                    </p>
+                    <p class="card-text small">
+                        <span class="badge bg-light text-dark border me-2">{{ paper.venue }}</span>
+                        <span class="text-muted">{{ paper.location }} | {{ paper.year }}</span>
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

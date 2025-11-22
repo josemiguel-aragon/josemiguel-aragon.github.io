@@ -1,0 +1,24 @@
+<section id="awards" class="py-5">
+    <h2 class="title gradient-text mb-5" data-aos="fade-up">Awards & Grants</h2>
+
+    <div class="row g-4">
+        {% for award in site.data.awards.awards %}
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
+            <div class="card h-100 border-0 shadow-sm hover-translate">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="icon-box-premium me-3">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div>
+                            <h5 class="card-title fw-bold mb-1">{{ award.title }}</h5>
+                            <p class="text-muted small mb-0">{{ award.year }} | {{ award.issuer }}</p>
+                        </div>
+                    </div>
+                    <p class="card-text text-muted small">{{ award.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

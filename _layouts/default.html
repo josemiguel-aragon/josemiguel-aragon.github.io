@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    
+    <main class="container py-5">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+    
+    <script src="{{ '/assets/scripts/scripts.js' | relative_url }}"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

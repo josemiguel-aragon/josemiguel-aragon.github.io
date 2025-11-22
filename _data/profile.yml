@@ -1,0 +1,35 @@
+name: "José Miguel Aragón-Jurado"
+job_title: "Postdoctoral Researcher (FPU Fellow)"
+research_group: "GOAL Research Group"
+university: "University of Cádiz"
+email: "josemiguel.aragon@uca.es"
+last_updated: "2025-11-18"
+image: "assets/images/profile.jpg" # Assuming we will move/rename the image
+resume: "files/resume.pdf"
+
+address:
+  en: "D15 Lab, School of Engineering, University of Cádiz."
+  es: "Laboratorio D15, Escuela Superior de Ingeniería, Universidad de Cádiz."
+
+social:
+  google_scholar: "https://scholar.google.com/citations?user=KUw92DMAAAAJ"
+  linkedin: "https://www.linkedin.com/in/ajoarju/"
+  orcid: "https://orcid.org/0000-0002-9835-8793"
+  github: "https://github.com/josemiguel-aragon" # Added based on URL
+
+about: |
+  Postdoctoral Researcher under the FPU National Spanish Fellowship. I hold a PhD in Computer Engineering, a Master’s Degree in Research on Systems and Computing (specialization in Big Data), and a Bachelor’s Degree in Computer Engineering, all from the University of Cádiz, where I received the Extraordinary Master’s Award for the Best Academic Record. I am a member of the GOAL research group [TIC-259] and of the IEEE and ACM societies.
+
+research_interests:
+  intro: "My research focuses on software sustainability and efficiency, integrating compiler optimization, artificial intelligence, machine learning, and evolutionary computation to reduce energy consumption and improve performance. His main research interests include:"
+  items:
+    - title: "Green and Sustainable Computing"
+      description: "Optimization of software to minimize energy consumption and environmental impact across platforms and applications."
+    - title: "Compiler Optimization and Evolutionary Computation"
+      description: "AI-driven and metaheuristic approaches for multi-objective compilation, automatic software tuning, and performance optimization."
+    - title: "Software Obfuscation and Security"
+      description: "Robust source code protection through evolutionary and optimization-based techniques considering software performance."
+    - title: "Sustainable Public Transport Systems and Intelligent Mobility"
+      description: "Machine learning and optimization for energy-efficient transportation and smart urban mobility."
+    - title: "Green Gaming and Entertainment Computing"
+      description: "Energy-aware optimization of video games and interactive software systems."

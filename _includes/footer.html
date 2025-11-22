@@ -1,0 +1,29 @@
+<footer class="py-4 text-center text-muted">
+    <div class="container">
+        <p class="mb-0">
+            &copy; {{ 'now' | date: "%Y" }} {{ site.data.profile.name }}. Built with Jekyll.
+        </p>
+        <div class="social-links justify-content-center mt-3">
+            {% if site.data.profile.social.google_scholar %}
+            <a href="{{ site.data.profile.social.google_scholar }}" target="_blank" aria-label="Google Scholar">
+                <i class="fas fa-graduation-cap"></i>
+            </a>
+            {% endif %}
+            {% if site.data.profile.social.linkedin %}
+            <a href="{{ site.data.profile.social.linkedin }}" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            {% endif %}
+            {% if site.data.profile.social.github %}
+            <a href="{{ site.data.profile.social.github }}" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            {% endif %}
+            {% if site.data.profile.social.orcid %}
+            <a href="{{ site.data.profile.social.orcid }}" target="_blank" aria-label="ORCID">
+                <i class="fab fa-orcid"></i>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</footer>
