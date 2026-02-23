@@ -36,7 +36,17 @@ jobs:
       - "Evaluation and validation of simulators, predictive tools, and optimized strategies developed throughout the project, assessing their accuracy and effectiveness to ensure they met project objectives."
 
 research_stays:
-  - title: "Research Visitor"
+  - title: "Visiting Researcher"
+    institution: "University of Antwerp"
+    start_date: "February 2026"
+    end_date: "March 2026"
+    location: "Antwerp, Belgium"
+    supervisor: "Dr. Renzo Massobrio"
+    achievements:
+      - "Develop a model to dynamically determine electric drive assignments for plug-in hybrid electric buses."
+      - "Preparation of a journal manuscript for submission to IEEE Transactions on Intelligent Transportation Systems."
+
+  - title: "Visiting Ph.D. student"
     institution: "Ritsumeikan University"
     start_date: "April 2025"
     end_date: "June 2025"
@@ -44,9 +54,9 @@ research_stays:
     supervisor: "Prof. Ruck Thawonmas"
     achievements:
       - "Conducted an experimental study on the energy efficiency of video game engines, focusing on compiler-level optimizations for the classic Doom engine."
-      - "The resulting work is published in IEEE Consumer Electronics Magazine (IEEE)."
+      - "The resulting work is published in IEEE Consumer Electronics Magazine."
 
-  - title: "Research Visitor"
+  - title: "Visiting Ph.D. student"
     institution: "University of Alberta"
     start_date: "May 2024"
     end_date: "August 2024"
