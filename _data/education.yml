@@ -1,0 +1,29 @@
+degrees:
+  - institution: "University of Cadiz"
+    degree: "Ph.D. in Computer Engineering"
+    period: "November 2022 - July 2025"
+    location: "Cadiz, Spain"
+    distinctions:
+      - "Graduated Summa Cum Laude (highest distinction)."
+
+  - institution: "University of Cadiz"
+    degree: "Master of Research in Systems and Computer Engineering"
+    specialization: "Specialization in Big Data"
+    period: "October 2021 - September 2022"
+    location: "Cadiz, Spain"
+    distinctions:
+      - "GPA: 9.26/10."
+      - "Master's thesis awarded 10/10 with distinction."
+      - "Awarded the Extraordinary Master's Degree Award."
+      - "Received five distinctions for academic excellence."
+
+  - institution: "University of Cadiz"
+    degree: "Bachelor of Engineering in Computer Engineering"
+    specialization: "Specialization in Computer Science"
+    period: "September 2017 - July 2021"
+    location: "Cadiz, Spain"
+    distinctions:
+      - "GPA: 8.73/10."
+      - "Bachelor's thesis graded 10/10 with distinction."
+      - "Received eight academic honors."
+      - "Student Research Assistant from November 2018 to September 2020."

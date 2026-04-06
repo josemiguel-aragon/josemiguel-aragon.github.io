@@ -1,35 +1,65 @@
 name: "José Miguel Aragón-Jurado"
-job_title: "Postdoctoral Researcher (FPU Fellow)"
-research_group: "GOAL Research Group"
-university: "University of Cádiz"
-email: "josemiguel.aragon@uca.es"
-last_updated: "2025-11-18"
-image: "assets/images/profile.jpg" # Assuming we will move/rename the image
+job_title: "Ph.D. in Computer Engineering | Assistant Professor"
+research_group: "Graduate School of Information, Production and Systems (IPS)"
+university: "Waseda University, Japan"
+location: "Kitakyushu, Japan"
+email: "josemi.aragon@aoni.waseda.jp"
+orcid_id: "0000-0002-9835-8793"
+orcid_url: "https://orcid.org/0000-0002-9835-8793"
+last_updated: "2026-04-06"
+image: "assets/images/profile.jpg"
 resume: "files/resume.pdf"
 
 address:
-  en: "D15 Lab, School of Engineering, University of Cádiz."
-  es: "Laboratorio D15, Escuela Superior de Ingeniería, Universidad de Cádiz."
+  en: "Graduate School of Information, Production and Systems (IPS), Waseda University, Kitakyushu, Japan"
 
 social:
   google_scholar: "https://scholar.google.com/citations?user=KUw92DMAAAAJ"
   linkedin: "https://www.linkedin.com/in/ajoarju/"
   orcid: "https://orcid.org/0000-0002-9835-8793"
-  github: "https://github.com/josemiguel-aragon" # Added based on URL
+  github: "https://github.com/josemiguel-aragon"
 
-about: |
-  Postdoctoral Researcher under the FPU National Spanish Fellowship. I hold a PhD in Computer Engineering, a Master’s Degree in Research on Systems and Computing (specialization in Big Data), and a Bachelor’s Degree in Computer Engineering, all from the University of Cádiz, where I received the Extraordinary Master’s Award for the Best Academic Record. I am a member of the GOAL research group [TIC-259] and of the IEEE and ACM societies.
+quick_facts:
+  - label: "Date of Birth"
+    value: "January 21, 1999 (Age: 27)"
+  - label: "Languages"
+    value: "Spanish (Native), English (C1+), Japanese (Basic)"
+  - label: "Accreditation"
+    value: "ANECA Associate Professor (2025)"
+  - label: "Research Output"
+    value: "12 journal papers and 20+ international conference papers"
+
+highlights:
+  - value: "12"
+    label: "Journal papers"
+  - value: "9"
+    label: "Q1 journals"
+  - value: "20+"
+    label: "Conference papers"
+  - value: "3"
+    label: "Research stays"
+
+about: >-
+  Ph.D. in Computer Engineering and Assistant Professor at Waseda University
+  (Japan), previously a postdoctoral researcher at the University of Cádiz
+  (Spain). Accredited as Associate Professor by ANECA in 2025.
+
+  My research focuses on sustainable computing, combining compiler
+  optimization, artificial intelligence, and evolutionary computation to
+  reduce the environmental impact of software systems, with applications in
+  green software, intelligent transportation, and software security through
+  code obfuscation. Author of 12 journal papers (9 Q1, 3 Q2) and 20+
+  international conference papers, including CORE A/A/B venues. Research
+  stays in Japan, Canada, and Belgium have led to ongoing international
+  collaborations in sustainable AI and evolutionary computation.
 
 research_interests:
-  intro: "My research focuses on software sustainability and efficiency, integrating compiler optimization, artificial intelligence, machine learning, and evolutionary computation to reduce energy consumption and improve performance. His main research interests include:"
   items:
     - title: "Green and Sustainable Computing"
-      description: "Optimization of software to minimize energy consumption and environmental impact across platforms and applications."
+      description: "Energy-aware software design, optimization, and environmental impact reduction across computing platforms."
     - title: "Compiler Optimization and Evolutionary Computation"
-      description: "AI-driven and metaheuristic approaches for multi-objective compilation, automatic software tuning, and performance optimization."
-    - title: "Software Obfuscation and Security"
-      description: "Robust source code protection through evolutionary and optimization-based techniques considering software performance."
-    - title: "Sustainable Public Transport Systems and Intelligent Mobility"
-      description: "Machine learning and optimization for energy-efficient transportation and smart urban mobility."
-    - title: "Green Gaming and Entertainment Computing"
-      description: "Energy-aware optimization of video games and interactive software systems."
+      description: "Automatic software tailoring, metaheuristics, and cooperative co-evolution for performance-energy trade-offs."
+    - title: "Software Security and Code Obfuscation"
+      description: "Optimization-driven source code protection and obfuscation methods for constrained and low-power environments."
+    - title: "Intelligent Transportation Systems and Sustainable Mobility"
+      description: "AI and predictive models for greener public transport operations, eco-driving, and emission-aware mobility planning."

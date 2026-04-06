@@ -1,5 +1,5 @@
 <section id="about" class="py-5">
-    <div class="content-card animate-fade-in" data-aos="fade-in" data-aos-duration="800">
+    <div class="content-card hero-shell animate-fade-in" data-aos="fade-in" data-aos-duration="800">
         <div class="row g-4 align-items-center">
             <div class="col-lg-4 text-center text-lg-start">
                 <div class="profile-image-container hover-scale mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
@@ -9,13 +9,14 @@
             </div>
             <div class="col-lg-8">
                 <div data-aos="fade-up" data-aos-delay="300">
+                    <p class="section-kicker mb-2">Academic CV</p>
                     <h1 class="gradient-text display-4 fw-bold mb-2">{{ site.data.profile.name }}</h1>
                     <h2 class="h4 text-muted mb-3">{{ site.data.profile.job_title }}</h2>
-                    <div class="mb-4">
+                    <div class="d-flex flex-wrap gap-2 mb-4">
                         <span class="badge bg-primary">{{ site.data.profile.research_group }}</span>
-                        <span class="d-block d-md-inline-block mt-2 mt-md-0 ms-md-2 text-muted">
-                            <i class="fas fa-university me-1"></i> {{ site.data.profile.university }}
-                        </span>
+                        <span class="badge bg-light text-dark border">{{ site.data.profile.university }}</span>
+                        <span class="badge bg-light text-dark border">{{ site.data.profile.location }}</span>
+                        <span class="badge bg-light text-dark border">ORCID {{ site.data.profile.orcid_id }}</span>
                     </div>
                 </div>
 
@@ -24,8 +25,26 @@
                         {{ site.data.profile.about | markdownify }}
                     </div>
 
+                    <div class="facts-grid mb-4">
+                        {% for fact in site.data.profile.quick_facts %}
+                        <div class="fact-card">
+                            <p class="fact-label mb-1">{{ fact.label }}</p>
+                            <p class="fact-value mb-0">{{ fact.value }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="highlights-grid mb-4">
+                        {% for item in site.data.profile.highlights %}
+                        <div class="stat-card">
+                            <strong>{{ item.value }}</strong>
+                            <span>{{ item.label }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+
                     <h3 class="h5 mb-3">Research Interests</h3>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled compact-list mb-4">
                         {% for item in site.data.profile.research_interests.items %}
                         <li class="mb-2">
                             <strong>{{ item.title }}:</strong> {{ item.description }}
@@ -33,12 +52,18 @@
                         {% endfor %}
                     </ul>
 
-                    <div class="mt-4 social-links">
+                    <div class="mt-4 social-links d-flex flex-wrap gap-2">
                         <a href="mailto:{{ site.data.profile.email }}" class="btn btn-outline-primary me-2">
                             <i class="fas fa-envelope me-2"></i> Email
                         </a>
                         <a href="{{ site.data.profile.resume | relative_url }}" class="btn btn-primary" target="_blank">
                             <i class="fas fa-file-pdf me-2"></i> Resume
+                        </a>
+                        <a href="{{ site.data.profile.social.google_scholar }}" class="btn btn-outline-primary" target="_blank">
+                            <i class="fas fa-graduation-cap me-2"></i> Scholar
+                        </a>
+                        <a href="{{ site.data.profile.orcid_url }}" class="btn btn-outline-primary" target="_blank">
+                            <i class="fab fa-orcid me-2"></i> ORCID
                         </a>
                     </div>
                 </div>

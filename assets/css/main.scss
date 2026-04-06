@@ -332,3 +332,132 @@ a:hover {
     color: white !important;
   }
 }
+
+.hero-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 35%);
+  pointer-events: none;
+}
+
+.section-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.facts-grid,
+.highlights-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.facts-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.highlights-grid {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.fact-card,
+.section-card,
+.publication-entry,
+.stat-card {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+
+.fact-card,
+.section-card,
+.publication-entry {
+  padding: 1rem 1.1rem;
+}
+
+.fact-label,
+.entry-code {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.fact-value {
+  font-size: 0.96rem;
+  color: var(--text-main);
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.1rem;
+  min-height: 100%;
+  text-align: center;
+}
+
+.stat-card strong {
+  font-size: 1.6rem;
+  line-height: 1.1;
+  color: var(--primary-color);
+}
+
+.stat-card span {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.stat-card--wide strong {
+  font-size: 1.8rem;
+}
+
+.compact-list li {
+  margin-bottom: 0.45rem;
+}
+
+.publication-entry {
+  margin-bottom: 1rem;
+}
+
+.publication-entry:last-child,
+.section-card:last-child {
+  margin-bottom: 0;
+}
+
+[data-theme="dark"] .fact-card,
+[data-theme="dark"] .section-card,
+[data-theme="dark"] .publication-entry,
+[data-theme="dark"] .stat-card {
+  background: rgba(15, 23, 42, 0.55);
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    background: var(--bg-card);
+  }
+}
+
+@media (max-width: 767px) {
+  .content-card {
+    padding: 1.5rem;
+  }
+
+  .stat-card strong {
+    font-size: 1.4rem;
+  }
+}

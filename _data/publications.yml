@@ -1,502 +1,279 @@
+metrics:
+  - value: "12"
+    label: "Journal papers"
+  - value: "9 / 3"
+    label: "Q1 / Q2 journals"
+  - value: "20+"
+    label: "International conferences"
+  - value: "6"
+    label: "Under review"
+
 journal_papers:
-  - title: "Energy–Performance Trade-Offs of LU Matrix Decomposition in Java Across Heterogeneous Hardware and Operating Systems"
-    venue: "Applied Sciences"
-    publisher: "MDPI"
-    volume: "16(2)"
-    article_id: "1002"
-    doi: "10.3390/app16021002"
+  - id: "J12"
+    text: >-
+      Jareno J.; Aragon-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B.
+      2026. Energy-Efficient Large Language Models. Future Generation Computer
+      Systems. 182. 108483. (IF 6.1, CiteScore 17.1, Q1)
+    doi_url: "https://doi.org/10.1016/j.future.2026.108483"
+  - id: "J11"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Nojima Y.; Ruiz P.; Dorronsoro B.
+      2026. Two-Level Automatic Software Optimization Using Cooperative
+      Co-Evolutionary Algorithms. Applied Soft Computing. 195. 115066.
+      (IF 6.6, CiteScore 14.5, Q1)
+    doi_url: "https://doi.org/10.1016/j.asoc.2026.115066"
+  - id: "J10"
+    text: >-
+      Rosa F. J.; de la Torre J. C.; Aragon-Jurado J. M.; Valderas-Gonzalez A.;
+      Dorronsoro B. 2026. Energy-Performance Trade-Offs of LU Matrix
+      Decomposition in Java Across Heterogeneous Hardware and Operating Systems.
+      Applied Sciences. 16(2). 1002. (IF 2.5, CiteScore 5.5, Q2)
     doi_url: "https://doi.org/10.3390/app16021002"
-    year: "2026"
-    authors:
-      [
-        "Rosa F. J.",
-        "de la Torre J. C.",
-        "**Aragón-Jurado J. M.**",
-        "Valderas-González A.",
-        "Dorronsoro B.",
-      ]
-  - title: "Does faster mean greener? Runtime and energy trade-offs in iOS applications with compiler optimizations"
-    venue: "Sustainable Computing: Informatics and Systems"
-    publisher: "Elsevier"
-    volume: "47"
-    article_id: "101166"
-    doi: "10.1016/j.suscom.2025.101166"
+  - id: "J9"
+    text: >-
+      Aragon-Jurado J. M.; Bangash A. A.; Dorronsoro B.; Ali K.; Hindle A.;
+      Ruiz P. 2025. Does Faster Mean Greener? Runtime and Energy Trade-offs in
+      iOS Applications with Compiler Optimizations. Sustainable Computing:
+      Informatics and Systems. 47. 101166. Outcome of research stay at the
+      University of Alberta. (IF 5.7, CiteScore 12.3, Q1)
     doi_url: "https://doi.org/10.1016/j.suscom.2025.101166"
-    year: "2025"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "Bangash A. A.",
-        "Dorronsoro B.",
-        "Ali K.",
-        "Hindle A.",
-        "Ruiz P.",
-      ]
-
-  - title: "Sustainable driving operations of urban plugin hybrid buses considering restricted emission mapping zones"
-    venue: "Engineering Applications of Artificial Intelligence"
-    publisher: "Elsevier"
-    volume: "157"
-    article_id: "111179"
-    doi: "10.1016/j.engappai.2025.111179"
+  - id: "J8"
+    text: >-
+      Diaz-Jimenez M.; Aragon-Jurado J. M.; Dorronsoro B.; Pavon-Dominguez P.;
+      Seredynski M.; Ruiz P. 2025. Sustainable driving operations of urban
+      plug-in hybrid buses considering restricted emission mapping zones.
+      Engineering Applications of Artificial Intelligence. 157. 111179.
+      (IF 8.0, CiteScore 9.5, Q1)
     doi_url: "https://doi.org/10.1016/j.engappai.2025.111179"
-    year: "2025"
-    authors:
-      [
-        "Díaz-Jiménez M.",
-        "**Aragón-Jurado J. M.**",
-        "Dorronsoro B.",
-        "Pavón-Domínguez P.",
-        "Seredynski M.",
-        "Ruiz P.",
-      ]
-
-  - title: "Green Gaming: Automated Energy Consumption Reduction for Doom Engine"
-    venue: "IEEE Consumer Electronics Magazine"
-    publisher: "IEEE"
-    volume: "15(1)"
-    pages: "15-21"
-    doi: "10.1109/MCE.2025.3565227"
+  - id: "J7"
+    text: >-
+      Aragon-Jurado J. M.; Ruiz P.; Dorronsoro B.; Thawonmas R. 2025. Green
+      Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE
+      Consumer Electronics Magazine. 15(1), pp. 15-21. Outcome of research stay
+      at Ritsumeikan University. (IF 4.1, CiteScore 11.1, Q1)
     doi_url: "https://doi.org/10.1109/MCE.2025.3565227"
-    note: "Outcome of research stay in Ritsumeikan University"
-    year: "2025"
-    authors:
-      ["**Aragón-Jurado J. M.**", "Ruiz P.", "Dorronsoro B.", "Thawonmas R."]
-
-  - title: "Automatic software tailoring for Green Internet of Things"
-    venue: "Internet of Things"
-    publisher: "Elsevier"
-    volume: "30"
-    article_id: "101521"
-    doi: "10.1016/j.iot.2025.101521"
+  - id: "J6"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2025.
+      Automatic software tailoring for Green Internet of Things. Internet of
+      Things. 30. 101521. (IF 7.6, CiteScore 12.4, Q1)
     doi_url: "https://doi.org/10.1016/j.iot.2025.101521"
-    year: "2025"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Ruiz P.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Automatic Software Tailoring for Optimal Performance"
-    venue: "IEEE Transactions on Sustainable Computing"
-    publisher: "IEEE"
-    volume: "9(3)"
-    pages: "464-481"
-    doi: "10.1109/TSUSC.2023.3330671"
+  - id: "J5"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Ruiz P.; Galindo P. L.;
+      Zomaya A. Y.; Dorronsoro B. 2024. Automatic Software Tailoring for
+      Optimal Performance. IEEE Transactions on Sustainable Computing. 9(3),
+      pp. 464-481. (IF 3.9, CiteScore 8.0, Q1)
     doi_url: "https://doi.org/10.1109/TSUSC.2023.3330671"
-    year: "2024"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Ruiz P.",
-        "Galindo P. L.",
-        "Zomaya A. Y.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "GAGI: Game engine for Artificial General Intelligence experimentation"
-    venue: "SoftwareX"
-    publisher: "Elsevier"
-    volume: "26"
-    doi: "10.1016/J.SOFTX.2024.101665"
-    doi_url: "https://doi.org/10.1016/J.SOFTX.2024.101665"
-    year: "2024"
-    authors:
-      [
-        "de la Torre J. C.",
-        "**Aragón-Jurado J. M.**",
-        "Crespo-Álvarez A.",
-        "Bárcena-González G",
-      ]
-
-  - title: "Source code obfuscation with genetic algorithms using LLVM code optimizations"
-    venue: "Logic Journal of the IGPL"
-    publisher: "Oxford University Press"
-    doi: "10.1093/jigpal/jzae069"
+  - id: "J4"
+    text: >-
+      de la Torre J. C.; Aragon-Jurado J. M.; Crespo-Alvarez A.;
+      Barcena-Gonzalez G. 2024. GAGI: Game engine for Artificial General
+      Intelligence experimentation. SoftwareX. 26. (IF 2.4, CiteScore 4.2, Q2)
+    doi_url: "https://doi.org/10.1016/j.softx.2024.101665"
+  - id: "J3"
+    text: >-
+      de la Torre J. C.; Jareno J.; Aragon-Jurado J. M.; Varrette S.;
+      Dorronsoro B. 2024. Source code obfuscation with genetic algorithms using
+      LLVM code optimizations. Logic Journal of the IGPL. (IF 0.8,
+      CiteScore 2.4, Q2)
     doi_url: "https://doi.org/10.1093/jigpal/jzae069"
-    year: "2024"
-    authors:
-      [
-        "de la Torre J. C.",
-        "Jareño J.",
-        "**Aragón-Jurado J. M.**",
-        "Varrette S.",
-        "Dorronsoro B.",
-      ]
+  - id: "J2"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Jareno J.; Dorronsoro B.;
+      Zomaya A. Y.; Ruiz P. 2023. Neuroevolved bi-directional LSTM applied to
+      zero emission zones management in urban transport. Applied Soft
+      Computing. 148. 110943. (IF 7.2, CiteScore 15.8, Q1)
+    doi_url: "https://doi.org/10.1016/j.asoc.2023.110943"
+  - id: "J1"
+    text: >-
+      Ruiz P.; Aragon-Jurado J. M.; Seredynski M.; Cabrera J. F.; Pena D.;
+      de la Torre J. C.; Zomaya A. Y.; Dorronsoro B. 2023. Optimal battery
+      management strategies for plug-in electric hybrid buses on routes
+      including green corridors. Sustainable Cities and Society. 94. 104556.
+      Best paper award. (IF 10.5, CiteScore 22.0, Q1)
+    doi_url: "https://doi.org/10.1016/j.scs.2023.104556"
 
-  - title: "Neuroevolved bi-directional LSTM applied to zero emission zones management in urban transport"
-    venue: "Applied Soft Computing"
-    publisher: "Elsevier"
-    volume: "148"
-    doi: "10.1016/J.ASOC.2023.110943"
-    doi_url: "https://doi.org/10.1016/J.ASOC.2023.110943"
-    year: "2023"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Jareño J.",
-        "Dorronsoro B.",
-        "Zomaya A. Y.",
-        "Ruiz P.",
-      ]
-
-  - title: "Optimal battery management strategies for plug-in electric hybrid buses on routes including green corridors"
-    venue: "Sustainable Cities and Society"
-    publisher: "Elsevier"
-    doi: "94.10.1016/J.SCS.2023.104556"
-    doi_url: "https://doi.org/94.10.1016/J.SCS.2023.104556"
-    year: "2023"
-    authors:
-      [
-        "Ruiz P.",
-        "**Aragón-Jurado J. M.**",
-        "Seredynski M.",
-        "Cabrera J. F.",
-        "Peña D.",
-        "de la Torre J. C.",
-        "Zomaya A. Y.",
-        "Dorronsoro B.",
-      ]
+under_review:
+  - id: "J18"
+    text: >-
+      Aragon-Jurado J. M.; Xia Y.; Khan I.; Thawonmas R. 2025. A Framework for
+      Energy-Quality Efficiency Assessment in Large Language Models. Under
+      review in Sustainable Computing: Informatics and Systems. (IF 5.7,
+      CiteScore 12.3, Q1)
+  - id: "J17"
+    text: >-
+      Aragon-Jurado J. M.; Dorronsoro B.; Ruiz P.; Nojima Y. 2025. A
+      Systematic Review of Code Obfuscation in Blockchain Systems. Under review
+      in ACM Computing Surveys. (IF 28.0, CiteScore 51.6, Q1)
+  - id: "J16"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2025.
+      Automated Tailoring of the Doom Engine for Handheld Gaming Devices.
+      Under review in IEEE Transactions on Games. (IF 2.8, CiteScore 5.2, Q2)
+  - id: "J15"
+    text: >-
+      Aragon-Jurado J. M.; Ruiz P.; Dorronsoro B. 2025. Energy-Performance
+      Trade-offs of CUDA Compiler Optimizations in Embedded GPUs. Under review
+      in Journal of Systems Architecture. (IF 4.1, CiteScore 10.5, Q1)
+  - id: "J14"
+    text: >-
+      Aragon-Jurado J. M.; Thawonmas R.; Ruiz P.; Dorronsoro B. 2025. Native
+      Code, Greener Games? Investigating Energy Efficiency in Unity Builds.
+      Under review in Entertainment Computing. Outcome of research stay at
+      Ritsumeikan University. (IF 2.4, CiteScore 5.6, Q2)
+  - id: "J13"
+    text: >-
+      Aragon-Jurado J. M.; Dorronsoro B.; Ruiz P. 2025. Evaluating Compiler
+      Optimizations for Faster and Greener Web Browsing. Under major revision
+      in Information and Software Technology. (IF 4.3, CiteScore 10.8, Q1)
 
 book_chapters:
-  - title: "A Survey on Automatic Source Code Transformation for Green Software Generation"
-    book: "Encyclopedia of Sustainable Technologies (Second Edition)"
-    publisher: "Elsevier"
-    volume: "3"
-    pages: "765-779"
-    doi: "10.1016/B978-0-323-90386-8.00122-4"
+  - id: "B1"
+    text: >-
+      Dorronsoro B.; Aragon-Jurado J. M.; Jareno J.; de la Torre J. C.; Ruiz P.
+      2024. A Survey on Automatic Source Code Transformation for Green Software
+      Generation. Encyclopedia of Sustainable Technologies (Second Edition).
+      Elsevier. 3, pp. 765-779.
     doi_url: "https://doi.org/10.1016/B978-0-323-90386-8.00122-4"
-    year: "2024"
-    authors:
-      [
-        "Dorronsoro B.",
-        "**Aragón-Jurado J. M.**",
-        "Jareño J.",
-        "de la Torre J. C.",
-        "Ruiz P.",
-      ]
 
-conference_papers:
-  - title: "Performance and Consumption Analysis of LU Matrix Decomposition on Heterogeneous and Traditional Multicore CPUs"
-    venue: "International Conference on Computational Science and Computational Intelligence (CSCI 2025)"
-    location: "Las Vegas, USA"
-    year: "2025"
-    authors:
-      [
-        "Rosa F. J.",
-        "Valderas-González A.",
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Code Obfuscation with LLVM: An Analysis of the Impact of the LLVM Version"
-    venue: "International Conference on Computational Science and Computational Intelligence (CSCI 2025)"
-    location: "Las Vegas, USA"
-    year: "2025"
-    authors:
-      [
-        "Valderas-González A.",
-        "Rosa F. J.",
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Green by Design: Energy-Guided Reranking of LLM-Generated Programs"
-    venue: "1st Open Conference of AI Agents for Science (Agent4Science 2025)"
-    location: "Virtual Conference"
-    year: "2025"
-    authors: ["Xia Y.", "**Aragón-Jurado J. M.**", "Thawonmas R."]
-
-  - title: "A Two-step Approach to Find Short Compilation Transformation Sequences for Optimal Software Runtime Performance"
-    venue: "Genetic and Evolutionary Computation Conference Companion (GECCO 2025)"
-    publisher: "ACM"
-    location: "Málaga, España"
-    year: "2025"
-    authors:
-      [
-        "de la Torre J. C.",
-        "**Aragón-Jurado J. M.**",
-        "Jareño J.",
-        "Dorronsoro B.",
-        "Ruiz P.",
-      ]
-
-  - title: "Comparison on the use of Hybrid and Plugin Hybrid Electric Buses for Sustainable Urban Transportation – Split Use Case"
-    venue: "10th North American Conference on Industrial Engineering and Operations Management (IEOM 2025)"
-    location: "Orlando, USA"
-    doi: "10.1007/978-3-031-98235-4_12"
+international_conference_papers:
+  - id: "C16"
+    text: >-
+      Rosa F. J.; Valderas-Gonzalez A.; Aragon-Jurado J. M.; de la Torre J. C.;
+      Dorronsoro B. 2025. Performance and Consumption Analysis of LU Matrix
+      Decomposition on Heterogeneous and Traditional Multicore CPUs. CSCI 2025,
+      Las Vegas, USA.
+  - id: "C15"
+    text: >-
+      Valderas-Gonzalez A.; Rosa F. J.; Aragon-Jurado J. M.; de la Torre J. C.;
+      Dorronsoro B. 2025. Code Obfuscation with LLVM: An Analysis of the Impact
+      of the LLVM Version. CSCI 2025, Las Vegas, USA.
+  - id: "C14"
+    text: >-
+      Xia Y.; Aragon-Jurado J. M.; Thawonmas R. 2025. Green by Design:
+      Energy-Guided Reranking of LLM-Generated Programs. 1st Open Conference of
+      AI Agents for Science, Virtual Conference.
+  - id: "C13"
+    text: >-
+      de la Torre J. C.; Aragon-Jurado J. M.; Jareno J.; Dorronsoro B.; Ruiz P.
+      2025. A Two-step Approach to Find Short Compilation Transformation
+      Sequences for Optimal Software Runtime Performance. GECCO Companion 2025,
+      Malaga, Spain. CORE A main.
+    doi_url: "https://doi.org/10.1145/3712255.3726624"
+  - id: "C12"
+    text: >-
+      Kalaica M.; Aragon-Jurado J. M.; Jakus I.; Dorronsoro B.; Ruiz P. 2025.
+      Comparison on the use of Hybrid and Plug-in Hybrid Electric Buses for
+      Sustainable Urban Transportation - Split Use Case. 2025 IEOM, Orlando,
+      Florida, USA.
     doi_url: "https://doi.org/10.1007/978-3-031-98235-4_12"
-    year: "2025"
-    authors:
-      [
-        "Kalaica M.",
-        "**Aragón-Jurado J. M.**",
-        "Jakus I.",
-        "Dorronsoro B.",
-        "Ruiz P.",
-      ]
-
-  - title: "Automatic Generation of Greener Software Program Versions with Genetic Algorithms"
-    venue: "International Conference in Optimization and Learning (OLA 2025)"
-    location: "Dubái, Emiratos Árabes Unidos"
-    year: "2025"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Ruiz P.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Two-level Software Obfuscation with Cooperative Co-evolutionary Algorithms"
-    venue: "IEEE Congress on Evolutionary Computation (CEC 2024)"
-    location: "Yokohama, Japón"
-    doi: "10.1109/CEC60901.2024.10612116"
+  - id: "C11"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2025.
+      Automatic Generation of Greener Software Program Versions with Genetic
+      Algorithms. OLA 2025, Dubai, United Arab Emirates.
+  - id: "C10"
+    text: >-
+      Aragon-Jurado J. M.; Jareno J.; de la Torre J. C.; Ruiz P.; Dorronsoro B.
+      2024. Two-level Software Obfuscation with Cooperative Co-evolutionary
+      Algorithms. IEEE CEC 2024, Yokohama, Japan. CORE B, GGS A-.
     doi_url: "https://doi.org/10.1109/CEC60901.2024.10612116"
-    year: "2024"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "Jareño J.",
-        "de la Torre J. C.",
-        "Ruiz P.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Bus Route Segmentation for Performance Optimization Using Geographical Mapping Tools"
-    venue: "INGEGRAF 2024"
-    location: "Valencia, España"
-    doi: "10.1007/978-3-031-72829-7_60"
+  - id: "C9"
+    text: >-
+      Aragon-Jurado J. M.; Dorronsoro B.; Ruiz P. 2024. Bus Route Segmentation
+      for Performance Optimization Using Geographical Mapping Tools. INGEGRAF
+      2024, Valencia, Spain.
     doi_url: "https://doi.org/10.1007/978-3-031-72829-7_60"
-    year: "2024"
-    authors: ["**Aragón-Jurado J. M.**", "Dorronsoro B.", "Ruiz P."]
-
-  - title: "Electric Drive Assignment Strategies Optimization for Plugin Hybrid Urban Buses on Tailored Emissions Mapping"
-    venue: "IEEE IPDPS Workshops (IPDPSW 2024)"
-    location: "San Francisco, USA"
-    doi: "10.1109/IPDPSW63119.2024.00160"
+  - id: "C8"
+    text: >-
+      Aragon-Jurado J. M.; Diaz-Jimenez M.; Dorronsoro B.; Pavon-Dominguez P.;
+      Seredynski M.; Ruiz P. 2024. Electric Drive Assignment Strategies
+      Optimization for Plug-in Hybrid Urban Buses on Tailored Emissions
+      Mapping. IEEE IPDPSW 2024, San Francisco, USA. CORE A main.
     doi_url: "https://doi.org/10.1109/IPDPSW63119.2024.00160"
-    year: "2024"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "Díaz-Jiménez M.",
-        "Dorronsoro B.",
-        "Pavón-Domínguez P.",
-        "Seredynski M.",
-        "Ruiz P.",
-      ]
-
-  - title: "Software Performance Optimization with Genetic Algorithms"
-    venue: "Tenth Spanish-German Symposium on Applied Computer Science (SGSOACS 2024)"
-    location: "Cádiz, España"
-    year: "2024"
-    authors:
-      [
-        "de la Torre J. C.",
-        "**Aragón-Jurado J. M.**",
-        "Jareño J.",
-        "Ruiz P.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Management of Zero Emissions Zones in Urban Transport by Means of Neuroevolution"
-    venue: "Tenth Spanish-German Symposium on Applied Computer Science (SGSOACS 2024)"
-    location: "Cádiz, España"
-    year: "2024"
-    authors:
-      [
-        "Jareño J.",
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Dorronsoro B.",
-        "Ruiz P.",
-      ]
-
-  - title: "Battery Management Strategies Optimization for Urban Plug-in Hybrid Buses"
-    venue: "International Conference in Optimization and Learning (OLA 2024)"
-    location: "Dubrovnik, Croacia"
-    year: "2024"
-    authors:
-      [
-        "Ruiz P.",
-        "**Aragón-Jurado J. M.**",
-        "Cabrera J. F.",
-        "de la Torre J. C.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Automatic Software Performance Optimization using Genetic Algorithms"
-    venue: "International Conference in Optimization and Learning (OLA 2024)"
-    location: "Dubrovnik, Croacia"
-    year: "2024"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Ruiz P.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses"
-    venue: "INGEGRAF 2023"
-    location: "Cádiz, España"
-    doi: "10.1007/978-3-031-51623-8_30"
+  - id: "C7"
+    text: >-
+      de la Torre J. C.; Aragon-Jurado J. M.; Jareno J.; Ruiz P.; Dorronsoro B.
+      2024. Software Performance Optimization with Genetic Algorithms. SGSOACS
+      2024, Cadiz, Spain.
+  - id: "C6"
+    text: >-
+      Jareno J.; Aragon-Jurado J. M.; de la Torre J. C.; Dorronsoro B.; Ruiz P.
+      2024. Management of Zero Emissions Zones in Urban Transport by Means of
+      Neuroevolution. SGSOACS 2024, Cadiz, Spain.
+  - id: "C5"
+    text: >-
+      Ruiz P.; Aragon-Jurado J. M.; Cabrera J. F.; de la Torre J. C.;
+      Dorronsoro B. 2024. Battery Management Strategies Optimization for Urban
+      Plug-in Hybrid Buses. OLA 2024, Dubrovnik, Croatia.
+  - id: "C4"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2024.
+      Automatic Software Performance Optimization using Genetic Algorithms. OLA
+      2024, Dubrovnik, Croatia.
+  - id: "C3"
+    text: >-
+      Aragon-Jurado J. M.; Dorronsoro B.; Ruiz P. 2023. Multivariable
+      Visualization Tool of the Performance of Plug-In Hybrid Electric Buses.
+      INGEGRAF 2023, Cadiz, Spain. Best paper award.
     doi_url: "https://doi.org/10.1007/978-3-031-51623-8_30"
-    year: "2023"
-    authors: ["**Aragón-Jurado J. M.**", "Dorronsoro B.", "Ruiz P."]
-
-  - title: "Obfuscating LLVM Intermediate Representation Source Code with NSGA-II"
-    venue: "CISIS-ICEUTE 2022"
-    location: "Salamanca, España"
-    doi: "10.1007/978-3-031-18409-3_18"
+  - id: "C2"
+    text: >-
+      de la Torre J. C.; Aragon-Jurado J. M.; Jareno J.; Varrette S.;
+      Dorronsoro B. 2022. Obfuscating LLVM Intermediate Representation Source
+      Code with NSGA-II. CISIS 2022, Salamanca, Spain.
     doi_url: "https://doi.org/10.1007/978-3-031-18409-3_18"
-    year: "2022"
-    authors:
-      [
-        "de la Torre J. C.",
-        "**Aragón-Jurado J. M.**",
-        "Jareño J.",
-        "Varrette S.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "A Study on the Influence of Runtime Uncertainty in the Optimization of Software Programs"
-    venue: "8th International Conference on Metaheuristics and Nature Inspired Computing (META 2021)"
-    location: "Marrakech, Marruecos"
-    year: "2021"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Talbi E. G.",
-        "Dorronsoro B.",
-      ]
+  - id: "C1"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Talbi E. G.; Dorronsoro B. 2021.
+      A Study on the Influence of Runtime Uncertainty in the Optimization of
+      Software Programs. META 2021, Marrakech, Morocco.
 
 national_conference_papers:
-  - title: "Evolución de la infraestructura de compilación LLVM según las optimizaciones de código disponibles"
-    venue: "XXIX Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2025)"
-    publisher: "SISTEDES"
-    location: "Córdoba, España"
-    year: "2025"
-    authors:
-      [
-        "Vázquez-Rodríguez E.",
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "GreenLinux: Un sistema operativo para la medición precisa del consumo energético del software"
-    venue: "XXIX Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2025)"
-    publisher: "SISTEDES"
-    location: "Córdoba, España"
-    year: "2025"
-    authors:
-      [
-        "Pérez-Vargas A.",
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Optimización en dos pasos del rendimiento del software usando transformaciones de compilación"
-    venue: "XVI Congreso Español de Metaheurísticas, Algoritmos Evolutivos y Bioinspirados (MAEB 2025)"
-    publisher: "AEPIA"
-    location: "San Sebastián, España"
-    year: "2025"
-    authors:
-      [
-        "de la Torre J. C.",
-        "**Aragón-Jurado J. M.**",
-        "Jareño J.",
-        "Dorronsoro B.",
-        "Ruiz P.",
-      ]
-
-  - title: "Ofuscación de software en dos niveles usando algoritmos cooperativos coevolutivos"
-    venue: "XV Congreso Español de Metaheurísticas, Algoritmos Evolutivos y Bioinspirados (MAEB 2024)"
-    publisher: "AEPIA"
-    location: "A Coruña, España"
-    year: "2024"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "Jareño J.",
-        "de la Torre J. C.",
-        "Ruiz P.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck"
-    venue: "III Congreso Español de Videojuegos"
-    publisher: "Sociedad Científica Informática de España"
-    location: "A Coruña, España"
-    year: "2024"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Ruiz P.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Detección inteligente de sucesos en Smart Cities con feedback de los ciudadanos"
-    venue: "XVII Jornadas de Ingeniería de Ciencia e Ingeniería de Servicios (JCIS 2022)"
-    publisher: "SISTEDES"
-    location: "Santiago de Compostela, España"
-    year: "2022"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "Acuña-Vega L. E.",
-        "Ortiz G.",
-        "Boubeta-Puig J.",
-        "Muñoz A.",
-      ]
-
-  - title: "Optimización de programas software considerando la incertidumbre del tiempo de ejecución"
-    venue: "XXVI Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2022)"
-    publisher: "SISTEDES"
-    location: "Santiago de Compostela, España"
-    year: "2022"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Benito-Jareño C.",
-        "Dorronsoro B.",
-      ]
-
-  - title: "Hacia la detección inteligente de sucesos en ciudades inteligentes con la participación ciudadana"
-    venue: "II Jornadas de Investigación Predoctoral en Ingeniería Informática (JIPII 2022)"
-    publisher: "Universidad de Cádiz"
-    location: "Cádiz, España"
-    year: "2022"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "Acuña-Vega L. E.",
-        "Ortiz G.",
-        "Boubeta-Puig J.",
-        "Muñoz A.",
-      ]
-
-  - title: "Optimización robusta del tiempo de ejecución de programas software con algoritmos genéticos"
-    venue: "II Jornadas de Investigación Predoctoral en Ingeniería Informática (JIPII 2022)"
-    publisher: "Universidad de Cádiz"
-    location: "Cádiz, España"
-    year: "2022"
-    authors:
-      [
-        "**Aragón-Jurado J. M.**",
-        "de la Torre J. C.",
-        "Benito-Jareño C.",
-        "Dorronsoro B.",
-      ]
+  - id: "NC9"
+    text: >-
+      Vazquez-Rodriguez E.; Aragon-Jurado J. M.; de la Torre J. C.; Dorronsoro
+      B. 2025. Evolucion de la infraestructura de compilacion LLVM segun las
+      optimizaciones de codigo disponibles. JISBD 2025, Cordoba, Spain.
+  - id: "NC8"
+    text: >-
+      Perez-Vargas A.; Aragon-Jurado J. M.; de la Torre J. C.; Dorronsoro B.
+      2025. LinuxVerde: Un sistema operativo para la medicion precisa del
+      consumo energetico del software. JISBD 2025, Cordoba, Spain.
+  - id: "NC7"
+    text: >-
+      de la Torre J. C.; Aragon-Jurado J. M.; Jareno J.; Dorronsoro B.; Ruiz P.
+      2025. Optimizacion en dos pasos del rendimiento del software usando
+      transformaciones de compilacion. MAEB 2025, San Sebastian, Spain.
+  - id: "NC6"
+    text: >-
+      Aragon-Jurado J. M.; Jareno J.; de la Torre J. C.; Ruiz P.; Dorronsoro
+      B. 2024. Ofuscacion de Software en dos Niveles usando Algoritmos
+      Cooperativos Coevolutivos. MAEB 2024, A Coruna, Spain.
+  - id: "NC5"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2024.
+      Optimizacion automatica del videojuego Doom para un rendimiento optimo en
+      Steam Deck. III Congreso Espanol de Videojuegos, A Coruna, Spain. Best
+      paper award.
+  - id: "NC4"
+    text: >-
+      Aragon-Jurado J. M.; Acuna-Vega L. E.; Ortiz G.; Boubeta-Puig J.; Munoz
+      A. 2022. Deteccion Inteligente de Sucesos en Smart Cities con Feedback de
+      los Ciudadanos. JCIS 2022, Santiago de Compostela, Spain.
+  - id: "NC3"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Benito-Jareno C.; Dorronsoro B.
+      2022. Optimizacion de programas software considerando la incertidumbre
+      del tiempo de ejecucion. JISBD 2022, Santiago de Compostela, Spain.
+  - id: "NC2"
+    text: >-
+      Aragon-Jurado J. M.; Acuna-Vega L. E.; Ortiz G.; Boubeta-Puig J.; Munoz
+      A. 2022. Hacia la Deteccion Inteligente de Sucesos en Ciudades
+      Inteligentes con la Participacion Ciudadana. JIPII 2022, Cadiz, Spain.
+  - id: "NC1"
+    text: >-
+      Aragon-Jurado J. M.; de la Torre J. C.; Benito-Jareno C.; Dorronsoro B.
+      2022. Optimizacion robusta del tiempo de ejecucion de programas software
+      con Algoritmos Geneticos. JIPII 2022, Cadiz, Spain.

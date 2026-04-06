@@ -1,0 +1,94 @@
+<section id="service" class="py-5">
+    <h2 class="title gradient-text mb-5" data-aos="fade-up">Service and Outreach</h2>
+
+    <div class="row g-4 mb-4">
+        <div class="col-lg-6" data-aos="fade-up">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-microphone-alt me-2 text-primary"></i> Invited Talks</h3>
+                {% for item in site.data.service.invited_talks %}
+                <div class="section-card mb-3">
+                    <p class="entry-code mb-2">{{ item.code }}</p>
+                    <p class="small mb-0">{{ item.details }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-chalkboard me-2 text-primary"></i> Academic Lectures</h3>
+                {% for item in site.data.service.academic_lectures %}
+                <div class="section-card mb-3">
+                    <p class="entry-code mb-2">{{ item.code }}</p>
+                    <p class="small mb-0">{{ item.details }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-4">
+        <div class="col-lg-5" data-aos="fade-up">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-calendar-alt me-2 text-primary"></i> Conference Organization</h3>
+                {% for item in site.data.service.organization %}
+                <div class="section-card mb-3">
+                    <p class="entry-code mb-2">{{ item.code }}</p>
+                    <p class="small mb-0">{{ item.details }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-3"><i class="fas fa-search me-2 text-primary"></i> Reviewing</h3>
+                <p class="text-muted small mb-4">{{ site.data.service.reviewing_summary }}</p>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="section-card h-100">
+                            <h5 class="fw-bold mb-3">Journals</h5>
+                            <ul class="compact-list small text-muted ps-3 mb-0">
+                                {% for item in site.data.service.journal_reviews %}
+                                <li>{{ item.details }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-card h-100 mb-3">
+                            <h5 class="fw-bold mb-3">Conferences</h5>
+                            <ul class="compact-list small text-muted ps-3 mb-0">
+                                {% for item in site.data.service.conference_reviews %}
+                                <li>{{ item.details }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="section-card h-100">
+                            <h5 class="fw-bold mb-3">Books</h5>
+                            <ul class="compact-list small text-muted ps-3 mb-0">
+                                {% for item in site.data.service.book_reviews %}
+                                <li>{{ item.details }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-card" data-aos="fade-up">
+        <h3 class="h4 mb-4"><i class="fas fa-id-card me-2 text-primary"></i> Professional Memberships</h3>
+        <div class="row g-3">
+            {% for item in site.data.service.memberships %}
+            <div class="col-md-6 col-lg-3">
+                <div class="section-card h-100">
+                    <p class="entry-code mb-2">{{ item.code }}</p>
+                    <p class="small mb-0">{{ item.details }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,62 +1,97 @@
 <section id="publications" class="py-5">
     <h2 class="title gradient-text mb-5" data-aos="fade-up">Publications</h2>
 
-    <div class="mb-5" data-aos="fade-up">
-        <h3 class="h4 mb-4"><i class="fas fa-book-open me-2 text-primary"></i> Journal Papers</h3>
-        <div class="publication-list">
-            {% for paper in site.data.publications.journal_papers %}
-            <div class="card mb-3 border-0 shadow-sm hover-shadow transition-all">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">{{ paper.title }}</h5>
-                    <p class="card-text text-muted mb-2">
-                        {% for author in paper.authors %}
-                        {% if author contains "**" %}
-                        <strong>{{ author | remove: "**" }}</strong>
-                        {% else %}
-                        {{ author }}
-                        {% endif %}
-                        {% unless forloop.last %}, {% endunless %}
-                        {% endfor %}
-                    </p>
-                    <p class="card-text small">
-                        <span class="badge bg-light text-dark border me-2">{{ paper.venue }}</span>
-                        <span class="text-muted">{{ paper.year }}</span>
-                        {% if paper.doi_url %}
-                        <a href="{{ paper.doi_url }}" target="_blank" class="ms-3 text-decoration-none">
-                            <i class="fas fa-external-link-alt small"></i> DOI
-                        </a>
-                        {% endif %}
-                    </p>
-                </div>
+    <div class="row g-3 mb-5" data-aos="fade-up">
+        {% for item in site.data.publications.metrics %}
+        <div class="col-6 col-lg-3">
+            <div class="stat-card stat-card--wide h-100">
+                <strong>{{ item.value }}</strong>
+                <span>{{ item.label }}</span>
             </div>
-            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="row g-4 mb-4">
+        <div class="col-lg-7" data-aos="fade-up">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-book-open me-2 text-primary"></i> Journal Papers</h3>
+                {% for paper in site.data.publications.journal_papers %}
+                <article class="publication-entry">
+                    <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
+                        <div>
+                            <p class="entry-code mb-2">{{ paper.id }}</p>
+                            <p class="mb-0">{{ paper.text }}</p>
+                        </div>
+                        {% if paper.doi_url %}
+                        <a href="{{ paper.doi_url }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
+                        {% endif %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-card h-100 mb-4 mb-lg-0">
+                <h3 class="h4 mb-4"><i class="fas fa-hourglass-half me-2 text-primary"></i> Under Review</h3>
+                {% for paper in site.data.publications.under_review %}
+                <article class="publication-entry">
+                    <p class="entry-code mb-2">{{ paper.id }}</p>
+                    <p class="mb-0">{{ paper.text }}</p>
+                </article>
+                {% endfor %}
+            </div>
         </div>
     </div>
 
-    <div class="mb-5" data-aos="fade-up">
-        <h3 class="h4 mb-4"><i class="fas fa-users me-2 text-primary"></i> Conference Papers</h3>
-        <div class="publication-list">
-            {% for paper in site.data.publications.conference_papers %}
-            <div class="card mb-3 border-0 shadow-sm hover-shadow transition-all">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">{{ paper.title }}</h5>
-                    <p class="card-text text-muted mb-2">
-                        {% for author in paper.authors %}
-                        {% if author contains "**" %}
-                        <strong>{{ author | remove: "**" }}</strong>
-                        {% else %}
-                        {{ author }}
-                        {% endif %}
-                        {% unless forloop.last %}, {% endunless %}
-                        {% endfor %}
-                    </p>
-                    <p class="card-text small">
-                        <span class="badge bg-light text-dark border me-2">{{ paper.venue }}</span>
-                        <span class="text-muted">{{ paper.location }} | {{ paper.year }}</span>
-                    </p>
+    <div class="content-card mb-4" data-aos="fade-up">
+        <h3 class="h4 mb-4"><i class="fas fa-book me-2 text-primary"></i> Book Chapters</h3>
+        {% for paper in site.data.publications.book_chapters %}
+        <article class="publication-entry">
+            <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
+                <div>
+                    <p class="entry-code mb-2">{{ paper.id }}</p>
+                    <p class="mb-0">{{ paper.text }}</p>
                 </div>
+                {% if paper.doi_url %}
+                <a href="{{ paper.doi_url }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
+                {% endif %}
             </div>
-            {% endfor %}
+        </article>
+        {% endfor %}
+    </div>
+
+    <div class="row g-4" data-aos="fade-up">
+        <div class="col-lg-6">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-users me-2 text-primary"></i> International Conference Papers</h3>
+                {% for paper in site.data.publications.international_conference_papers %}
+                <article class="publication-entry">
+                    <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
+                        <div>
+                            <p class="entry-code mb-2">{{ paper.id }}</p>
+                            <p class="mb-0">{{ paper.text }}</p>
+                        </div>
+                        {% if paper.doi_url %}
+                        <a href="{{ paper.doi_url }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
+                        {% endif %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-landmark me-2 text-primary"></i> National Conference Papers</h3>
+                {% for paper in site.data.publications.national_conference_papers %}
+                <article class="publication-entry">
+                    <p class="entry-code mb-2">{{ paper.id }}</p>
+                    <p class="mb-0">{{ paper.text }}</p>
+                </article>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>

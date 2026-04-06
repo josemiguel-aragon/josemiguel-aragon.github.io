@@ -1,0 +1,69 @@
+invited_talks:
+  - code: "L7"
+    details: "Toward Greener Games: Reducing Energy for a Sustainable Future. 6th RCGS Research Workshop, Ritsumeikan University, Ibaraki, Japan. 2025-06-25."
+  - code: "L6"
+    details: "Software Optimization for the Green Internet of Things. Computational Intelligence Lab, Osaka Metropolitan University, Osaka, Japan. 2025-06-04."
+  - code: "L5"
+    details: "Source Code Obfuscation with Evolutionary Algorithms. Amii Artificial Intelligence Seminar, University of Alberta, Edmonton, Canada. 2024-07-29."
+
+academic_lectures:
+  - code: "L4"
+    details: "Multi-objective optimization for the obfuscation of software programs using LLVM. Master of Science in Cybersecurity, University of Cadiz, 2022-05-06."
+  - code: "L3"
+    details: "Reducing energy consumption of programs on Android smartphones using genetic algorithms. Bachelor of Engineering in Computer Engineering, University of Cadiz, 2021-09-29."
+  - code: "L2"
+    details: "Parallel genetic algorithms for software optimization: an analysis of performance on different platforms. Bachelor of Engineering in Computer Engineering, University of Cadiz, 2021-09-29."
+  - code: "L1"
+    details: "Parallel genetic algorithms: designs and applications. Bachelor of Engineering in Computer Engineering, University of Cadiz, 2021-09-29."
+
+organization:
+  - code: "O3"
+    details: "2026 Special Session Organization - AI for a sustainable future: transforming engineering, mobility, and smart cities in the 9th International Conference on Optimization and Learning (OLA)."
+  - code: "O2"
+    details: "Collaborator in International Conference on The Digital Transformation in Graphic Engineering 2023 (INGEGRAF 2023)."
+  - code: "O1"
+    details: "2023 Special Session Organization - Artificial Intelligence for Sustainability in the 6th International Conference on Optimization and Learning (OLA)."
+
+reviewing_summary: "Selected reviewing for Sustainable Cities and Society, Applied Soft Computing, Sustainable Computing: Informatics and Systems, Future Generation Computer Systems, and IEEE Conference on Games."
+
+journal_reviews:
+  - code: "R13"
+    details: "Green Technologies and Sustainability - Elsevier"
+  - code: "R12"
+    details: "Energy Informatics - Springer"
+  - code: "R11"
+    details: "Sustainable Cities and Society - Elsevier"
+  - code: "R10"
+    details: "Urban Transitions - Elsevier"
+  - code: "R9"
+    details: "Computers & Security - Elsevier"
+  - code: "R8"
+    details: "Journal of Supercomputing - Springer"
+  - code: "R7"
+    details: "Future Generation Computer Systems - Elsevier"
+  - code: "R6"
+    details: "Sustainable Computing: Informatics and Systems - Elsevier"
+  - code: "R5"
+    details: "Applied Soft Computing - Elsevier"
+  - code: "R4"
+    details: "Engineering Applications of Artificial Intelligence - Elsevier"
+
+conference_reviews:
+  - code: "R3"
+    details: "IEEE Global Conference on Consumer Electronics (GCCE) 2025"
+  - code: "R2"
+    details: "IEEE Conference on Games (CoG) 2025"
+
+book_reviews:
+  - code: "R1"
+    details: "Data Analytics and Computational Intelligence (2022)"
+
+memberships:
+  - code: "PM4"
+    details: "Member, Association for Computing Machinery (ACM) - April 2025 to Present"
+  - code: "PM3"
+    details: "Member, IEEE Computer Society - March 2024 to March 2026"
+  - code: "PM2"
+    details: "Council Member, Department of Computer Engineering, University of Cadiz - June 2023 to March 2026"
+  - code: "PM1"
+    details: "Member, GOAL Research Group - July 2021 to Present"

@@ -1,55 +1,114 @@
 <section id="experience" class="py-5">
     <h2 class="title gradient-text mb-5" data-aos="fade-up">Experience</h2>
 
-    <div class="row">
-        <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="h4 mb-4"><i class="fas fa-briefcase me-2 text-primary"></i> Professional Experience</h3>
-            <div class="timeline">
-                {% for job in site.data.experience.jobs %}
-                <div class="timeline-item mb-4 p-4 bg-white rounded-3 shadow-sm border-start border-4 border-primary">
-                    <div class="d-flex justify-content-between align-items-start mb-2">
-                        <div>
-                            <h5 class="fw-bold mb-1">{{ job.title }}</h5>
-                            <p class="text-primary mb-0 fw-medium">{{ job.company }}</p>
+    <div class="row g-4 mb-4">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-briefcase me-2 text-primary"></i> Work Experience</h3>
+                <div class="timeline">
+                    {% for job in site.data.experience.jobs %}
+                    <div class="timeline-item mb-4 p-4 bg-white rounded-3 shadow-sm border-start border-4 border-primary">
+                        <div class="d-flex justify-content-between align-items-start flex-column flex-md-row gap-2 mb-2">
+                            <div>
+                                <h5 class="fw-bold mb-1">{{ job.title }}</h5>
+                                <p class="text-primary mb-0 fw-medium">{{ job.company }}</p>
+                            </div>
+                            <span class="badge bg-light text-dark border">{{ job.start_date }} - {{ job.end_date }}</span>
                         </div>
-                        <span class="badge bg-light text-dark border">{{ job.start_date }} - {{ job.end_date }}</span>
+                        <p class="text-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> {{ job.location }}</p>
+                        {% if job.achievements and job.achievements.size > 0 %}
+                        <ul class="small text-muted ps-3 mb-0 compact-list">
+                            {% for achievement in job.achievements %}
+                            <li class="mb-1">{{ achievement }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="small text-muted mb-0">Current faculty appointment at Waseda University.</p>
+                        {% endif %}
                     </div>
-                    <p class="text-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> {{ job.location }}</p>
-                    <ul class="small text-muted ps-3 mb-0">
-                        {% for achievement in job.achievements %}
-                        <li class="mb-1">{{ achievement }}</li>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-user-graduate me-2 text-primary"></i> Education</h3>
+                {% for degree in site.data.education.degrees %}
+                <div class="section-card mb-3">
+                    <div class="d-flex justify-content-between align-items-start flex-column gap-1 mb-2">
+                        <div>
+                            <h5 class="fw-bold mb-1">{{ degree.degree }}</h5>
+                            <p class="text-primary mb-0">{{ degree.institution }}</p>
+                        </div>
+                        <span class="small text-muted">{{ degree.period }}</span>
+                    </div>
+                    {% if degree.specialization %}
+                    <p class="small text-muted mb-2">{{ degree.specialization }}</p>
+                    {% endif %}
+                    <p class="small text-muted mb-2"><i class="fas fa-map-marker-alt me-1"></i> {{ degree.location }}</p>
+                    <ul class="small text-muted ps-3 mb-0 compact-list">
+                        {% for distinction in degree.distinctions %}
+                        <li>{{ distinction }}</li>
                         {% endfor %}
                     </ul>
                 </div>
                 {% endfor %}
             </div>
         </div>
+    </div>
 
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="h4 mb-4"><i class="fas fa-globe-americas me-2 text-primary"></i> International Research Stays
-            </h3>
-            <div class="timeline">
+    <div class="row g-4 mb-4">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-globe-asia me-2 text-primary"></i> Research Stays</h3>
                 {% for stay in site.data.experience.research_stays %}
-                <div class="timeline-item mb-4 p-4 bg-white rounded-3 shadow-sm border-start border-4 border-info">
-                    <div class="d-flex justify-content-between align-items-start mb-2">
+                <div class="section-card mb-3">
+                    <div class="d-flex justify-content-between align-items-start flex-column flex-md-row gap-2 mb-2">
                         <div>
                             <h5 class="fw-bold mb-1">{{ stay.title }}</h5>
-                            <p class="text-info mb-0 fw-medium">{{ stay.institution }}</p>
+                            <p class="text-primary mb-0">{{ stay.institution }}</p>
                         </div>
                         <span class="badge bg-light text-dark border">{{ stay.start_date }} - {{ stay.end_date }}</span>
                     </div>
-                    <p class="text-muted small mb-3">
-                        <i class="fas fa-map-marker-alt me-1"></i> {{ stay.location }}<br>
-                        <i class="fas fa-user-tie me-1"></i> Supervisor: {{ stay.supervisor }}
-                    </p>
-                    <ul class="small text-muted ps-3 mb-0">
-                        {% for achievement in stay.achievements %}
-                        <li class="mb-1">{{ achievement }}</li>
-                        {% endfor %}
-                    </ul>
+                    <p class="small text-muted mb-2"><i class="fas fa-map-marker-alt me-1"></i> {{ stay.location }}</p>
+                    <p class="small mb-1"><strong>Host:</strong> {{ stay.host }}</p>
+                    <p class="small mb-1"><strong>Objective:</strong> {{ stay.objective }}</p>
+                    <p class="small text-muted mb-0"><strong>Outcome:</strong> {{ stay.outcome }}</p>
                 </div>
                 {% endfor %}
             </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-handshake me-2 text-primary"></i> International Collaborations</h3>
+                {% for item in site.data.experience.international_collaborations %}
+                <div class="section-card mb-3">
+                    <h5 class="fw-bold mb-1">{{ item.name }}</h5>
+                    <p class="text-primary mb-1">{{ item.institution }}</p>
+                    <p class="small text-muted mb-2">{{ item.period }}</p>
+                    <p class="small mb-0">{{ item.summary }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="content-card" data-aos="fade-up" data-aos-delay="250">
+        <h3 class="h4 mb-4"><i class="fas fa-flask me-2 text-primary"></i> Funded Research Projects</h3>
+        <div class="row g-3">
+            {% for project in site.data.experience.funded_projects %}
+            <div class="col-lg-6">
+                <div class="section-card h-100">
+                    <p class="entry-code mb-2">{{ project.code }}</p>
+                    <h5 class="fw-bold mb-1">{{ project.title }}</h5>
+                    <p class="small text-muted mb-1">{{ project.reference }}</p>
+                    <p class="small mb-2">{{ project.scope }}</p>
+                    <p class="small text-muted mb-0">Role: {{ project.role }}</p>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </section>

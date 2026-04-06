@@ -1,24 +1,67 @@
-<section id="awards" class="py-5">
-    <h2 class="title gradient-text mb-5" data-aos="fade-up">Awards & Grants</h2>
+<section id="recognition" class="py-5">
+    <h2 class="title gradient-text mb-5" data-aos="fade-up">Recognition</h2>
 
     <div class="row g-4">
-        {% for award in site.data.awards.awards %}
-        <div class="col-md-6" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
-            <div class="card h-100 border-0 shadow-sm hover-translate">
-                <div class="card-body p-4">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="icon-box-premium me-3">
-                            <i class="fas fa-trophy"></i>
-                        </div>
-                        <div>
-                            <h5 class="card-title fw-bold mb-1">{{ award.title }}</h5>
-                            <p class="text-muted small mb-0">{{ award.year }} | {{ award.issuer }}</p>
+        <div class="col-lg-6" data-aos="fade-up">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-trophy me-2 text-primary"></i> Paper and Presentation Awards</h3>
+                {% for item in site.data.recognition.paper_awards %}
+                <div class="section-card mb-3">
+                    <p class="entry-code mb-2">{{ item.code }}</p>
+                    <h5 class="fw-bold mb-1">{{ item.title }}</h5>
+                    <p class="text-primary small mb-2">{{ item.issuer }}</p>
+                    <p class="small mb-0">{{ item.details }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-award me-2 text-primary"></i> Fellowships and Grants</h3>
+                {% for item in site.data.recognition.fellowships %}
+                <div class="section-card mb-3">
+                    <p class="entry-code mb-2">{{ item.code }}</p>
+                    <h5 class="fw-bold mb-1">{{ item.title }}</h5>
+                    <p class="text-primary small mb-2">{{ item.issuer }}</p>
+                    <p class="small mb-0">{{ item.details }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mt-1">
+        <div class="col-lg-4" data-aos="fade-up">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-certificate me-2 text-primary"></i> Accreditations</h3>
+                {% for item in site.data.recognition.accreditations %}
+                <div class="section-card mb-3">
+                    <p class="entry-code mb-2">{{ item.code }}</p>
+                    <h5 class="fw-bold mb-1">{{ item.title }}</h5>
+                    <p class="text-primary small mb-2">{{ item.issuer }}</p>
+                    <p class="small mb-0">{{ item.details }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-card h-100">
+                <h3 class="h4 mb-4"><i class="fas fa-star me-2 text-primary"></i> Other Awards</h3>
+                <div class="row g-3">
+                    {% for item in site.data.recognition.other_awards %}
+                    <div class="col-md-6">
+                        <div class="section-card h-100">
+                            <p class="entry-code mb-2">{{ item.code }}</p>
+                            <h5 class="fw-bold mb-1">{{ item.title }}</h5>
+                            <p class="text-primary small mb-2">{{ item.issuer }}</p>
+                            <p class="small mb-0">{{ item.details }}</p>
                         </div>
                     </div>
-                    <p class="card-text text-muted small">{{ award.description }}</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
-        {% endfor %}
     </div>
 </section>

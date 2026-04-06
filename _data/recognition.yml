@@ -1,0 +1,53 @@
+paper_awards:
+  - code: "BP3"
+    title: "2024 Best Paper Award"
+    issuer: "III Congreso Espanol de Videojuegos"
+    details: "Awarded for the paper 'Optimizacion automatica del videojuego Doom para un rendimiento optimo en Steam Deck'."
+
+  - code: "BP2"
+    title: "2023 Best Journal Paper Award"
+    issuer: "Cepsa Foundation Chair Award"
+    details: "Awarded for the article 'Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor'."
+
+  - code: "BP1"
+    title: "2023 Best Paper Award"
+    issuer: "INGEGRAF 2023"
+    details: "Recognized for the paper 'Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses'."
+
+fellowships:
+  - code: "F2"
+    title: "2025 FPU Mobility Grant"
+    issuer: "Spanish Ministry of Science, Innovation and Universities"
+    details: "Competitive national mobility grant awarded under the FPU program to support international research stays. Ranked first in Computer Science with the highest possible evaluation score."
+
+  - code: "F1"
+    title: "2021 National FPU Fellowship"
+    issuer: "Spanish Ministry of Universities"
+    details: "Prestigious and highly competitive national grant for doctoral studies, awarded based on academic excellence and research potential."
+
+accreditations:
+  - code: "A1"
+    title: "ANECA Accreditation: Associate Professor (Profesor Contratado Doctor, PCD)"
+    issuer: "National Agency for Quality Assessment and Accreditation of Spain (ANECA)"
+    details: "Spanish national accreditation for a permanent academic position, awarded in 2025."
+
+other_awards:
+  - code: "OA4"
+    title: "2025 Doctoral Defense Incentive - Modality B (EUR1000)"
+    issuer: "University of Cadiz"
+    details: "Grant awarded to support the final stage and defense of the Ph.D. thesis."
+
+  - code: "OA3"
+    title: "2022 Extraordinary Master's Degree Award"
+    issuer: "University of Cadiz"
+    details: "Granted to the top-performing student in the Master of Research in Systems and Computer Engineering."
+
+  - code: "OA2"
+    title: "2022 INICIA INV Research Initiation Grant"
+    issuer: "University of Cadiz"
+    details: "Competitive research grant awarded under the UCA Research and Transfer Plan to support early-stage researchers based on academic excellence and the quality of the master's thesis."
+
+  - code: "OA1"
+    title: "2019 First Prize - atrEBT! Entrepreneurship Competition"
+    issuer: "University of Cadiz"
+    details: "Awarded for an innovative student-led technology project in entrepreneurship and innovation."
