@@ -17,17 +17,7 @@
             <div class="content-card h-100">
                 <h3 class="h4 mb-4"><i class="fas fa-book-open me-2 text-primary"></i> Journal Papers</h3>
                 {% for paper in site.data.publications.journal_papers %}
-                <article class="publication-entry">
-                    <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
-                        <div>
-                            <p class="entry-code mb-2">{{ paper.id }}</p>
-                            <p class="mb-0">{{ paper.text }}</p>
-                        </div>
-                        {% if paper.doi_url %}
-                        <a href="{{ paper.doi_url }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
-                        {% endif %}
-                    </div>
-                </article>
+                {% include publication-item.html paper=paper %}
                 {% endfor %}
             </div>
         </div>
@@ -36,10 +26,7 @@
             <div class="content-card h-100 mb-4 mb-lg-0">
                 <h3 class="h4 mb-4"><i class="fas fa-hourglass-half me-2 text-primary"></i> Under Review</h3>
                 {% for paper in site.data.publications.under_review %}
-                <article class="publication-entry">
-                    <p class="entry-code mb-2">{{ paper.id }}</p>
-                    <p class="mb-0">{{ paper.text }}</p>
-                </article>
+                {% include publication-item.html paper=paper %}
                 {% endfor %}
             </div>
         </div>
@@ -48,17 +35,7 @@
     <div class="content-card mb-4" data-aos="fade-up">
         <h3 class="h4 mb-4"><i class="fas fa-book me-2 text-primary"></i> Book Chapters</h3>
         {% for paper in site.data.publications.book_chapters %}
-        <article class="publication-entry">
-            <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
-                <div>
-                    <p class="entry-code mb-2">{{ paper.id }}</p>
-                    <p class="mb-0">{{ paper.text }}</p>
-                </div>
-                {% if paper.doi_url %}
-                <a href="{{ paper.doi_url }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
-                {% endif %}
-            </div>
-        </article>
+        {% include publication-item.html paper=paper %}
         {% endfor %}
     </div>
 
@@ -67,17 +44,7 @@
             <div class="content-card h-100">
                 <h3 class="h4 mb-4"><i class="fas fa-users me-2 text-primary"></i> International Conference Papers</h3>
                 {% for paper in site.data.publications.international_conference_papers %}
-                <article class="publication-entry">
-                    <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
-                        <div>
-                            <p class="entry-code mb-2">{{ paper.id }}</p>
-                            <p class="mb-0">{{ paper.text }}</p>
-                        </div>
-                        {% if paper.doi_url %}
-                        <a href="{{ paper.doi_url }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
-                        {% endif %}
-                    </div>
-                </article>
+                {% include publication-item.html paper=paper %}
                 {% endfor %}
             </div>
         </div>
@@ -86,10 +53,7 @@
             <div class="content-card h-100">
                 <h3 class="h4 mb-4"><i class="fas fa-landmark me-2 text-primary"></i> National Conference Papers</h3>
                 {% for paper in site.data.publications.national_conference_papers %}
-                <article class="publication-entry">
-                    <p class="entry-code mb-2">{{ paper.id }}</p>
-                    <p class="mb-0">{{ paper.text }}</p>
-                </article>
+                {% include publication-item.html paper=paper %}
                 {% endfor %}
             </div>
         </div>

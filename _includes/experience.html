@@ -10,20 +10,20 @@
                     <div class="timeline-item mb-4 p-4 bg-white rounded-3 shadow-sm border-start border-4 border-primary">
                         <div class="d-flex justify-content-between align-items-start flex-column flex-md-row gap-2 mb-2">
                             <div>
-                                <h5 class="fw-bold mb-1">{{ job.title }}</h5>
-                                <p class="text-primary mb-0 fw-medium">{{ job.company }}</p>
+                                <h5 class="entry-title mb-1">{{ job.title }}</h5>
+                                <p class="entry-subtitle mb-0">{{ job.company }}</p>
                             </div>
                             <span class="badge bg-light text-dark border">{{ job.start_date }} - {{ job.end_date }}</span>
                         </div>
-                        <p class="text-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> {{ job.location }}</p>
+                        <p class="entry-meta mb-3"><i class="fas fa-map-marker-alt me-1"></i> {{ job.location }}</p>
                         {% if job.achievements and job.achievements.size > 0 %}
-                        <ul class="small text-muted ps-3 mb-0 compact-list">
+                        <ul class="entry-meta ps-3 mb-0 compact-list">
                             {% for achievement in job.achievements %}
                             <li class="mb-1">{{ achievement }}</li>
                             {% endfor %}
                         </ul>
                         {% else %}
-                        <p class="small text-muted mb-0">Current faculty appointment at Waseda University.</p>
+                        <p class="entry-body mb-0">Current faculty appointment at Waseda University.</p>
                         {% endif %}
                     </div>
                     {% endfor %}
@@ -38,16 +38,16 @@
                 <div class="section-card mb-3">
                     <div class="d-flex justify-content-between align-items-start flex-column gap-1 mb-2">
                         <div>
-                            <h5 class="fw-bold mb-1">{{ degree.degree }}</h5>
-                            <p class="text-primary mb-0">{{ degree.institution }}</p>
+                            <h5 class="entry-title mb-1">{{ degree.degree }}</h5>
+                            <p class="entry-subtitle mb-0">{{ degree.institution }}</p>
                         </div>
-                        <span class="small text-muted">{{ degree.period }}</span>
+                        <span class="entry-meta">{{ degree.period }}</span>
                     </div>
                     {% if degree.specialization %}
-                    <p class="small text-muted mb-2">{{ degree.specialization }}</p>
+                    <p class="entry-meta mb-2">{{ degree.specialization }}</p>
                     {% endif %}
-                    <p class="small text-muted mb-2"><i class="fas fa-map-marker-alt me-1"></i> {{ degree.location }}</p>
-                    <ul class="small text-muted ps-3 mb-0 compact-list">
+                    <p class="entry-meta mb-2"><i class="fas fa-map-marker-alt me-1"></i> {{ degree.location }}</p>
+                    <ul class="entry-meta ps-3 mb-0 compact-list">
                         {% for distinction in degree.distinctions %}
                         <li>{{ distinction }}</li>
                         {% endfor %}
@@ -66,15 +66,23 @@
                 <div class="section-card mb-3">
                     <div class="d-flex justify-content-between align-items-start flex-column flex-md-row gap-2 mb-2">
                         <div>
-                            <h5 class="fw-bold mb-1">{{ stay.title }}</h5>
-                            <p class="text-primary mb-0">{{ stay.institution }}</p>
+                            <h5 class="entry-title mb-1">{{ stay.title }}</h5>
+                            <p class="entry-subtitle mb-0">{{ stay.institution }}</p>
                         </div>
                         <span class="badge bg-light text-dark border">{{ stay.start_date }} - {{ stay.end_date }}</span>
                     </div>
-                    <p class="small text-muted mb-2"><i class="fas fa-map-marker-alt me-1"></i> {{ stay.location }}</p>
-                    <p class="small mb-1"><strong>Host:</strong> {{ stay.host }}</p>
-                    <p class="small mb-1"><strong>Objective:</strong> {{ stay.objective }}</p>
-                    <p class="small text-muted mb-0"><strong>Outcome:</strong> {{ stay.outcome }}</p>
+                    <p class="entry-meta mb-2"><i class="fas fa-map-marker-alt me-1"></i> {{ stay.location }}</p>
+                    <p class="entry-meta mb-0"><strong>Host:</strong> {{ stay.host }}</p>
+                    <div class="detail-list">
+                        <p class="detail-item mb-0">
+                            <span class="detail-item-label">Objective</span>
+                            <span class="entry-body">{{ stay.objective }}</span>
+                        </p>
+                        <p class="detail-item mb-0">
+                            <span class="detail-item-label">Outcome</span>
+                            <span class="entry-body">{{ stay.outcome }}</span>
+                        </p>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
@@ -85,10 +93,10 @@
                 <h3 class="h4 mb-4"><i class="fas fa-handshake me-2 text-primary"></i> International Collaborations</h3>
                 {% for item in site.data.experience.international_collaborations %}
                 <div class="section-card mb-3">
-                    <h5 class="fw-bold mb-1">{{ item.name }}</h5>
-                    <p class="text-primary mb-1">{{ item.institution }}</p>
-                    <p class="small text-muted mb-2">{{ item.period }}</p>
-                    <p class="small mb-0">{{ item.summary }}</p>
+                    <h5 class="entry-title mb-1">{{ item.name }}</h5>
+                    <p class="entry-subtitle mb-1">{{ item.institution }}</p>
+                    <p class="entry-meta mb-2">{{ item.period }}</p>
+                    <p class="entry-body mb-0">{{ item.summary }}</p>
                 </div>
                 {% endfor %}
             </div>
@@ -102,10 +110,10 @@
             <div class="col-lg-6">
                 <div class="section-card h-100">
                     <p class="entry-code mb-2">{{ project.code }}</p>
-                    <h5 class="fw-bold mb-1">{{ project.title }}</h5>
-                    <p class="small text-muted mb-1">{{ project.reference }}</p>
-                    <p class="small mb-2">{{ project.scope }}</p>
-                    <p class="small text-muted mb-0">Role: {{ project.role }}</p>
+                    <h5 class="entry-title mb-1">{{ project.title }}</h5>
+                    <p class="entry-meta mb-2">{{ project.reference }}</p>
+                    <p class="entry-body mb-2">{{ project.scope }}</p>
+                    <span class="entry-tag">{{ project.role }}</span>
                 </div>
             </div>
             {% endfor %}

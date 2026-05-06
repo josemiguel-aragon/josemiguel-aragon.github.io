@@ -3,9 +3,9 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <h2 class="title gradient-text mb-4">Get in Touch</h2>
-                <p class="mb-4 text-muted">
+                <p class="section-intro mb-4">
                     I am always open to research collaborations in sustainable computing, compiler optimization,
-                    evolutionary computation, green AI, and software security.
+                    evolutionary computation, green AI, intelligent transportation, and software security.
                 </p>
 
                 <div class="d-flex flex-column gap-3">
@@ -15,7 +15,7 @@
                         </div>
                         <div>
                             <h6 class="mb-0 fw-bold">Email</h6>
-                            <a href="mailto:{{ site.data.profile.email }}" class="text-decoration-none text-muted">{{
+                            <a href="mailto:{{ site.data.profile.email }}" class="text-decoration-none entry-meta">{{
                                 site.data.profile.email }}</a>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                         </div>
                         <div>
                             <h6 class="mb-0 fw-bold">ORCID</h6>
-                            <a href="{{ site.data.profile.orcid_url }}" target="_blank" class="text-decoration-none text-muted">{{ site.data.profile.orcid_id }}</a>
+                            <a href="{{ site.data.profile.orcid_url }}" target="_blank" class="text-decoration-none entry-meta">{{ site.data.profile.orcid_id }}</a>
                         </div>
                     </div>
 
@@ -36,7 +36,7 @@
                         </div>
                         <div>
                             <h6 class="mb-0 fw-bold">Address</h6>
-                            <p class="mb-0 text-muted small">{{ site.data.profile.address.en }}</p>
+                            <p class="entry-meta mb-0">{{ site.data.profile.address.en }}</p>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@
                         </div>
                         <div>
                             <h6 class="mb-0 fw-bold">Languages</h6>
-                            <p class="mb-0 text-muted small">Spanish (Native), English (C1+), Japanese (Basic)</p>
+                            <p class="entry-meta mb-0">{{ site.data.profile.languages }}</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                     <a href="{{ site.data.profile.social.github }}" target="_blank" class="btn btn-outline-primary">GitHub</a>
                 </div>
 
-                <p class="small text-muted mt-4 mb-0">References available upon request.</p>
+                <p class="entry-meta mt-4 mb-0">References available upon request.</p>
             </div>
 
             <div class="col-lg-6 mt-4 mt-lg-0 text-center">

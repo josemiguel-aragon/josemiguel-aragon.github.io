@@ -1,22 +1,24 @@
 invited_talks:
   - code: "L7"
-    details: "Toward Greener Games: Reducing Energy for a Sustainable Future. 6th RCGS Research Workshop, Ritsumeikan University, Ibaraki, Japan. 2025-06-25."
+    details: "Toward Greener Games: Reducing Energy for a Sustainable Future. 6th RCGS Research Workshop. Ritsumeikan University, Ibaraki, Japan. 2025-06-25"
   - code: "L6"
-    details: "Software Optimization for the Green Internet of Things. Computational Intelligence Lab, Osaka Metropolitan University, Osaka, Japan. 2025-06-04."
+    details: "Software Optimization for the Green Internet of Things. Computational Intelligence Lab. Osaka Metropolitan University, Osaka, Japan. 2025-06-04"
   - code: "L5"
-    details: "Source Code Obfuscation with Evolutionary Algorithms. Amii Artificial Intelligence Seminar, University of Alberta, Edmonton, Canada. 2024-07-29."
+    details: "Source Code Obfuscation with Evolutionary Algorithms. Amii Artificial Intelligence Seminar. University of Alberta, Edmonton, Canada. 2024-07-29"
 
 academic_lectures:
   - code: "L4"
-    details: "Multi-objective optimization for the obfuscation of software programs using LLVM. Master of Science in Cybersecurity, University of Cadiz, 2022-05-06."
+    details: "Multi-objective optimization for the obfuscation of software programs using LLVM. Master of Science in Cybersecurity. University of Cádiz, Cádiz, Spain. 2022-05-06"
   - code: "L3"
-    details: "Reducing energy consumption of programs on Android smartphones using genetic algorithms. Bachelor of Engineering in Computer Engineering, University of Cadiz, 2021-09-29."
+    details: "Reducing energy consumption of programs on Android smartphones using genetic algorithms. Bachelor of Engineering in Computer Engineering. University of Cádiz, Cádiz, Spain. 2021-09-29"
   - code: "L2"
-    details: "Parallel genetic algorithms for software optimization: an analysis of performance on different platforms. Bachelor of Engineering in Computer Engineering, University of Cadiz, 2021-09-29."
+    details: "Parallel genetic algorithms for software optimization: an analysis of performance on different platforms. Bachelor of Engineering in Computer Engineering. University of Cádiz, Cádiz, Spain. 2021-09-29"
   - code: "L1"
-    details: "Parallel genetic algorithms: designs and applications. Bachelor of Engineering in Computer Engineering, University of Cadiz, 2021-09-29."
+    details: "Parallel genetic algorithms: designs and applications. Bachelor of Engineering in Computer Engineering. University of Cádiz, Cádiz, Spain. 2021-09-29"
 
 organization:
+  - code: "O4"
+    details: "2026 Special Session Organization - Green Software for Consumer Electronics in the 2026 IEEE 15th Global Conference on Consumer Electronics (GCCE 2026)."
   - code: "O3"
     details: "2026 Special Session Organization - AI for a sustainable future: transforming engineering, mobility, and smart cities in the 9th International Conference on Optimization and Learning (OLA)."
   - code: "O2"
@@ -24,9 +26,11 @@ organization:
   - code: "O1"
     details: "2023 Special Session Organization - Artificial Intelligence for Sustainability in the 6th International Conference on Optimization and Learning (OLA)."
 
-reviewing_summary: "Selected reviewing for Sustainable Cities and Society, Applied Soft Computing, Sustainable Computing: Informatics and Systems, Future Generation Computer Systems, and IEEE Conference on Games."
+reviewing_summary: "Selected reviewing: Sustainable Cities and Society (Elsevier), Applied Soft Computing (Elsevier), Sustainable Computing: Informatics and Systems (Elsevier), Future Generation Computer Systems (Elsevier), IEEE Conference on Games (CoG)."
 
 journal_reviews:
+  - code: "R14"
+    details: "Information Processing and Management - Elsevier"
   - code: "R13"
     details: "Green Technologies and Sustainability - Elsevier"
   - code: "R12"
@@ -60,10 +64,10 @@ book_reviews:
 
 memberships:
   - code: "PM4"
-    details: "Member, Association for Computing Machinery (ACM) - April 2025 to Present"
+    details: "Member, Association for Computing Machinery (ACM) - April 2025 - April 2026"
   - code: "PM3"
-    details: "Member, IEEE Computer Society - March 2024 to March 2026"
+    details: "Member, IEEE Computer Society - March 2024 - March 2026"
   - code: "PM2"
-    details: "Council Member, Department of Computer Engineering, University of Cadiz - June 2023 to March 2026"
+    details: "Council Member, Department of Computer Engineering, University of Cádiz - June 2023 - March 2026"
   - code: "PM1"
-    details: "Member, GOAL Research Group - July 2021 to Present"
+    details: "Member, GOAL Research Group - July 2021 - Present"

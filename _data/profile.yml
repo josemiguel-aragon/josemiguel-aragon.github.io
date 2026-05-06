@@ -6,12 +6,14 @@ location: "Kitakyushu, Japan"
 email: "josemi.aragon@aoni.waseda.jp"
 orcid_id: "0000-0002-9835-8793"
 orcid_url: "https://orcid.org/0000-0002-9835-8793"
-last_updated: "2026-04-06"
+date_of_birth: "January 21, 1999 (Age: 27)"
+languages: "Spanish (Native), English (C1+), Japanese (Basic)"
+last_updated: "2026-05-06"
 image: "assets/images/profile.jpg"
 resume: "files/resume.pdf"
 
 address:
-  en: "Graduate School of Information, Production and Systems (IPS), Waseda University, Kitakyushu, Japan"
+  en: "Graduate School of Information, Production and Systems (IPS), Waseda University, Japan"
 
 social:
   google_scholar: "https://scholar.google.com/citations?user=KUw92DMAAAAJ"
@@ -27,12 +29,12 @@ quick_facts:
   - label: "Accreditation"
     value: "ANECA Associate Professor (2025)"
   - label: "Research Output"
-    value: "12 journal papers and 20+ international conference papers"
+    value: "14 journal papers and 20+ international conference papers"
 
 highlights:
-  - value: "12"
+  - value: "14"
     label: "Journal papers"
-  - value: "9"
+  - value: "10"
     label: "Q1 journals"
   - value: "20+"
     label: "Conference papers"
@@ -44,11 +46,11 @@ about: >-
   (Japan), previously a postdoctoral researcher at the University of Cádiz
   (Spain). Accredited as Associate Professor by ANECA in 2025.
 
-  My research focuses on sustainable computing, combining compiler
+  Research focuses on sustainable computing, combining compiler
   optimization, artificial intelligence, and evolutionary computation to
   reduce the environmental impact of software systems, with applications in
   green software, intelligent transportation, and software security through
-  code obfuscation. Author of 12 journal papers (9 Q1, 3 Q2) and 20+
+  code obfuscation. Author of 14 journal papers (10 Q1, 4 Q2) and 20+
   international conference papers, including CORE A/A/B venues. Research
   stays in Japan, Canada, and Belgium have led to ongoing international
   collaborations in sustainable AI and evolutionary computation.

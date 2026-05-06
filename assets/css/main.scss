@@ -375,6 +375,7 @@ a:hover {
   background: rgba(255, 255, 255, 0.6);
   border: 1px solid var(--border-color);
   border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .fact-card,
@@ -395,6 +396,113 @@ a:hover {
 .fact-value {
   font-size: 0.96rem;
   color: var(--text-main);
+}
+
+.author-highlight {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+.entry-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--text-main);
+}
+
+.entry-subtitle {
+  color: var(--primary-color);
+  font-size: 0.93rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.entry-meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.entry-body {
+  color: var(--text-main);
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.entry-tag {
+  display: inline-block;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.entry-tag--soft {
+  background: rgba(15, 23, 42, 0.06);
+  color: var(--text-main);
+}
+
+.section-intro {
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.entry-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.entry-note {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+[data-theme="dark"] .entry-tag--soft {
+  background: rgba(148, 163, 184, 0.14);
+  color: var(--text-main);
+}
+
+.detail-list {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.85rem;
+}
+
+.detail-item-label {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.publication-year {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+.publication-status {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.publication-note {
+  display: inline-block;
+  margin-left: 0.15rem;
+  padding: 0.08rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .stat-card {
@@ -424,10 +532,53 @@ a:hover {
 
 .compact-list li {
   margin-bottom: 0.45rem;
+  line-height: 1.55;
 }
 
 .publication-entry {
   margin-bottom: 1rem;
+}
+
+.section-card:hover,
+.publication-entry:hover,
+.stat-card:hover,
+.fact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -18px rgba(15, 23, 42, 0.45);
+  border-color: rgba(37, 99, 235, 0.25);
+}
+
+.publication-entry p,
+.section-card p {
+  line-height: 1.6;
+}
+
+.publication-entry .btn {
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.publication-content {
+  min-width: 0;
+}
+
+.publication-authors {
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.publication-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--text-main);
+}
+
+.publication-meta {
+  color: var(--text-muted);
+  font-size: 0.93rem;
+  line-height: 1.6;
 }
 
 .publication-entry:last-child,

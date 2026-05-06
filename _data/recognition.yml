@@ -1,17 +1,17 @@
 paper_awards:
   - code: "BP3"
     title: "2024 Best Paper Award"
-    issuer: "III Congreso Espanol de Videojuegos"
-    details: "Awarded for the paper 'Optimizacion automatica del videojuego Doom para un rendimiento optimo en Steam Deck'."
+    issuer: "III Congreso Español de Videojuegos. Sociedad Científica Informática de España"
+    details: "Awarded for the paper 'Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck'."
 
   - code: "BP2"
     title: "2023 Best Journal Paper Award"
-    issuer: "Cepsa Foundation Chair Award"
-    details: "Awarded for the article 'Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor'."
+    issuer: "Cepsa Foundation Chair Award. Cepsa"
+    details: "Awarded for the article 'Optimal Battery Management Strategies for Plug-in Electric Hybrid Buses on Routes Including Green Corridor', published in Sustainable Cities and Society."
 
   - code: "BP1"
     title: "2023 Best Paper Award"
-    issuer: "INGEGRAF 2023"
+    issuer: "International Conference on The Digital Transformation in Graphic Engineering 2023 (INGEGRAF 2023). INGEGRAF"
     details: "Recognized for the paper 'Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses'."
 
 fellowships:
@@ -29,25 +29,25 @@ accreditations:
   - code: "A1"
     title: "ANECA Accreditation: Associate Professor (Profesor Contratado Doctor, PCD)"
     issuer: "National Agency for Quality Assessment and Accreditation of Spain (ANECA)"
-    details: "Spanish national accreditation for a permanent academic position, awarded in 2025."
+    details: "Spanish national accreditation for a permanent academic position."
 
 other_awards:
   - code: "OA4"
-    title: "2025 Doctoral Defense Incentive - Modality B (EUR1000)"
-    issuer: "University of Cadiz"
-    details: "Grant awarded to support the final stage and defense of the Ph.D. thesis."
+    title: "2025 Doctoral Defense Incentive - Modality B (EUR 1000)"
+    issuer: "University of Cádiz"
+    details: "Grant awarded to support the final stage and defense of the PhD thesis."
 
   - code: "OA3"
     title: "2022 Extraordinary Master's Degree Award"
-    issuer: "University of Cadiz"
-    details: "Granted to the top-performing student in the Master of Research in Systems and Computer Engineering."
+    issuer: "University of Cádiz"
+    details: "Granted to the top-performing student in the Master of Research in Systems and Computing Engineering."
 
   - code: "OA2"
     title: "2022 INICIA INV Research Initiation Grant"
-    issuer: "University of Cadiz"
+    issuer: "University of Cádiz"
     details: "Competitive research grant awarded under the UCA Research and Transfer Plan to support early-stage researchers based on academic excellence and the quality of the master's thesis."
 
   - code: "OA1"
-    title: "2019 First Prize - atrEBT! Entrepreneurship Competition"
-    issuer: "University of Cadiz"
-    details: "Awarded for an innovative student-led technology project in entrepreneurship and innovation."
+    title: "2019 First Prize - atrÉBT! Entrepreneurship Competition (13th Edition)"
+    issuer: "University of Cádiz"
+    details: "Awarded for an innovative student-led technology project as part of a university-wide competition promoting entrepreneurship and innovation."

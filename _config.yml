@@ -1,7 +1,7 @@
 title: "José Miguel Aragón-Jurado"
 email: josemi.aragon@aoni.waseda.jp
 description: >- # this means to ignore newlines until "baseurl:"
-  Academic CV and portfolio of José Miguel Aragón-Jurado, Ph.D. in Computer Engineering and Assistant Professor at Waseda University.
+  Academic CV and portfolio of José Miguel Aragón-Jurado, Ph.D. in Computer Engineering and Assistant Professor at Waseda University, focused on sustainable computing, compiler optimization, and evolutionary computation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://josemiguel-aragon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 

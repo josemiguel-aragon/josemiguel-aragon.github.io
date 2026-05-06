@@ -7,10 +7,10 @@ jobs:
     achievements: []
 
   - title: "Postdoctoral Researcher (FPU Fellow)"
-    company: "University of Cadiz"
+    company: "University of Cádiz"
     start_date: "July 2025"
     end_date: "March 2026"
-    location: "Cadiz, Spain"
+    location: "Cádiz, Spain"
     achievements:
       - "Conducted postdoctoral research on modern compiler optimizations and their impact on runtime and energy consumption."
       - "Designed several experimental frameworks to evaluate compiler configurations on web browsers, CUDA applications on embedded GPUs, and Unity-based video games."
@@ -18,24 +18,24 @@ jobs:
       - "Published 3 papers in JCR-indexed journals (2 Q1 and 1 Q2) and 5 conference papers."
 
   - title: "Predoctoral Researcher (FPU Fellow)"
-    company: "University of Cadiz"
+    company: "University of Cádiz"
     start_date: "January 2023"
     end_date: "July 2025"
-    location: "Cadiz, Spain"
+    location: "Cádiz, Spain"
     achievements:
-      - "Completed the Ph.D. thesis 'Software Optimization for the Green Internet of Things'."
+      - "Completed a Ph.D. thesis titled 'Software Optimization for the Green Internet of Things'."
       - "Proposed and solved 3 novel compiler optimization problems (SCOP, gSCOP, FROP) using evolutionary algorithms and LLVM, achieving up to 62% faster runtimes and 58% energy savings."
       - "Designed adaptive software optimization frameworks for energy-efficient IoT, gaming, and embedded systems."
       - "Developed ML-based models (MEPBO, SUTRA, ML-EPBO) for hybrid bus systems, achieving daily reductions of nearly 300 kg of CO2 and 110 liters of fuel."
       - "Introduced the TSOP obfuscation model and created the C3GA algorithm, improving code protection by up to 405x in low-power environments."
-      - "Published 9 journal papers (7 Q1, 2 Q2) and 16+ conference papers, including CORE A/A* venues."
+      - "Published 9 journal papers (7 Q1, 2 Q2) and 16+ conference papers (including CORE A/A* venues)."
       - "Conducted international research stays in Canada and Japan, leading to ongoing collaborations and joint publications."
 
   - title: "Research Assistant"
-    company: "University of Cadiz"
+    company: "University of Cádiz"
     start_date: "November 2021"
     end_date: "September 2022"
-    location: "Cadiz, Spain"
+    location: "Cádiz, Spain"
     achievements:
       - "Analyzed energy consumption data for plug-in hybrid buses and developed predictive regression models."
       - "Conducted data processing, enrichment, and imputation, including treatment of data uncertainty."
@@ -49,7 +49,7 @@ research_stays:
     location: "Antwerp, Belgium"
     host: "Dr. Renzo Massobrio"
     objective: "Develop a model to dynamically determine electric drive assignments for plug-in hybrid electric buses."
-    outcome: "Preparation of a journal manuscript for submission to IEEE Transactions on Intelligent Transportation Systems."
+    outcome: "Preparation of a journal manuscript for submission to IEEE Transactions on Intelligent Transportation Systems (IF 8.4, CiteScore 17.8, Q1)."
 
   - title: "Visiting Ph.D. Student"
     institution: "Ritsumeikan University"
@@ -57,8 +57,8 @@ research_stays:
     end_date: "June 2025"
     location: "Ibaraki, Japan"
     host: "Prof. Ruck Thawonmas"
-    objective: "Empirical study on the impact of compiler optimizations on the energy consumption of video game engines, focusing on optimizing the energy usage of Doom."
-    outcome: "Journal paper published in IEEE Consumer Electronics Magazine."
+    objective: "Empirical study on the impact of compiler optimizations on the energy consumption of video game engines, focusing on optimizing the energy usage of the popular video game Doom."
+    outcome: "Journal paper published in IEEE Consumer Electronics Magazine (IF 4.1, CiteScore 11.1, Q1)."
 
   - title: "Visiting Ph.D. Student"
     institution: "University of Alberta"
@@ -67,18 +67,18 @@ research_stays:
     location: "Edmonton, Canada"
     host: "Prof. Abram Hindle"
     objective: "Empirical study on the impact of compiler optimizations on the energy consumption of applications on iOS devices."
-    outcome: "Journal paper published in Sustainable Computing: Informatics and Systems."
+    outcome: "Journal paper published in Sustainable Computing: Informatics and Systems (IF 5.7, CiteScore 12.3, Q1, 2025)."
 
 international_collaborations:
   - name: "Prof. Yusuke Nojima"
     institution: "Osaka Metropolitan University, Japan"
     period: "June 2025 - Present"
-    summary: "Ongoing collaboration on robust evolutionary algorithms for green computing initiated after an in-person lab visit and invited research talk."
+    summary: "Initiated collaborative research on robust evolutionary algorithms for green computing following an in-person lab visit in June 2025. During the visit, I gave a research talk and held technical discussions with Prof. Nojima's group, laying the groundwork for ongoing joint work."
 
   - name: "Prof. Ruck Thawonmas"
     institution: "Ritsumeikan University, Japan"
     period: "April 2025 - Present"
-    summary: "Continued collaboration on green video games and energy-efficient LLMs after completing an in-person research stay."
+    summary: "Continued collaboration on green video games and energy-efficient LLMs after completing an in-person research stay. Ongoing joint research initiatives are being developed."
 
 funded_projects:
   - code: "P5"

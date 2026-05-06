@@ -1,0 +1,72 @@
+{% assign paper = include.paper %}
+{% assign author_name = "Aragón-Jurado J. M." %}
+{% capture author_name_highlight %}<strong class="author-highlight">{{ author_name }}</strong>{% endcapture %}
+{% assign prefix = paper.id | slice: 0, 2 %}
+
+{% assign year_marker = "" %}
+{% assign year_value = "" %}
+{% if paper.text contains " 2026. " %}
+  {% assign year_marker = " 2026. " %}
+  {% assign year_value = "2026" %}
+{% elsif paper.text contains " 2025. " %}
+  {% assign year_marker = " 2025. " %}
+  {% assign year_value = "2025" %}
+{% elsif paper.text contains " 2024. " %}
+  {% assign year_marker = " 2024. " %}
+  {% assign year_value = "2024" %}
+{% elsif paper.text contains " 2023. " %}
+  {% assign year_marker = " 2023. " %}
+  {% assign year_value = "2023" %}
+{% elsif paper.text contains " 2022. " %}
+  {% assign year_marker = " 2022. " %}
+  {% assign year_value = "2022" %}
+{% elsif paper.text contains " 2021. " %}
+  {% assign year_marker = " 2021. " %}
+  {% assign year_value = "2021" %}
+{% endif %}
+
+{% assign formatted_text = paper.text
+  | replace: author_name, author_name_highlight
+  | replace: 'Under major revision in', '<span class="publication-status">Under major revision in</span>'
+  | replace: 'Under review in', '<span class="publication-status">Under review in</span>'
+  | replace: '(Outcome of research stay at Ritsumeikan University)', '<span class="publication-note">Outcome of research stay at Ritsumeikan University</span>'
+  | replace: '(Outcome of research stay at the University of Alberta)', '<span class="publication-note">Outcome of research stay at the University of Alberta</span>'
+  | replace: '(Best paper award)', '<span class="publication-note">Best paper award</span>'
+  | replace: '(CORE A main)', '<span class="publication-note">CORE A main</span>'
+  | replace: '(CORE B, GGS A-)', '<span class="publication-note">CORE B, GGS A-</span>' %}
+
+<article class="publication-entry">
+  <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
+    <div class="publication-content">
+      <p class="entry-code mb-2">{{ paper.id }}</p>
+
+      {% if prefix == 'NC' or year_marker == '' %}
+        <p class="mb-0 publication-meta">{{ formatted_text }}</p>
+      {% else %}
+        {% assign split_parts = paper.text | split: year_marker %}
+        {% assign authors_text = split_parts[0] | replace: author_name, author_name_highlight %}
+        {% assign remainder_text = paper.text | remove_first: split_parts[0] | remove_first: year_marker %}
+        {% assign title_parts = remainder_text | split: '. ' %}
+        {% assign title_text = title_parts[0] %}
+        {% capture title_prefix %}{{ title_text }}. {% endcapture %}
+        {% assign venue_text = remainder_text | remove_first: title_prefix %}
+        {% assign venue_formatted = venue_text
+          | replace: 'Under major revision in', '<span class="publication-status">Under major revision in</span>'
+          | replace: 'Under review in', '<span class="publication-status">Under review in</span>'
+          | replace: '(Outcome of research stay at Ritsumeikan University)', '<span class="publication-note">Outcome of research stay at Ritsumeikan University</span>'
+          | replace: '(Outcome of research stay at the University of Alberta)', '<span class="publication-note">Outcome of research stay at the University of Alberta</span>'
+          | replace: '(Best paper award)', '<span class="publication-note">Best paper award</span>'
+          | replace: '(CORE A main)', '<span class="publication-note">CORE A main</span>'
+          | replace: '(CORE B, GGS A-)', '<span class="publication-note">CORE B, GGS A-</span>' %}
+
+        <p class="publication-authors mb-1">{{ authors_text }}</p>
+        <p class="publication-title mb-1">{{ title_text }}.</p>
+        <p class="publication-meta mb-0"><span class="publication-year">{{ year_value }}</span> {{ venue_formatted }}</p>
+      {% endif %}
+    </div>
+
+    {% if paper.doi_url %}
+      <a href="{{ paper.doi_url }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
+    {% endif %}
+  </div>
+</article>

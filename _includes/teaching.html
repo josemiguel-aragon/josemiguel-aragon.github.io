@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="col-md-9 col-lg-10">
-                <p class="mb-0 text-muted">{{ site.data.teaching.summary.description }}</p>
+                <p class="section-intro mb-0">{{ site.data.teaching.summary.description }}</p>
             </div>
         </div>
     </div>
@@ -24,12 +24,13 @@
                     <div class="d-flex justify-content-between align-items-start gap-2 flex-column flex-md-row mb-2">
                         <div>
                             <p class="entry-code mb-1">{{ item.code }}</p>
-                            <h5 class="fw-bold mb-1">{{ item.term }} {{ item.course }}</h5>
-                            <p class="small text-primary mb-0">{{ item.center }}</p>
+                            <h5 class="entry-title mb-1">{{ item.course }}</h5>
+                            <p class="entry-subtitle mb-1">{{ item.term }}</p>
+                            <p class="entry-meta mb-0">{{ item.center }}</p>
                         </div>
                         <span class="badge bg-light text-dark border">{{ item.hours }} h</span>
                     </div>
-                    <p class="small text-muted mb-0">{{ item.level }}</p>
+                    <p class="entry-meta mb-0">{{ item.level }}</p>
                 </div>
                 {% endfor %}
             </div>
@@ -39,10 +40,44 @@
             <div class="content-card h-100">
                 <h3 class="h4 mb-4"><i class="fas fa-user-friends me-2 text-primary"></i> Academic Supervision</h3>
                 {% for item in site.data.teaching.supervision %}
+                {% assign student_name = item.title | split: ' - ' | first %}
+                {% assign project_title = item.title | remove_first: student_name | remove_first: ' - ' %}
+                {% assign details_main = item.details %}
+                {% assign follow_up_note = '' %}
+                {% assign status_label = '' %}
+                {% assign grade_label = '' %}
+                {% if item.details contains ' Resulted in ' %}
+                {% assign note_parts = item.details | split: ' Resulted in ' %}
+                {% assign details_main = note_parts[0] %}
+                {% assign follow_up_note = note_parts[1] %}
+                {% endif %}
+                {% if details_main contains '(in progress)' %}
+                {% assign details_main = details_main | remove: ' (in progress)' %}
+                {% assign status_label = 'In progress' %}
+                {% elsif details_main contains '(completed - Grade: ' %}
+                {% assign status_parts = details_main | split: '(completed - Grade: ' %}
+                {% assign details_main = status_parts[0] | strip %}
+                {% assign grade_label = status_parts[1] | remove: ')' | strip %}
+                {% assign status_label = 'Completed' %}
+                {% endif %}
                 <div class="section-card mb-3">
                     <p class="entry-code mb-2">{{ item.code }}</p>
-                    <h5 class="fw-bold mb-1">{{ item.title }}</h5>
-                    <p class="small text-muted mb-0">{{ item.details }}</p>
+                    <p class="entry-subtitle mb-1">{{ student_name }}</p>
+                    <h5 class="entry-title mb-2">{{ project_title }}</h5>
+                    <p class="entry-meta mb-0">{{ details_main }}</p>
+                    {% if status_label != '' or grade_label != '' %}
+                    <div class="entry-tags mt-3">
+                        {% if status_label != '' %}
+                        <span class="entry-tag">{{ status_label }}</span>
+                        {% endif %}
+                        {% if grade_label != '' %}
+                        <span class="entry-tag entry-tag--soft">Grade: {{ grade_label }}</span>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                    {% if follow_up_note != '' %}
+                    <p class="entry-note mt-3 mb-0">Resulted in {{ follow_up_note }}</p>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>
@@ -55,10 +90,29 @@
                 <h3 class="h4 mb-4"><i class="fas fa-clipboard-check me-2 text-primary"></i> Examination Committees</h3>
                 <div class="entry-list">
                     {% for item in site.data.teaching.committees %}
-                    <article class="publication-entry">
+                    {% assign committee_prefix = 'Member of the evaluation committee for the B.Eng. Thesis. ' %}
+                    {% assign cleaned_details = item.details | remove_first: committee_prefix %}
+                    {% assign grade_label = '' %}
+                    {% if cleaned_details contains ' Grade: ' %}
+                    {% assign committee_parts = cleaned_details | split: ' Grade: ' %}
+                    {% assign cleaned_details = committee_parts[0] | strip %}
+                    {% assign grade_label = committee_parts[1] | strip %}
+                    {% assign last_grade_char = grade_label | slice: -1, 1 %}
+                    {% if last_grade_char == '.' %}
+                    {% assign grade_label_size = grade_label | size | minus: 1 %}
+                    {% assign grade_label = grade_label | slice: 0, grade_label_size %}
+                    {% endif %}
+                    {% endif %}
+                    <div class="section-card mb-3">
                         <p class="entry-code mb-2">{{ item.code }}</p>
-                        <p class="mb-0">{{ item.details }}</p>
-                    </article>
+                        <p class="entry-subtitle mb-1">B.Eng. Thesis Committee Member</p>
+                        <p class="entry-body mb-0">{{ cleaned_details }}</p>
+                        {% if grade_label != '' %}
+                        <div class="entry-tags mt-3">
+                            <span class="entry-tag entry-tag--soft">Grade: {{ grade_label }}</span>
+                        </div>
+                        {% endif %}
+                    </div>
                     {% endfor %}
                 </div>
             </div>
@@ -67,11 +121,11 @@
         <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
             <div class="content-card h-100">
                 <h3 class="h4 mb-4"><i class="fas fa-lightbulb me-2 text-primary"></i> Educational Innovation</h3>
-                <p class="text-muted small">{{ site.data.teaching.innovation.description }}</p>
+                <p class="section-intro">{{ site.data.teaching.innovation.description }}</p>
                 {% for item in site.data.teaching.innovation.papers %}
                 <div class="section-card mb-3">
                     <p class="entry-code mb-2">{{ item.code }}</p>
-                    <p class="small mb-0">{{ item.details }}</p>
+                    <p class="entry-body mb-0">{{ item.details }}</p>
                 </div>
                 {% endfor %}
             </div>
