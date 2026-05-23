@@ -81,6 +81,12 @@ international_collaborations:
     summary: "Continued collaboration on green video games and energy-efficient LLMs after completing an in-person research stay. Ongoing joint research initiatives are being developed."
 
 funded_projects:
+  - code: "P6"
+    title: "Compiler Optimization for Green and Secure Software"
+    reference: "2026C-537"
+    scope: "Waseda University Grants for Special Research Projects - Grant-in-Aid for Research Base Creation | Waseda University, Japan"
+    role: "Principal Investigator"
+
   - code: "P5"
     title: "Automatic Generation of Green and Secure Software"
     reference: "FEDER-UCA-2024-A2-23"

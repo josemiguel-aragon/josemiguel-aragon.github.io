@@ -123,10 +123,7 @@
                 <h3 class="h4 mb-4"><i class="fas fa-lightbulb me-2 text-primary"></i> Educational Innovation</h3>
                 <p class="section-intro">{{ site.data.teaching.innovation.description }}</p>
                 {% for item in site.data.teaching.innovation.papers %}
-                <div class="section-card mb-3">
-                    <p class="entry-code mb-2">{{ item.code }}</p>
-                    <p class="entry-body mb-0">{{ item.details }}</p>
-                </div>
+                {% include publication-item.html paper=item %}
                 {% endfor %}
             </div>
         </div>

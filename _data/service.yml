@@ -29,6 +29,10 @@ organization:
 reviewing_summary: "Selected reviewing: Sustainable Cities and Society (Elsevier), Applied Soft Computing (Elsevier), Sustainable Computing: Informatics and Systems (Elsevier), Future Generation Computer Systems (Elsevier), IEEE Conference on Games (CoG)."
 
 journal_reviews:
+  - code: "R16"
+    details: "Future Internet - MDPI"
+  - code: "R15"
+    details: "Sensors - MDPI"
   - code: "R14"
     details: "Information Processing and Management - Elsevier"
   - code: "R13"

@@ -1,31 +1,33 @@
 {% assign paper = include.paper %}
+{% assign entry_id = paper.id | default: paper.code %}
+{% assign entry_text = paper.text | default: paper.details %}
 {% assign author_name = "Aragón-Jurado J. M." %}
 {% capture author_name_highlight %}<strong class="author-highlight">{{ author_name }}</strong>{% endcapture %}
-{% assign prefix = paper.id | slice: 0, 2 %}
+{% assign prefix = entry_id | slice: 0, 2 %}
 
 {% assign year_marker = "" %}
 {% assign year_value = "" %}
-{% if paper.text contains " 2026. " %}
+{% if entry_text contains " 2026. " %}
   {% assign year_marker = " 2026. " %}
   {% assign year_value = "2026" %}
-{% elsif paper.text contains " 2025. " %}
+{% elsif entry_text contains " 2025. " %}
   {% assign year_marker = " 2025. " %}
   {% assign year_value = "2025" %}
-{% elsif paper.text contains " 2024. " %}
+{% elsif entry_text contains " 2024. " %}
   {% assign year_marker = " 2024. " %}
   {% assign year_value = "2024" %}
-{% elsif paper.text contains " 2023. " %}
+{% elsif entry_text contains " 2023. " %}
   {% assign year_marker = " 2023. " %}
   {% assign year_value = "2023" %}
-{% elsif paper.text contains " 2022. " %}
+{% elsif entry_text contains " 2022. " %}
   {% assign year_marker = " 2022. " %}
   {% assign year_value = "2022" %}
-{% elsif paper.text contains " 2021. " %}
+{% elsif entry_text contains " 2021. " %}
   {% assign year_marker = " 2021. " %}
   {% assign year_value = "2021" %}
 {% endif %}
 
-{% assign formatted_text = paper.text
+{% assign formatted_text = entry_text
   | replace: author_name, author_name_highlight
   | replace: 'Under major revision in', '<span class="publication-status">Under major revision in</span>'
   | replace: 'Under review in', '<span class="publication-status">Under review in</span>'
@@ -38,14 +40,14 @@
 <article class="publication-entry">
   <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
     <div class="publication-content">
-      <p class="entry-code mb-2">{{ paper.id }}</p>
+      <p class="entry-code mb-2">{{ entry_id }}</p>
 
       {% if prefix == 'NC' or year_marker == '' %}
         <p class="mb-0 publication-meta">{{ formatted_text }}</p>
       {% else %}
-        {% assign split_parts = paper.text | split: year_marker %}
+        {% assign split_parts = entry_text | split: year_marker %}
         {% assign authors_text = split_parts[0] | replace: author_name, author_name_highlight %}
-        {% assign remainder_text = paper.text | remove_first: split_parts[0] | remove_first: year_marker %}
+        {% assign remainder_text = entry_text | remove_first: split_parts[0] | remove_first: year_marker %}
         {% assign title_parts = remainder_text | split: '. ' %}
         {% assign title_text = title_parts[0] %}
         {% capture title_prefix %}{{ title_text }}. {% endcapture %}
