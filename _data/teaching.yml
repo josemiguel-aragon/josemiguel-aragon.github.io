@@ -1,51 +1,68 @@
 summary:
-  hours: "180+"
-  description: "Over 180 teaching hours delivered across Parallel and Distributed Programming, Machine Learning, Perception, and Automata Theory courses at the undergraduate level."
+  hours: "180"
+  description: "Teaching experience across undergraduate and graduate courses in Parallel and Distributed Programming, Machine Learning, Signal Processing, Automata Theory, Statistics, and Multi-objective Decision Making."
+
+assistant_professor:
+  - code: "AP2"
+    course: "Applied Statistical Data Processing"
+    term: "AY2026"
+    center: "Graduate School of Information, Production and Systems, Waseda University, Japan"
+    level: "Master's level"
+
+  - code: "AP1"
+    course: "Multi-objective Decision Making and Application"
+    term: "AY2026"
+    center: "Graduate School of Information, Production and Systems, Waseda University, Japan"
+    level: "Master's level"
 
 assistantships:
   - code: "T6"
     course: "Parallel and Distributed Programming"
     term: "2025-26"
-    center: "Department of Computer Engineering, University of Cádiz"
+    center: "Department of Computer Engineering, University of Cádiz, Spain"
     hours: "28"
     level: "Bachelor's level"
 
   - code: "T5"
     course: "Perception"
     term: "2024-25"
-    center: "Department of Computer Engineering, University of Cádiz"
+    center: "Department of Computer Engineering, University of Cádiz, Spain"
     hours: "24"
     level: "Bachelor's level"
 
   - code: "T4"
     course: "Machine Learning"
     term: "2024-25"
-    center: "Department of Computer Engineering, University of Cádiz"
+    center: "Department of Computer Engineering, University of Cádiz, Spain"
     hours: "36"
     level: "Bachelor's level"
 
   - code: "T3"
     course: "Perception"
     term: "2023-24"
-    center: "Department of Computer Engineering, University of Cádiz"
+    center: "Department of Computer Engineering, University of Cádiz, Spain"
     hours: "24"
     level: "Bachelor's level"
 
   - code: "T2"
     course: "Machine Learning"
     term: "2023-24"
-    center: "Department of Computer Engineering, University of Cádiz"
+    center: "Department of Computer Engineering, University of Cádiz, Spain"
     hours: "36"
     level: "Bachelor's level"
 
   - code: "T1"
     course: "Automata Theory and Formal Languages"
     term: "2022-23"
-    center: "Department of Computer Engineering, University of Cádiz"
+    center: "Department of Computer Engineering, University of Cádiz, Spain"
     hours: "32"
     level: "Bachelor's level"
 
 supervision:
+  - code: "MT1"
+    title: "Alberto Valderas González - Obfuscation of Compiled Code Using Large Language Models and Deep Learning"
+    details: "M.Eng. Thesis, University of Cádiz, expected 2026. (in progress)"
+
   - code: "BT8"
     title: "Marcos Morales Marquez - Prism Guard: 3D RTS video game where the player must defend against waves of enemies"
     details: "B.Eng. Thesis, University of Cádiz, expected 2026. (in progress)"

@@ -5,7 +5,7 @@ metrics:
     label: "Q1 / Q2 journals"
   - value: "20+"
     label: "International conferences"
-  - value: "4"
+  - value: "5"
     label: "Under review"
 
 journal_papers:
@@ -38,7 +38,7 @@ journal_papers:
   - id: "J10"
     text: >-
       Rosa F. J.; de la Torre J. C.; Aragón-Jurado J. M.; Valderas-González A.;
-      Dorronsoro B. 2026. Energy-Performance Trade-Offs of LU Matrix
+      Dorronsoro B. 2026. Energy–Performance Trade-Offs of LU Matrix
       Decomposition in Java Across Heterogeneous Hardware and Operating Systems.
       Applied Sciences. MDPI. 16(2). 1002. (IF 2.5, CiteScore 5.5, Q2)
     doi_url: "https://doi.org/10.3390/app16021002"
@@ -109,25 +109,31 @@ journal_papers:
     doi_url: "https://doi.org/10.1016/j.scs.2023.104556"
 
 under_review:
+  - id: "J19"
+    text: >-
+      Aragón-Jurado J. M.; Massobrio R.; Jareño J.; Dorronsoro B.; Ruiz P.
+      2026. Adaptive Energy Management Strategy for Plug-in Hybrid Electric
+      Buses via Dynamic Programming. Under review in IEEE Transactions on
+      Intelligent Transportation Systems. (IF 8.4, CiteScore 17.8, Q1)
   - id: "J18"
     text: >-
-      Aragón-Jurado J. M.; Xia Y.; Khan I.; Thawonmas R. 2025. A Framework for
-      Energy-Quality Efficiency Assessment in Large Language Models. Under
+      Aragón-Jurado J. M.; Xia Y.; Khan I.; Thawonmas R. 2026. A Framework for
+      Energy–Quality Efficiency Assessment in Large Language Models. Under
       review in Sustainable Computing: Informatics and Systems. (IF 5.7,
       CiteScore 12.3, Q1)
   - id: "J17"
     text: >-
-      Aragón-Jurado J. M.; Dorronsoro B.; Ruiz P.; Nojima Y. 2025. A
+      Aragón-Jurado J. M.; Dorronsoro B.; Ruiz P.; Nojima Y. 2026. A
       Systematic Review of Code Obfuscation in Blockchain Systems. Under review
       in ACM Computing Surveys. (IF 28.0, CiteScore 51.6, Q1)
   - id: "J16"
     text: >-
-      Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2025.
+      Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2026.
       Automated Tailoring of the Doom Engine for Handheld Gaming Devices.
       Under review in IEEE Transactions on Games. (IF 2.8, CiteScore 5.2, Q2)
   - id: "J15"
     text: >-
-      Aragón-Jurado J. M.; Ruiz P.; Dorronsoro B. 2025. Energy-Performance
+      Aragón-Jurado J. M.; Ruiz P.; Dorronsoro B. 2026. Energy–Performance
       Trade-offs of CUDA Compiler Optimizations in Embedded GPUs. Under review
       in Journal of Systems Architecture. (IF 4.1, CiteScore 10.5, Q1)
 
