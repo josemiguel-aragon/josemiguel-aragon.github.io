@@ -259,18 +259,33 @@ international_conference_papers:
 
 national_conference_papers:
   - id: "NC9"
+    authors: "Vázquez-Rodríguez E.; Aragón-Jurado J. M.; de la Torre J. C.; Dorronsoro B."
+    title: "Evolución de la infraestructura de compilación LLVM según las optimizaciones de código disponibles."
+    venue: "XXIX Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2025). SISTEDES."
+    year: "2025"
+    location: "Córdoba, Spain."
     text: >-
       Vázquez-Rodríguez E.; Aragón-Jurado J. M.; de la Torre J. C.; Dorronsoro
       B. Evolución de la infraestructura de compilación LLVM según las
       optimizaciones de código disponibles. XXIX Jornadas de Ingeniería del
       Software y Bases de Datos (JISBD 2025). SISTEDES. 2025. Córdoba, Spain.
   - id: "NC8"
+    authors: "Pérez-Vargas A.; Aragón-Jurado J. M.; de la Torre J. C.; Dorronsoro B."
+    title: "LinuxVerde: Un sistema operativo para la medición precisa del consumo energético del software."
+    venue: "XXIX Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2025). SISTEDES."
+    year: "2025"
+    location: "Córdoba, Spain."
     text: >-
       Pérez-Vargas A.; Aragón-Jurado J. M.; de la Torre J. C.; Dorronsoro B.
       LinuxVerde: Un sistema operativo para la medición precisa del consumo
       energético del software. XXIX Jornadas de Ingeniería del Software y Bases
       de Datos (JISBD 2025). SISTEDES. 2025. Córdoba, Spain.
   - id: "NC7"
+    authors: "de la Torre J. C.; Aragón-Jurado J. M.; Jareño J.; Dorronsoro B.; Ruiz P."
+    title: "Optimización en dos pasos del rendimiento del software usando transformaciones de compilación."
+    venue: "XVI Congreso Español de Metaheurísticas, Algoritmos Evolutivos y Bioinspirados. AEPIA."
+    year: "2025"
+    location: "San Sebastián, Spain."
     text: >-
       de la Torre J. C.; Aragón-Jurado J. M.; Jareño J.; Dorronsoro B.; Ruiz P.
       Optimización en dos pasos del rendimiento del software usando
@@ -278,30 +293,56 @@ national_conference_papers:
       Algoritmos Evolutivos y Bioinspirados. AEPIA. 2025. San Sebastián,
       Spain.
   - id: "NC6"
+    authors: "Aragón-Jurado J. M.; Jareño J.; de la Torre J. C.; Ruiz P.; Dorronsoro B."
+    title: "Ofuscación de Software en dos Niveles usando Algoritmos Cooperativos Coevolutivos."
+    venue: "XV Congreso Español de Metaheurísticas, Algoritmos Evolutivos y Bioinspirados. AEPIA."
+    year: "2024"
+    location: "A Coruña, Spain."
     text: >-
       Aragón-Jurado J. M.; Jareño J.; de la Torre J. C.; Ruiz P.; Dorronsoro
       B. Ofuscación de Software en dos Niveles usando Algoritmos Cooperativos
       Coevolutivos. XV Congreso Español de Metaheurísticas, Algoritmos
       Evolutivos y Bioinspirados. AEPIA. 2024. A Coruña, Spain.
   - id: "NC5"
+    authors: "Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B."
+    title: "Optimización automática del videojuego Doom para un rendimiento óptimo en Steam Deck."
+    venue: "III Congreso Español de Videojuegos. Sociedad Científica Informática de España."
+    year: "2024"
+    location: "A Coruña, Spain."
+    note: "Best paper award"
     text: >-
       Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B.
       Optimización automática del videojuego Doom para un rendimiento óptimo en
       Steam Deck. III Congreso Español de Videojuegos. Sociedad Científica
       Informática de España. 2024. A Coruña, Spain. (Best paper award)
   - id: "NC4"
+    authors: "Aragón-Jurado J. M.; Acuña-Vega L. E.; Ortiz G.; Boubeta-Puig J.; Muñoz A."
+    title: "Detección Inteligente de Sucesos en Smart Cities con Feedback de los Ciudadanos."
+    venue: "XVII Jornadas de Ingeniería de Ciencia e Ingeniería de Servicios (JCIS 2022). SISTEDES."
+    year: "2022"
+    location: "Santiago de Compostela, Spain."
     text: >-
       Aragón-Jurado J. M.; Acuña-Vega L. E.; Ortiz G.; Boubeta-Puig J.; Muñoz
       A. Detección Inteligente de Sucesos en Smart Cities con Feedback de los
       Ciudadanos. XVII Jornadas de Ingeniería de Ciencia e Ingeniería de
       Servicios (JCIS 2022). SISTEDES. 2022. Santiago de Compostela, Spain.
   - id: "NC3"
+    authors: "Aragón-Jurado J. M.; de la Torre J. C.; Benito-Jareño C.; Dorronsoro B."
+    title: "Optimización de programas software considerando la incertidumbre del tiempo de ejecución."
+    venue: "XXVI Jornadas de Ingeniería del Software y Bases de Datos (JISBD 2022). SISTEDES."
+    year: "2022"
+    location: "Santiago de Compostela, Spain."
     text: >-
       Aragón-Jurado J. M.; de la Torre J. C.; Benito-Jareño C.; Dorronsoro B.
       Optimización de programas software considerando la incertidumbre del
       tiempo de ejecución. XXVI Jornadas de Ingeniería del Software y Bases de
       Datos (JISBD 2022). SISTEDES. 2022. Santiago de Compostela, Spain.
   - id: "NC2"
+    authors: "Aragón-Jurado J. M.; Acuña-Vega L. E.; Ortiz G.; Boubeta-Puig J.; Muñoz A."
+    title: "Hacia la Detección Inteligente de Sucesos en Ciudades Inteligentes con la Participación Ciudadana."
+    venue: "II Jornadas de Investigación Predoctoral en Ingeniería Informática (JIPII 2022). University of Cádiz."
+    year: "2022"
+    location: "Cádiz, Spain."
     text: >-
       Aragón-Jurado J. M.; Acuña-Vega L. E.; Ortiz G.; Boubeta-Puig J.; Muñoz
       A. Hacia la Detección Inteligente de Sucesos en Ciudades Inteligentes con
@@ -309,6 +350,11 @@ national_conference_papers:
       Ingeniería Informática (JIPII 2022). University of Cádiz. 2022. Cádiz,
       Spain.
   - id: "NC1"
+    authors: "Aragón-Jurado J. M.; de la Torre J. C.; Benito-Jareño C.; Dorronsoro B."
+    title: "Optimización robusta del tiempo de ejecución de programas software con Algoritmos Genéticos."
+    venue: "II Jornadas de Investigación Predoctoral en Ingeniería Informática (JIPII 2022). University of Cádiz."
+    year: "2022"
+    location: "Cádiz, Spain."
     text: >-
       Aragón-Jurado J. M.; de la Torre J. C.; Benito-Jareño C.; Dorronsoro B.
       Optimización robusta del tiempo de ejecución de programas software con

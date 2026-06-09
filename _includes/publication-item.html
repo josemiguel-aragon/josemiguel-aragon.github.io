@@ -42,7 +42,16 @@
     <div class="publication-content">
       <p class="entry-code mb-2">{{ entry_id }}</p>
 
-      {% if prefix == 'NC' or year_marker == '' %}
+      {% if paper.authors and paper.title and paper.venue and paper.year %}
+        {% assign authors_formatted = paper.authors | replace: author_name, author_name_highlight %}
+        {% assign venue_formatted = paper.venue
+          | replace: '(Best paper award)', '<span class="publication-note">Best paper award</span>'
+          | replace: '(CORE A main)', '<span class="publication-note">CORE A main</span>'
+          | replace: '(CORE B, GGS A-)', '<span class="publication-note">CORE B, GGS A-</span>' %}
+        <p class="publication-authors mb-1">{{ authors_formatted }}</p>
+        <p class="publication-title mb-1">{{ paper.title }}</p>
+        <p class="publication-meta mb-0"><span class="publication-year">{{ paper.year }}</span> {{ venue_formatted }}{% if paper.location %} {{ paper.location }}{% endif %}{% if paper.note %} <span class="publication-note">{{ paper.note }}</span>{% endif %}</p>
+      {% elsif year_marker == '' %}
         <p class="mb-0 publication-meta">{{ formatted_text }}</p>
       {% else %}
         {% assign split_parts = entry_text | split: year_marker %}

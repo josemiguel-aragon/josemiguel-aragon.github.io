@@ -1,6 +1,7 @@
 summary:
-  hours: "180"
-  description: "Teaching experience across undergraduate and graduate courses in Parallel and Distributed Programming, Machine Learning, Signal Processing, Automata Theory, Statistics, and Multi-objective Decision Making."
+  hours: "+180"
+  label: "Teaching hours"
+  description: "Teaching experience across undergraduate and graduate courses in Parallel and Distributed Programming, Machine Learning, Signal Processing, Automata Theory, Statistics, and Multi-objective Decision Making, including 180 documented teaching assistant hours and current graduate teaching at Waseda University."
 
 assistant_professor:
   - code: "AP2"
