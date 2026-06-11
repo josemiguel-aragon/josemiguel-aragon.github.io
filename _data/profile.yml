@@ -38,6 +38,8 @@ highlights:
     label: "Q1 journals"
   - value: "29"
     label: "Conference papers"
+  - value: "2"
+    label: "Research grants"
   - value: "3"
     label: "Research stays"
 
