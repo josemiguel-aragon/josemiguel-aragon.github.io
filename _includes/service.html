@@ -38,8 +38,8 @@
             <div class="content-card h-100">
                 <h3 class="h4 mb-4"><i class="fas fa-calendar-alt me-2 text-primary"></i> Conference Organization</h3>
                 {% for item in site.data.service.organization %}
-                {% assign organization_lead = item.details | split: ' - ' | first %}
-                {% assign organization_body = item.details | remove_first: organization_lead | remove_first: ' - ' %}
+                {% assign organization_lead = item.lead | default: item.details | split: ' - ' | first %}
+                {% assign organization_body = item.body | default: item.details | remove_first: organization_lead | remove_first: ' - ' %}
                 <div class="section-card mb-3">
                     <p class="entry-code mb-2">{{ item.code }}</p>
                     {% if organization_body == '' %}

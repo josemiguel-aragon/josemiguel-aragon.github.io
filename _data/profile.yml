@@ -36,6 +36,8 @@ highlights:
     label: "Journal papers"
   - value: "10"
     label: "Q1 journals"
+  - value: "5"
+    label: "Top 10% JCR journals"
   - value: "29"
     label: "Conference papers"
   - value: "2"
@@ -52,12 +54,12 @@ about: >-
   optimization, artificial intelligence, and evolutionary computation to
   reduce the environmental impact of software systems, with applications in
   green software, embedded systems, intelligent transportation, and software
-  security. Author of 14 journal papers (10 Q1, 4 Q2) and nearly 30
-  conference papers, including CORE A*/A/B venues. Principal Investigator of
-  competitive research projects, including industry-sponsored collaborations
-  with Kioxia. Research stays in Japan, Canada, and Belgium have led to
-  ongoing international collaborations in sustainable AI and evolutionary
-  computation.
+  security. Author of 14 journal papers (10 Q1, 4 Q2, 5 top 10% JCR) and
+  nearly 30 conference papers, including CORE A*/A/B venues. Principal
+  Investigator of competitive research projects, including industry-sponsored
+  collaborations with Kioxia. Research stays in Japan, Canada, and Belgium
+  have led to ongoing international collaborations in sustainable AI and
+  evolutionary computation.
 
 research_interests:
   items:
