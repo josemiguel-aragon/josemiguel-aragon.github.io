@@ -15,6 +15,11 @@ paper_awards:
     details: "Recognized for the paper 'Multivariable Visualization Tool of the Performance of Plug-In Hybrid Electric Buses'."
 
 fellowships:
+  - code: "G2"
+    title: "2026 Kioxia Young Research Grant - Waseda University-Kioxia Collaborative Research Program"
+    issuer: "Waseda University-Kioxia"
+    details: "Principal Investigator, 'Memory Usage Optimization for Embedded Systems Using Evolutionary Computation and Compiler Technology', Waseda University-Kioxia, Japan, JPY 500,000, June 2026 - February 2027. Competitive industry-sponsored research grant awarded in collaboration with Kioxia."
+
   - code: "G1"
     title: "2026 Waseda University Grants for Special Research Projects - Grant-in-Aid for Research Base Creation"
     issuer: "Waseda University"

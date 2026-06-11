@@ -3,8 +3,8 @@ metrics:
     label: "Journal papers"
   - value: "10 / 4"
     label: "Q1 / Q2 journals"
-  - value: "20+"
-    label: "International conferences"
+  - value: "29"
+    label: "Conference papers"
   - value: "5"
     label: "Under review"
 
@@ -147,6 +147,19 @@ book_chapters:
     doi_url: "https://doi.org/10.1016/B978-0-323-90386-8.00122-4"
 
 international_conference_papers:
+  - id: "C18"
+    text: >-
+      Jareño J.; Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B.
+      2026. GreenLLMs: Sustainable Large Language Models. International
+      Conference on Optimization and Learning (OLA2026). 2026. Chania, Crete,
+      Greece.
+  - id: "C17"
+    text: >-
+      Aragón-Jurado J. M.; Díaz-Jiménez M.; Dorronsoro B.; Pavón-Domínguez P.;
+      Seredynski M.; Ruiz P. 2026. Multi-Objective Optimization of Urban Plugin
+      Hybrid Bus Operations in Restricted Emission Mapping Areas. International
+      Conference on Optimization and Learning (OLA2026). 2026. Chania, Crete,
+      Greece.
   - id: "C16"
     text: >-
       Rosa F. J.; Valderas-González A.; Aragón-Jurado J. M.; de la Torre J. C.;

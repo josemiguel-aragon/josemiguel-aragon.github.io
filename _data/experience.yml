@@ -81,6 +81,12 @@ international_collaborations:
     summary: "Continued collaboration on green video games and energy-efficient LLMs after completing an in-person research stay. Ongoing joint research initiatives are being developed."
 
 funded_projects:
+  - code: "P7"
+    title: "Memory Usage Optimization for Embedded Systems Using Evolutionary Computation and Compiler Technology"
+    reference: "2026 Kioxia Young Research Grant"
+    scope: "Waseda University-Kioxia Collaborative Research Program, Japan | Industry-funded collaborative research project"
+    role: "Principal Investigator"
+
   - code: "P6"
     title: "Compiler Optimization for Green and Secure Software"
     reference: "2026C-537"
