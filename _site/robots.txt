@@ -1,1 +1,1 @@
-Sitemap: https://josemiguel-aragon.github.io/sitemap.xml
+Sitemap: http://localhost:4321/sitemap.xml

@@ -1,17 +1,17 @@
 <section id="about" class="py-5">
     <div class="content-card hero-shell animate-fade-in" data-aos="fade-in" data-aos-duration="800">
-        <div class="row g-4 align-items-center">
+        <div class="row g-4 align-items-start">
             <div class="col-lg-4 text-center text-lg-start">
                 <div class="profile-image-container hover-scale mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
                     <img src="{{ site.data.profile.image | relative_url }}" alt="{{ site.data.profile.name }}"
-                        class="img-fluid rounded-xl shadow-lg" />
+                        class="img-fluid" />
                 </div>
             </div>
             <div class="col-lg-8">
                 <div data-aos="fade-up" data-aos-delay="300">
-                    <p class="section-kicker mb-2">Academic CV</p>
-                    <h1 class="gradient-text display-4 fw-bold mb-2">{{ site.data.profile.name }}</h1>
-                    <h2 class="h4 text-muted mb-3">{{ site.data.profile.job_title }}</h2>
+                    <p class="section-mark mb-2">&sect; Curriculum Vitae</p>
+                    <h1 class="hero-name mb-2">{{ site.data.profile.name }}</h1>
+                    <h2 class="hero-role mb-3">{{ site.data.profile.job_title }}</h2>
                     <div class="d-flex flex-wrap gap-2 mb-4">
                         <span class="badge bg-primary">{{ site.data.profile.research_group }}</span>
                         <span class="badge bg-light text-dark border">{{ site.data.profile.university }}</span>
@@ -21,17 +21,8 @@
                 </div>
 
                 <div class="info-section animate-slide-in" data-aos="fade-up" data-aos-delay="400">
-                    <div class="mb-4">
+                    <div class="hero-about mb-4">
                         {{ site.data.profile.about | markdownify }}
-                    </div>
-
-                    <div class="facts-grid mb-4">
-                        {% for fact in site.data.profile.quick_facts %}
-                        <div class="fact-card">
-                            <p class="fact-label mb-1">{{ fact.label }}</p>
-                            <p class="fact-value mb-0">{{ fact.value }}</p>
-                        </div>
-                        {% endfor %}
                     </div>
 
                     <div class="highlights-grid mb-4">
@@ -43,7 +34,16 @@
                         {% endfor %}
                     </div>
 
-                    <h3 class="h5 mb-3">Research Interests</h3>
+                    <div class="facts-grid mb-4">
+                        {% for fact in site.data.profile.quick_facts %}
+                        <div class="fact-card">
+                            <p class="fact-label mb-1">{{ fact.label }}</p>
+                            <p class="fact-value mb-0">{{ fact.value }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <h3 class="hero-subhead mb-3">Research Interests</h3>
                     <ul class="list-unstyled compact-list mb-4">
                         {% for item in site.data.profile.research_interests.items %}
                         <li class="mb-2">

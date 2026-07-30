@@ -1,46 +1,52 @@
 metrics:
-  - value: "14"
+  - value: "15"
     label: "Journal papers"
-  - value: "10 / 4"
-    label: "Q1 / Q2 journals"
-  - value: "29"
+  - value: "9 / 5 / 1"
+    label: "Q1 / Q2 / Q3 journals"
+  - value: "31"
     label: "Conference papers"
-  - value: "5"
+  - value: "6"
     label: "Under review"
 
 journal_papers:
+  - id: "J15"
+    text: >-
+      Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2026.
+      Automated Tailoring of the Doom Engine for Handheld Gaming Devices. IEEE
+      Transactions on Games. Early Access. (IF 3.0, CiteScore 5.6, Q2)
+    doi_url: "https://doi.org/10.1109/TG.2026.3717409"
   - id: "J14"
     text: >-
       Aragón-Jurado J. M.; Thawonmas R.; Ruiz P.; Dorronsoro B. 2026. Native
       Code, Greener Games? Investigating Energy Efficiency in Unity Builds.
       Entertainment Computing. 57. 101132. (Outcome of research stay at
-      Ritsumeikan University) (IF 2.4, CiteScore 5.6, Q2)
+      Ritsumeikan University) (IF 2.4, CiteScore 5.1, Q3)
     doi_url: "https://doi.org/10.1016/j.entcom.2026.101132"
   - id: "J13"
     text: >-
       Aragón-Jurado J. M.; Dorronsoro B.; Ruiz P. 2026. Evaluating Compiler
       Optimizations for Faster and Greener Web Browsing. Information and
-      Software Technology. 196. 108153. (IF 4.3, CiteScore 10.8, Q1)
+      Software Technology. 196. 108153. (IF 4.6, CiteScore 10.8, Q1)
     doi_url: "https://doi.org/10.1016/j.infsof.2026.108153"
   - id: "J12"
     text: >-
       Jareño J.; Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B.
       2026. Energy-Efficient Large Language Models. Future Generation Computer
-      Systems. 182. 108483. (IF 6.1, CiteScore 17.1, Q1)
+      Systems. 182. 108483. (IF 5.9, CiteScore 17.0, Q1)
     doi_url: "https://doi.org/10.1016/j.future.2026.108483"
   - id: "J11"
     text: >-
       Aragón-Jurado J. M.; de la Torre J. C.; Nojima Y.; Ruiz P.; Dorronsoro B.
       2026. Two-Level Automatic Software Optimization Using Cooperative
       Co-Evolutionary Algorithms. Applied Soft Computing. 195. 115066.
-      (IF 6.6, CiteScore 14.5, Q1)
+      (IF 7.8, CiteScore 13.1, Q1)
     doi_url: "https://doi.org/10.1016/j.asoc.2026.115066"
   - id: "J10"
     text: >-
       Rosa F. J.; de la Torre J. C.; Aragón-Jurado J. M.; Valderas-González A.;
       Dorronsoro B. 2026. Energy–Performance Trade-Offs of LU Matrix
       Decomposition in Java Across Heterogeneous Hardware and Operating Systems.
-      Applied Sciences. MDPI. 16(2). 1002. (IF 2.5, CiteScore 5.5, Q2)
+      Applied Sciences. MDPI. 16(2). 1002. (IF 2.9, CiteScore 6.1, Q2)
     doi_url: "https://doi.org/10.3390/app16021002"
   - id: "J9"
     text: >-
@@ -48,7 +54,7 @@ journal_papers:
       Ruiz P. 2025. Does Faster Mean Greener? Runtime and Energy Trade-offs in
       iOS Applications with Compiler Optimizations. Sustainable Computing:
       Informatics and Systems. Elsevier. 47. 101166. (Outcome of research stay
-      at the University of Alberta) (IF 5.7, CiteScore 12.3, Q1)
+      at the University of Alberta) (IF 6.2, CiteScore 13.2, Q1)
     doi_url: "https://doi.org/10.1016/j.suscom.2025.101166"
   - id: "J8"
     text: >-
@@ -56,20 +62,20 @@ journal_papers:
       Seredynski M.; Ruiz P. 2025. Sustainable driving operations of urban
       plug-in hybrid buses considering restricted emission mapping zones.
       Engineering Applications of Artificial Intelligence. Elsevier. 157.
-      111179. (IF 8.0, CiteScore 9.5, Q1)
+      111179. (IF 9.0, CiteScore 11.7, Q1)
     doi_url: "https://doi.org/10.1016/j.engappai.2025.111179"
   - id: "J7"
     text: >-
       Aragón-Jurado J. M.; Ruiz P.; Dorronsoro B.; Thawonmas R. 2025. Green
       Gaming: Automated Energy Consumption Reduction for Doom Engine. IEEE
       Consumer Electronics Magazine. IEEE. 15(1), pp. 15-21. (Outcome of
-      research stay at Ritsumeikan University) (IF 4.1, CiteScore 11.1, Q1)
+      research stay at Ritsumeikan University) (IF 5.0, CiteScore 12.1, Q2)
     doi_url: "https://doi.org/10.1109/MCE.2025.3565227"
   - id: "J6"
     text: >-
       Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2025.
       Automatic software tailoring for Green Internet of Things. Internet of
-      Things. Elsevier. 30. 101521. (IF 7.6, CiteScore 12.4, Q1)
+      Things. Elsevier. 30. 101521. (IF 7.1, CiteScore 16.3, Q1)
     doi_url: "https://doi.org/10.1016/j.iot.2025.101521"
   - id: "J5"
     text: >-
@@ -109,18 +115,28 @@ journal_papers:
     doi_url: "https://doi.org/10.1016/j.scs.2023.104556"
 
 under_review:
+  - id: "J21"
+    text: >-
+      Aragón-Jurado J. M.; Ruiz P.; Dorronsoro B. 2026. Automatic Binary
+      Obfuscation and Reduction of Ethereum Blockchain Clients. Under review in
+      Blockchain: Research and Applications. (IF 6.5, CiteScore 15.7, Q1)
+  - id: "J20"
+    text: >-
+      Aragón-Jurado J. M.; Xia Y.; Thawonmas R. 2026. Green Code Generation
+      with Large Language Models via Energy-Guided Selection. Under review in
+      Cureus Journal of AI-Augmented Research.
   - id: "J19"
     text: >-
       Aragón-Jurado J. M.; Massobrio R.; Jareño J.; Dorronsoro B.; Ruiz P.
       2026. Adaptive Energy Management Strategy for Plug-in Hybrid Electric
       Buses via Dynamic Programming. Under review in IEEE Transactions on
-      Intelligent Transportation Systems. (IF 8.4, CiteScore 17.8, Q1)
+      Vehicular Technology. (IF 7.5, CiteScore 13.3, Q1)
   - id: "J18"
     text: >-
       Aragón-Jurado J. M.; Xia Y.; Khan I.; Thawonmas R. 2026. A Framework for
       Energy–Quality Efficiency Assessment in Large Language Models. Under
-      review in Sustainable Computing: Informatics and Systems. (IF 5.7,
-      CiteScore 12.3, Q1)
+      review in IEEE Open Journal of the Computer Society. (IF 6, CiteScore
+      9.4, Q1)
   - id: "J17"
     text: >-
       Aragón-Jurado J. M.; Dorronsoro B.; Ruiz P.; Nojima Y. 2026. A
@@ -128,14 +144,9 @@ under_review:
       in ACM Computing Surveys. (IF 28.0, CiteScore 51.6, Q1)
   - id: "J16"
     text: >-
-      Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B. 2026.
-      Automated Tailoring of the Doom Engine for Handheld Gaming Devices.
-      Under review in IEEE Transactions on Games. (IF 2.8, CiteScore 5.2, Q2)
-  - id: "J15"
-    text: >-
       Aragón-Jurado J. M.; Ruiz P.; Dorronsoro B. 2026. Energy–Performance
       Trade-offs of CUDA Compiler Optimizations in Embedded GPUs. Under review
-      in Journal of Systems Architecture. (IF 4.1, CiteScore 10.5, Q1)
+      in Journal of Systems Architecture. (IF 5.3, CiteScore 9.1, Q1)
 
 book_chapters:
   - id: "B1"
@@ -147,6 +158,16 @@ book_chapters:
     doi_url: "https://doi.org/10.1016/B978-0-323-90386-8.00122-4"
 
 international_conference_papers:
+  - id: "C19"
+    authors: "Aragón-Jurado J. M.; Arakawa M."
+    title: "Impact of Compiler Evolution on Energy and Performance of Node.js Applications."
+    venue: "IEEE 15th Global Conference on Consumer Electronics (GCCE 2026)."
+    year: "2026"
+    location: "Kobe, Japan."
+    text: >-
+      Aragón-Jurado J. M.; Arakawa M. Impact of Compiler Evolution on Energy
+      and Performance of Node.js Applications. IEEE 15th Global Conference on
+      Consumer Electronics (GCCE 2026). 2026. Kobe, Japan.
   - id: "C18"
     text: >-
       Jareño J.; Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B.
@@ -271,6 +292,17 @@ international_conference_papers:
       Nature Inspired Computing META. Marrakech, Morocco. 2021.
 
 national_conference_papers:
+  - id: "NC10"
+    authors: "Jareño J.; Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B."
+    title: "Modelos de lenguaje sostenibles mediante optimización evolutiva del motor de inferencia."
+    venue: "XI Conferencia de la Asociación Española de Inteligencia Artificial (CAEPIA 2026)."
+    year: "2026"
+    location: "Jaén, Spain."
+    text: >-
+      Jareño J.; Aragón-Jurado J. M.; de la Torre J. C.; Ruiz P.; Dorronsoro B.
+      Modelos de lenguaje sostenibles mediante optimización evolutiva del motor
+      de inferencia. XI Conferencia de la Asociación Española de Inteligencia
+      Artificial (CAEPIA 2026). Jaén, Spain.
   - id: "NC9"
     authors: "Vázquez-Rodríguez E.; Aragón-Jurado J. M.; de la Torre J. C.; Dorronsoro B."
     title: "Evolución de la infraestructura de compilación LLVM según las optimizaciones de código disponibles."

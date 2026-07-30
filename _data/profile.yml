@@ -8,7 +8,7 @@ orcid_id: "0000-0002-9835-8793"
 orcid_url: "https://orcid.org/0000-0002-9835-8793"
 date_of_birth: "January 21, 1999 (Age: 27)"
 languages: "Spanish (Native), English (C1+), Japanese (Basic)"
-last_updated: "2026-06-11"
+last_updated: "2026-07-30"
 image: "assets/images/profile.jpg"
 resume: "files/resume.pdf"
 
@@ -29,16 +29,14 @@ quick_facts:
   - label: "Accreditation"
     value: "ANECA Associate Professor (2025)"
   - label: "Research Output"
-    value: "14 journal papers and nearly 30 conference papers"
+    value: "15 journal papers and more than 30 conference papers"
 
 highlights:
-  - value: "14"
+  - value: "15"
     label: "Journal papers"
-  - value: "10"
+  - value: "9"
     label: "Q1 journals"
-  - value: "5"
-    label: "Top 10% JCR journals"
-  - value: "29"
+  - value: "31"
     label: "Conference papers"
   - value: "2"
     label: "Research grants"
@@ -54,8 +52,8 @@ about: >-
   optimization, artificial intelligence, and evolutionary computation to
   reduce the environmental impact of software systems, with applications in
   green software, embedded systems, intelligent transportation, and software
-  security. Author of 14 journal papers (10 Q1, 4 Q2, 5 top 10% JCR) and
-  nearly 30 conference papers, including CORE A*/A/B venues. Principal
+  security. Author of 15 journal papers (9 Q1, 5 Q2, 1 Q3) and more than 30
+  conference papers, including CORE A*/A/B venues. Principal
   Investigator of competitive research projects, including industry-sponsored
   collaborations with Kioxia. Research stays in Japan, Canada, and Belgium
   have led to ongoing international collaborations in sustainable AI and

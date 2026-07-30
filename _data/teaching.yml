@@ -60,21 +60,25 @@ assistantships:
     level: "Bachelor's level"
 
 supervision:
+  - code: "MT2"
+    title: "Yilin Li - Automatic Optimization of Video Game Settings for User Experience"
+    details: "M.Eng. Thesis, Waseda University, expected 2028. (in progress)"
+
   - code: "MT1"
     title: "Alberto Valderas González - Obfuscation of Compiled Code Using Large Language Models and Deep Learning"
-    details: "M.Eng. Thesis, University of Cádiz, expected 2026. (in progress)"
+    details: "M.Eng. Thesis, University of Cádiz, 2026. (completed - Grade: 9.5/10.0)"
 
   - code: "BT8"
-    title: "Marcos Morales Marquez - Prism Guard: 3D RTS video game where the player must defend against waves of enemies"
-    details: "B.Eng. Thesis, University of Cádiz, expected 2026. (in progress)"
-
-  - code: "BT7"
     title: "Jesus Rodriguez Acosta - PodVolt: Analysis and implementation of a machine learning pipeline for predictive autoscaling in Kubernetes"
     details: "B.Eng. Thesis, University of Cádiz, expected 2026. (in progress)"
 
-  - code: "BT6"
+  - code: "BT7"
     title: "David Castillo Reguera - Optimization through metaheuristic techniques of the design of positioning networks for the location of terrestrial laser scanners"
     details: "B.Eng. Thesis, University of Cádiz, expected 2026. (in progress)"
+
+  - code: "BT6"
+    title: "Marcos Morales Marquez - Prism Guard: 3D RTS video game where the player must defend against waves of enemies"
+    details: "B.Eng. Thesis, University of Cádiz, 2026. (completed - Grade: 9.0/10.0)"
 
   - code: "BT5"
     title: "Alejandro Parada Espinosa - Energy consumption models in ground vehicles: A systematic literature review"

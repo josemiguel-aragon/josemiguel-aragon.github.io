@@ -4,6 +4,7 @@
 {% assign author_name = "Aragón-Jurado J. M." %}
 {% capture author_name_highlight %}<strong class="author-highlight">{{ author_name }}</strong>{% endcapture %}
 {% assign prefix = entry_id | slice: 0, 2 %}
+{% assign prefix_one = entry_id | slice: 0, 1 %}
 
 {% assign year_marker = "" %}
 {% assign year_value = "" %}
@@ -61,6 +62,12 @@
         {% assign title_text = title_parts[0] %}
         {% capture title_prefix %}{{ title_text }}. {% endcapture %}
         {% assign venue_text = remainder_text | remove_first: title_prefix %}
+        {% if prefix_one == 'C' or prefix == 'ED' %}
+          {% assign venue_parts = venue_text | split: year_marker %}
+          {% if venue_parts.size > 1 %}
+            {% assign venue_text = venue_parts[0] | append: ' ' | append: venue_parts[1] %}
+          {% endif %}
+        {% endif %}
         {% assign venue_formatted = venue_text
           | replace: 'Under major revision in', '<span class="publication-status">Under major revision in</span>'
           | replace: 'Under review in', '<span class="publication-status">Under review in</span>'
