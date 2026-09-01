@@ -5,7 +5,7 @@ metrics:
     label: "Q1 / Q2 / Q3 journals"
   - value: "31"
     label: "Conference papers"
-  - value: "6"
+  - value: "7"
     label: "Under review"
 
 journal_papers:
@@ -115,6 +115,12 @@ journal_papers:
     doi_url: "https://doi.org/10.1016/j.scs.2023.104556"
 
 under_review:
+  - id: "J22"
+    text: >-
+      Aragón-Jurado J. M. 2026. An Empirical Study of Cross-Stage LLVM
+      Optimization Level Interactions and Their Impact on Performance. Under
+      review in Information and Software Technology. (IF 4.6, CiteScore 10.8,
+      Q1)
   - id: "J21"
     text: >-
       Aragón-Jurado J. M.; Ruiz P.; Dorronsoro B. 2026. Automatic Binary
